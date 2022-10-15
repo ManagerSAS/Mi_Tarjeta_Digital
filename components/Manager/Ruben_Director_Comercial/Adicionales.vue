@@ -7,7 +7,7 @@
         </v-row>
         <v-row justify="center" align="center" style="position:relative; top:-5em">
             <v-col justify="center" align="center">
-                <img class="d-block d-sm-block d-md-none" src="../../../static/Manager/Ruben_Director_Comercial/Images/QR.webp" width="90%" height="600px" alt="qr manager">
+                <img class="d-block d-sm-block d-md-none" src="../../../static/Manager/Ruben_Director_Comercial/Images/QR.webp"  height="600px" alt="qr manager">
                 <img class="d-none d-lg-block d-xl-none" src="../../../static/Manager/Ruben_Director_Comercial/Images/QR.webp" width="400px" height="600px" alt="qr manager">
                 <img class="d-none d-md-block d-lg-none" src="../../../static/Manager/Ruben_Director_Comercial/Images/QR.webp" width="400px" height="600px" alt="qr manager">
                 <img class="d-none d-xl-block " src="../../../static/Manager/Ruben_Director_Comercial/Images/QR.webp" width="400px" height="600px" alt="qr manager">

@@ -13,7 +13,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">Contactanos por Whatsapp</p>
+                        <p class="textos">Escribenos</p>
                     </v-col>
                     <v-col >
                         <v-btn

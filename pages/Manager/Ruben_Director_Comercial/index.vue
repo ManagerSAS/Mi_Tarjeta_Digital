@@ -1,5 +1,5 @@
 <template>
-  <div style="background-image: url('/Manager/Ruben_Director_Comercial/Images/background.png'); width:100%;">
+  <div >
     <Welcome/>
     <Name/>
     <CallToAction/>
