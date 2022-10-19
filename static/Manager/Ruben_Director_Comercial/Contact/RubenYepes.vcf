@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Yepes;Ruben
+FN:Ruben Yepes
+ORG:Agencia Manager S.A.S
+TITLE:Director Comercial
+TEL;WORK;VOICE:+573242892413
+ADR;WORK:;;Cra 34 #38 - 39;Villavicencio;Meta
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:Cra 34 #38 - 39=0D=0AVillavicencio, Meta
+URL;WORK:https://agenciamanager.com/
+EMAIL;PREF;INTERNET:ventas@agenciamanager.com
+REV:20221019T032432Z
+END:VCARD

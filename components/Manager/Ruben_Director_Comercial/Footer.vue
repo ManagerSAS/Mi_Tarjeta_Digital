@@ -1,9 +1,9 @@
 <template>
-    <v-container fluid class="fondoFooter ">
+    <v-container fluid class="fondoFooter posicion-contenedores">
         <v-row justify="center" align="center">
             <v-col justify="center" align="center">
-                <a href="https://agenciamanager.com/" style="text-decoration: none; "> <span class="text-footer">© Copyright 2022| Todos los derechos reservados by:</span><br>
-                <span class="text-footer"><img src="../../../static/Manager/Ruben_Director_Comercial/Images/Logo-Manager.webp" alt="logo manager" srcset=""> Manager - El equipo para tu marca</span> </a>
+                <a href="https://agenciamanager.com/" style="text-decoration: none; "> <span class="text-footer">© Copyright 2022 | Desarrollado por Manager SAS</span><br>
+                <span class="text-footer"> Obten la tuya <a href="https://mitarjetadigital.co/">Aquí</a></span> </a>
             </v-col>
         </v-row>
     </v-container>

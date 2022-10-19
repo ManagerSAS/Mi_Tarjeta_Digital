@@ -1,23 +1,31 @@
 // responsive Cel  small
 @media only screen and (min-width: 411px) and (max-width: 575px) {
+    .flotante{
+      position: fixed;
+      z-index: 100; 
+      top: 4em;
+      left: 23em;
+    }
     .fondoFooter{
-      background: linear-gradient(to right, #BE1622, #8F1622);  
+      background-color: #0c2c3f;   
       width: 100%;
       height: 100%;
     }
     .foto{
       border-radius: 50%;
-      display:block;
-      margin:auto;
+      display: block;
+      margin: auto;
+      top: 13em;
       position: relative;
-      top: -8em;
+      z-index: 100; 
       border: 8px solid white;  
     }
     .Fondologo{
         width:50px;
         height:50px;
         position: relative;
-        top: -9em;
+        z-index: 100; 
+        top: 11em;
         border-radius: 50%;
         display:block;
         margin:auto;
@@ -33,24 +41,25 @@
     }
     .posicion-contenedores{
       position:relative; 
-      top: -11em;
+      top: 11em;
     }
     .text-name{
         font-family: 'Montserrat', sans-serif;
         position: relative;
         color: #003B4C;
         font-size: 35px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
     }
     .text-cargo{
-        font-family: 'Montserrat', sans-serif;
-        position: relative;
-        color: #003B4C;
-        font-size: 25px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      color: #003B4C;
+      position: relative;
+      top: -6px;
     }
     .linea-div{
         position:relative;
+        top: 5px;
         height:.1vh;
         width:90%;
         background: #003B4C;
@@ -91,9 +100,8 @@
       height:60%;
       width:60%;
     }
-    .font-italic{
-      font-family: 'Montserrat', sans-serif;
-      font-style: italic;
+    .font-service{
+      font-family: 'Quicksand', sans-serif;
       color:#10303B; 
       font-size: 40px; 
       font-weight: bold;
@@ -116,26 +124,23 @@
       height:60%;
       width:60%;
     }
-    .BtnContac{
-      background: linear-gradient(to right, #BE1622, #8F1622); 
-    }
     .font-normal{
       color: white; 
       font-size: 40px; 
       font-weight: bold;
     }
     .text-footer{
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Quicksand', sans-serif;
       color:white; 
       font-size: 12px; 
       font-weight: bold;
     }
     .textos{
       position: relative;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Quicksand', sans-serif;
       top: 5px;
       color:#10303B; 
-      font-size: 15px; 
+      font-size: 12px; 
       font-weight: bold;
     }
     

@@ -1,7 +1,7 @@
 <template>
     <v-container fluid >
         <v-row  justify="center" align="center" class="posicion-contenedores">
-            <v-col cols="12" justify="center" align="center" >
+            <v-col cols="9" justify="center" align="center" >
                 <v-row justify="center" align="center">
                     <v-col >
                         <v-btn
@@ -33,7 +33,7 @@
                             width="50"
                             height="50"
                             fab
-                            href="/Manager/Ruben_Director_Comercial/Contact/Ruben_Yepes.vcf"
+                            href="/Manager/Ruben_Director_Comercial/Contact/RubenYepes.vcf"
                             target="_blank"
                             >
                         </v-btn>
