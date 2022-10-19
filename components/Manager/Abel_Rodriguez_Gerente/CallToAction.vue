@@ -10,7 +10,7 @@
                             height="50"
                             depressed
                             fab
-                            href="https://wa.link/q45mbh"
+                            href="https://api.whatsapp.com/send?phone=573103033752"
                             target="_blank"
                             >
                         </v-btn>
@@ -23,7 +23,7 @@
                             height="50"
                             depressed
                             fab
-                            href="tel:+573242892413"
+                            href="tel:+573103033752"
                             target="_blank"
                             >
                         </v-btn>
@@ -36,7 +36,7 @@
                             height="50"
                             depressed
                             fab
-                            href="/Manager/Ruben_Director_Comercial/Contact/RubenYepes.vcf"
+                            href="/Manager/Abel_Rodriguez_Gerente/Contact/AbelRodriguez.vcf"
                             target="_blank"
                             >
                         </v-btn>

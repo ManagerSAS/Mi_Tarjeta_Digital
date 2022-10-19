@@ -5,36 +5,35 @@
     width: 100%;
     height: 100%;
   }
+  .flotante{
+    background-color: white;
+    width: 70px;
+    border-radius: 15px 0 0 15px;
+    position: fixed;
+    z-index: 100; 
+    top: 4em;
+    left: 96%;
+  }
+  .bannerPrincipal{
+    background-image: url('../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipalDesktop.png');
+    background-size: contain;
+    position: fixed;
+    height:100%;
+    width:100%;
+  }
   .foto{
     position: relative;
-    top: -15em;
+    top: 25em;
+    width: 30%;
     border-radius: 50%;
     display:block;
     margin:auto;
     position: relative;
-    border: 20px solid white; 
-  }
-  .Fondologo{
-      width:100px;
-      height:100px;
-      position: relative;
-      top: -19em;
-      border-radius: 50%;
-      display:block;
-      margin:auto;
-      background: white; 
-  }
-  .fotoLogo{
-      position: relative;
-      width:80px;
-      height:80px;
-      top: 8px;
-      left: 2px;
-      display:block;
-
+    border: 15px solid white; 
   }
   .posicion-contenedores{
-    position:relative; top: -18em;
+    position:relative; 
+    top: 25em;
   }
   .text-name{
       font-family: 'Quicksand', sans-serif;

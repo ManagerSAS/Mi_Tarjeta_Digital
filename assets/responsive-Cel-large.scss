@@ -1,5 +1,21 @@
 // responsive Cel large
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .flotante{
+      background-color: white;
+      width: 70px;
+      border-radius: 15px 0 0 15px;
+      position: fixed;
+      z-index: 100; 
+      top: 4em;
+      left: 91%;
+    }
+    .bannerPrincipal{
+      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipalLaptop.png');
+      background-size: contain;
+      position: fixed;
+      height:100%;
+      width:100%;
+    }
     .fondoFooter{
       background-color: #0c2c3f;   
       width: 100%;
@@ -7,15 +23,17 @@
     }
     .posicion-contenedores{
       position:relative; 
-      top: -10em;
+      top: 15em;
     }
     .foto{
       border-radius: 50%;
-      display:block;
-      margin:auto;
+      display: block;
+      width: 40%;
+      margin: auto;
+      top: 15em;
       position: relative;
-      top: -8em;
-      border: 8px solid white;  
+      z-index: 100; 
+      border: 8px solid white;   
     }
     .Fondologo{
         width:80px;

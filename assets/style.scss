@@ -3,45 +3,43 @@
 .Quicksand{
   font-family: 'Quicksand', sans-serif
 }
+.bannerPrincipal{
+  background-image: url('../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipalCel.png');
+  background-size: contain;
+  position: fixed;
+  height:100%;
+  width:100%;
+}
+.flotante{
+  background-color: white;
+  width: 70px;
+  border-radius: 15px 0 0 15px;
+  position: fixed;
+  z-index: 100; 
+  top: 4em;
+  left: 89%;
+}
 .fondo{ 
   width:100%;
   height: 600px;
 }
 .foto{
-    width: 50%;
-    border-radius: 50%;
-    display:block;
-    margin:auto;
-    position: relative;
-    top: -8em;
-    border: 10px solid white;  
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  top: 11.5em;
+  position: relative;
+  z-index: 100; 
+  border: 5px solid white;   
 }
 .fondoFooter{
   background-color: #0c2c3f;  
   width: 100%;
   height: 100%;
 }
-.Fondologo{
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: -10em;
-    border-radius: 50%;
-    display:block;
-    margin:auto;
-    background: white; 
-}
-.fotoLogo{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    top: 5px;
-    left: 2px;
-    display:block;
-}
 .posicion-contenedores{
   position: relative; 
-  top: -11em;
+  top: 11em;
 }
 .text-name{
     font-family: 'Quicksand', sans-serif;
@@ -67,38 +65,26 @@
 .Whatsapp{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WHATS.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .Telefono{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/TELEFONO.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .Guardar{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/GUARDAR.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .Email{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/EMAIL.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .PagWeb{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WEB.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .Compartir{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/COMPARTIR.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .font-service{
   font-family: 'Quicksand', sans-serif;
@@ -109,20 +95,14 @@
 .Facebook{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/FAC.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .Instagram{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/INST.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .PaginaWeb{
   background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WB.webp');
   background-repeat:no-repeat;
-  height:60%;
-  width:60%;
 }
 .font-normal{
   color: white; 

@@ -1,10 +1,20 @@
 // responsive Cel  small
 @media only screen and (min-width: 411px) and (max-width: 575px) {
     .flotante{
+      background-color: white;
+      width: 70px;
+      border-radius: 15px 0 0 15px;
       position: fixed;
       z-index: 100; 
       top: 4em;
-      left: 23em;
+      left: 89%;
+    }
+    .bannerPrincipal{
+      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipalCel.png');
+      background-size: contain;
+      position: fixed;
+      height:100%;
+      width:100%;
     }
     .fondoFooter{
       background-color: #0c2c3f;   
@@ -15,33 +25,14 @@
       border-radius: 50%;
       display: block;
       margin: auto;
-      top: 13em;
+      top: 13.8em;
       position: relative;
       z-index: 100; 
       border: 8px solid white;  
     }
-    .Fondologo{
-        width:50px;
-        height:50px;
-        position: relative;
-        z-index: 100; 
-        top: 11em;
-        border-radius: 50%;
-        display:block;
-        margin:auto;
-        background: white; 
-    }
-    .fotoLogo{
-        position: relative;
-        top: 5px;
-        width:80%;
-        height:80%;
-        margin:auto;
-        display:block;
-    }
     .posicion-contenedores{
       position:relative; 
-      top: 11em;
+      top: 13em;
     }
     .text-name{
         font-family: 'Montserrat', sans-serif;
@@ -67,6 +58,8 @@
     .Whatsapp{
       background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WHATS.webp');
       background-repeat:no-repeat;
+      display: block;
+      margin: auto;
       height:60%;
       width:60%;
     }
