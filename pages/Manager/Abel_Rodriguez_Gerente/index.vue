@@ -41,6 +41,15 @@
 </template>
 
 <script>
+// css
+import '~/assets/Manager/style.scss';
+import '~/assets/Manager/responsive-Cel-large.scss';
+import '~/assets/Manager/responsive-Cel-small.scss';
+import '~/assets/Manager/responsive-desktop-device.scss';
+import '~/assets/Manager/responsive-extrabig-device.scss';
+import '~/assets/Manager/responsive-laptop-device.scss';
+import '~/assets/Manager/responsive-tablet-device.scss';
+// js
 import Welcome from '~/components/Manager/Abel_Rodriguez_Gerente/Welcome.vue';
 import Name from '~/components/Manager/Abel_Rodriguez_Gerente/Name.vue';
 import CallToAction from '~/components/Manager/Abel_Rodriguez_Gerente/CallToAction.vue';
@@ -58,6 +67,7 @@ export default {
         content: 'Esta es la tarjeta digital de Abel Rodríguez'
       }
     ],
+    
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/Manager/Abel_Rodriguez_Gerente/Images/foto.ico' }]
   }
 }

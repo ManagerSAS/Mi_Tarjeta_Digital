@@ -1,5 +1,4 @@
-// responsive tablet-device
-@media only screen and (min-width: 768px) and (max-width: 952px) {
+@media only screen and (min-width: 1600px) {
     .fondoFooter{
       background-color: #0c2c3f;  
       width: 100%;
@@ -12,26 +11,28 @@
       position: fixed;
       z-index: 100; 
       top: 4em;
-      left: 94%;
+      left: 96%;
     }
     .bannerPrincipal{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipaltablet.png');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipalDesktop.png');
       background-size: contain;
       position: fixed;
       height:100%;
       width:100%;
     }
     .foto{
+      position: relative;
+      top: 27em;
+      width: 30%;
       border-radius: 50%;
       display:block;
       margin:auto;
       position: relative;
-      margin-top: 25.8%;
-      border: 15px solid white; 
+      border: 20px solid white; 
     }
     .posicion-contenedores{
-      position:relative;
-       top: 10em;
+      position:relative; 
+      top: 27em;
     }
     .text-name{
         font-family: 'Quicksand', sans-serif;
@@ -52,37 +53,37 @@
         background: #003B4C;
     }
     .Whatsapp{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WHATS.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/WHATS.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .Telefono{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/TELEFONO.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/TELEFONO.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .Guardar{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/GUARDAR.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/GUARDAR.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .Email{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/EMAIL.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/EMAIL.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .PagWeb{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WEB.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/WEB.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .Compartir{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/COMPARTIR.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/COMPARTIR.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
@@ -94,19 +95,19 @@
       font-weight: bold;
     }
     .Facebook{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/FAC.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/FAC.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .Instagram{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/INST.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/INST.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;
     }
     .PaginaWeb{
-      background-image: url('../static/Manager/Ruben_Director_Comercial/Images/WB.webp');
+      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/WB.webp');
       background-repeat:no-repeat;
       height:100%;
       width:100%;

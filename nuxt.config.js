@@ -23,13 +23,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'assets/style.scss',
-    'assets/responsive-Cel-large.scss',
-    'assets/responsive-Cel-small.scss',
-    'assets/responsive-desktop-device.scss',
-    'assets/responsive-extrabig-device.scss',
-    'assets/responsive-laptop-device.scss',
-    'assets/responsive-tablet-device.scss',
+    
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

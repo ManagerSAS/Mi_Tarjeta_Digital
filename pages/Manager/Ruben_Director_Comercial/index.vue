@@ -39,8 +39,16 @@
     <Footer/>
   </div>
 </template>
-
 <script>
+// css
+import '~/assets/Manager/style.scss';
+import '~/assets/Manager/responsive-Cel-large.scss';
+import '~/assets/Manager/responsive-Cel-small.scss';
+import '~/assets/Manager/responsive-desktop-device.scss';
+import '~/assets/Manager/responsive-extrabig-device.scss';
+import '~/assets/Manager/responsive-laptop-device.scss';
+import '~/assets/Manager/responsive-tablet-device.scss';
+// js
 import Welcome from '~/components/Manager/Ruben_Director_Comercial/Welcome.vue';
 import Name from '~/components/Manager/Ruben_Director_Comercial/Name.vue';
 import CallToAction from '~/components/Manager/Ruben_Director_Comercial/CallToAction.vue';
@@ -49,16 +57,21 @@ import Adicionales from '~/components/Manager/Ruben_Director_Comercial/Adicional
 import Footer from '~/components/Manager/Ruben_Director_Comercial/Footer.vue';
 export default {
     components: { Welcome, Name, CallToAction, Services, Adicionales, Footer },
-    head: {
-    title: 'Rubén Yepes',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Esta es la tarjeta digital de Rubén Yepes'
+    head() {
+      return{
+        title: 'Rubén Yepes',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Esta es la tarjeta digital de Rubén Yepes'
+          }
+        ],
+        link: [
+          { rel: 'icon', type: 'image/x-icon', href: '/Manager/Ruben_Director_Comercial/Images/foto.ico' },
+        ]
       }
-    ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/Manager/Ruben_Director_Comercial/Images/foto.ico' }]
   }
 }
 </script>
+
