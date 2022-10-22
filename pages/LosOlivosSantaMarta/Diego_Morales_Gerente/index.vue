@@ -1,5 +1,12 @@
 <template>
     <div class="FondoOlivos" >
+        <div class="contenedor-float">
+            <div class="flotante pa-1 pb-1"  >
+                <a class="Facebook ma-1" href="https://www.facebook.com/" target="_blank"> </a>
+                <a class="Instagram ma-1" href="https://www.instagram.com/" target="_blank" > </a>
+                <a class="PaginaWeb ma-1" href="https://wa.link/q45mbh" target="_blank"> </a>
+            </div>
+        </div>
         <Welcome/>
         <CallActions/>
         <Services/>
@@ -22,7 +29,6 @@ import CallActions from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/
 import Services from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Services.vue';
 import Adicionales from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Adicionales.vue';
 import Footer from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Footer.vue';
-
 export default {
     components: { Welcome, CallActions, Services, Adicionales, Footer },
     head: {

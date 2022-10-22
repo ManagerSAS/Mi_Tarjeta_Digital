@@ -41,14 +41,14 @@
      data(){
         return{
             Sercvicios:[
-                  {src:'Images/Agencia.webp'},
-                  {src:'Images/Desarrollo-Web.webp'},
-                  {src:'Images/Diseno-Grafico.webp'},
-                  {src:'Images/Estratega-Digital.webp'},
+                  {src:'Images/Agencia.png'},
+                  {src:'Images/Desarrollo-Web.png'},
+                  {src:'Images/Diseno-Grafico.png'},
+                  {src:'Images/Estratega-Digital.png'},
               ],
             settings  :{
                 "autoplay": true,
-                "focusOnSelect": true,
+                
                 "infinite": true,
                 "autoplaySpeed": 4000,
                 "slidesToShow": 4,
@@ -57,8 +57,8 @@
                     {
                     "breakpoint": 1024,
                         "settings": {
-                            "slidesToShow": 2,
-                            "slidesToScroll": 2,
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1,
                             "infinite": true,
                             "dots": true
                         }
@@ -66,7 +66,7 @@
                     {
                     "breakpoint": 414,
                         "settings": {
-                            "slidesToShow": 2,
+                            "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
                             "dots": true
@@ -75,7 +75,7 @@
                     {
                     "breakpoint": 720,
                         "settings": {
-                            "slidesToShow": 2,
+                            "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
                             "dots": true

@@ -1,133 +1,177 @@
 // responsive tablet-device
 @media only screen and (min-width: 768px) and (max-width: 952px) {
-    .fondoFooter{
-      background-color: #0c2c3f;  
-      width: 100%;
-      height: 100%;
-    }
-    .flotante{
-      background-color: white;
-      width: 70px;
-      border-radius: 15px 0 0 15px;
-      position: fixed;
-      z-index: 100; 
-      top: 4em;
-      left: 94%;
-    }
-    .bannerPrincipal{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/bannerPrincipaltablet.png');
-      background-size: contain;
-      position: fixed;
-      height:100%;
-      width:100%;
-    }
-    .foto{
-      border-radius: 50%;
-      display:block;
-      margin:auto;
-      position: relative;
-      margin-top: 25.8%;
-      border: 15px solid white; 
-    }
-    .posicion-contenedores{
-      position:relative;
-       top: 10em;
-    }
-    .text-name{
-        font-family: 'Quicksand', sans-serif;
-        position: relative;
-        color: #003B4C;
-        font-size: 35px;
-    }
-    .text-cargo{
-        font-family: 'Quicksand', sans-serif;
-        position: relative;
-        color: #003B4C;
-        font-size: 25px;
-    }
-    .linea-div{
-        position:relative;
-        height:.1vh;
-        width:90%;
-        background: #003B4C;
-    }
-    .Whatsapp{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/WHATS.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .Telefono{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/TELEFONO.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .Guardar{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/GUARDAR.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .Email{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/EMAIL.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .PagWeb{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/WEB.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .Compartir{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/COMPARTIR.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .font-service{
-      font-family: 'Quicksand', sans-serif;
-      color:#10303B; 
-      font-size: 40px; 
-      font-weight: bold;
-    }
-    .Facebook{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/FAC.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .Instagram{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/INST.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .PaginaWeb{
-      background-image: url('../../static/Manager/Ruben_Director_Comercial/Images/WB.webp');
-      background-repeat:no-repeat;
-      height:100%;
-      width:100%;
-    }
-    .font-normal{
-      color: white; 
-      font-size: 40px; 
-      font-weight: bold;
-    }
-    .text-footer{
-      font-family: 'Quicksand', sans-serif;
-      color:white; 
-      font-size: 12px; 
-      font-weight: bold;
-    }
-    .textos{
-      position: relative;
-      font-family: 'Quicksand', sans-serif;
-      top: 5px;
-      color:#10303B; 
-      font-size: 15px; 
-      font-weight: bold;
-    }
+      // Fondo
+  .FondoOlivos{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/fondoTarjetatablet.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
   }
+// Welcome
+  .foto{
+    position: relative;
+    left: -2em;
+    z-index: 100;  
+    width: auto;
+  }
+  .text-name{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 900;
+    top: 1em;
+    position: relative;
+    color: #003B4C;
+    font-size: 32px;
+    line-height : 30px;
+  }
+  .text-cargo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    left: 0.9em;
+    top: 1.5em;
+    font-size: 20px;
+    color: #003B4C;
+  }
+  .Whatsapp{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/WHATS.png');
+    background-repeat:no-repeat;
+    background-color: #EFBD56;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+  .Telefono{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/TELEFONO.png');
+    background-repeat:no-repeat;
+    background-color: #EEAA49;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+  .Guardar{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/GUARDAR.png');
+    background-repeat:no-repeat;
+    background-color: #EE943A;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+  .Email{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/EMAIL.png');
+    background-repeat:no-repeat;
+    background-color: #EFBD56;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+  .PagWeb{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/WB.png');
+    background-repeat:no-repeat;
+    background-color: #EEAA49;
+    border-radius: 50%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+  .Compartir{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/COMPARTIR.png');
+    background-repeat:no-repeat;
+    background-color: #EE943A;
+    border-radius: 50%;
+    background-position: 0.654em 0.7em;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+// Services
+  .font-service{
+    font-family: 'Raleway', sans-serif;
+    color:#10303B; 
+  }
+  .slick-prev:before {
+    content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-prev.svg');
+  }
+  .slick-next:before {
+    content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-next.svg');
+  }
+  // redes flotante
+  .flotante{
+    background: linear-gradient(to right, #efc45b 0%, #ee943a 100%);   
+    width: 70px;
+    border-radius: 15px 0 0 15px;
+    position: fixed;
+    z-index: 100; 
+    top: 4em;
+    left: 91%;
+  }
+  .fondoFooter{
+    background: linear-gradient(to right, #8FDDAA 0%, #59AB9B 100%);   
+    width: 100%;
+    height: 100%;
+  }
+  .Facebook{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/FAC.png');
+    border-radius: 50%;
+    background-color: #fff;
+    background-position:center;
+    display: block;
+    height: 35px;
+    width: 35px;
+  }
+  .Instagram{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/INST.png');
+    background-position: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    height: 35px;
+    width: 35px;
+  }
+  .PaginaWeb{
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/WEB.png');
+    background-position: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    height: 35px;
+    width: 35px;
+  }
+  // Footer
+  .text-footer{
+    font-family: 'Raleway', sans-serif;
+    color:white; 
+    font-size: 12px; 
+    font-weight: bold;
+  }
+  .textos{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    top: 5px;
+    color:#10303B; 
+    font-size: 12px; 
+    font-weight: bold;
+  } 
+}

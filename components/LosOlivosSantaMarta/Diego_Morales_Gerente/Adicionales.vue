@@ -7,7 +7,7 @@
         </v-row>
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
-                <img src="~/static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.png" width="98%" alt="qr tarjeta dijital">
+                <img src="~/static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.png"  alt="qr tarjeta dijital">
             </v-col>
         </v-row>
     </v-container>

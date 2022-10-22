@@ -9,7 +9,7 @@
                     </v-col>
                     <v-col >
                         <a href="https://api.whatsapp.com/send?phone=573103033752"  class="Telefono"></a>
-                        <p class="textos">Llamanos</p>
+                        <p class="textos">Llámanos</p>
                     </v-col>
                     <v-col >
                         <a class="Guardar mt-sm-1" href="/Manager/Abel_Rodriguez_Gerente/Contact/AbelRodriguez.vcf" target="_blank"></a>
