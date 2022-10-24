@@ -16,7 +16,7 @@
             width="30"
             height="30"
             fab
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/ManagerColombia"
             target="_blank"
             >
           </v-btn><br>
@@ -25,7 +25,7 @@
             width="30"
             height="30"
             fab
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/managercolombia/"
             target="_blank"
             >
           </v-btn>

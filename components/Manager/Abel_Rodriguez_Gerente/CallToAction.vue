@@ -51,7 +51,7 @@
                             height="50"
                             depressed
                             fab
-                            href="mailto:ventas@agenciamanager.com"
+                            href="mailto:abelinho26@gmail.com"
                             target="_blank"
                             >
                         </v-btn>
@@ -77,7 +77,7 @@
                             height="50"
                             depressed
                             fab
-                            href="https://api.whatsapp.com/send?text=https://mitarjetadigital.co/ManagerSASColombia/Ruben_Yepes_Director_Comercial/"
+                            @click="compartir()"
                             target="_blank"
                             >
                         </v-btn>
@@ -88,3 +88,17 @@
         </v-row> 
     </v-container>
 </template>
+<script>
+export default {
+    methods:{
+        async compartir(){
+            const url = {url: 'https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente'}
+            try {
+                await navigator.share(url);
+            } catch (err) {
+                console.log({err})
+            }
+        }
+    }
+}
+</script>

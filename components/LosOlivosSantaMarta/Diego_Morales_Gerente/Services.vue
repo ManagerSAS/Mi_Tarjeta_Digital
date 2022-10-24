@@ -17,31 +17,29 @@
                 </VueSlickCarousel>
             </v-col>
         </v-row>
-        <v-row justify="center" align="center" >
+        <v-row >
             <v-col cols="5" justify="center" align="center" >
                 <v-btn
-                    width="125px"
-                    height="20px"
+                    height="25px"
                     rounded
-                    class="text-capitalize"
+                    class="text-capitalize "
                     style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway', sans-serif;"
-                    href="https://api.whatsapp.com/send?phone=573242892413"
+                    href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/"
                     target="_blank"
                     >
-                    Ver planes
+                    <v-icon>mdi-cloud-download-outline</v-icon>  Descargar planes
                 </v-btn>
             </v-col>
-            <v-col cols="5" justify="center" align="center" >
+            <v-col cols="5"  justify="center" align="center">
                 <v-btn
-                    width="125px"
-                    height="20px"
+                    height="25px"
                     rounded
                     class="text-capitalize"
                     style=" background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: Raleway, sans-serif;"
-                    href="https://api.whatsapp.com/send?phone=573242892413"
+                    href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/"
                     target="_blank"
                     >
-                    Ver asistencias
+                    <v-icon>mdi-cloud-download-outline</v-icon>  Descargar asistencias
                 </v-btn>
             </v-col>
         </v-row>
@@ -65,7 +63,7 @@
                     height="30px"
                     rounded
                     style=" background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: Raleway, sans-serif;"
-                    href="https://api.whatsapp.com/send?phone=573242892413"
+                    href="https://api.whatsapp.com/send?phone=573008504730"
                     target="_blank"
                     >
                     Contáctanos
@@ -83,10 +81,10 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
      data(){
         return{
             Servicios:[
-                {src:'Images/service1.png'},
-                {src:'Images/service2.png'},
-                {src:'Images/service1.png'},
-                {src:'Images/service2.png'},
+                {src:'Images/service1.jpg'},
+                {src:'Images/service2.jpg'},
+                {src:'Images/service1.jpg'},
+                {src:'Images/service2.jpg'},
             ],
             Salas:[
                 {src:'Images/Sala1.jpeg'},
@@ -98,9 +96,8 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
             settingsSalas  :{
                 "dots": false,
                 "autoplay": true,
-                "focusOnSelect": true,
                 "infinite": true,
-                "autoplaySpeed": 4000,
+                "autoplaySpeed": 3000,
                 "slidesToShow": 2,
                 "slidesToScroll": 2,
                 prevArrow: '<button class="slick-prev"></button>',
@@ -127,7 +124,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                     {
                     "breakpoint": 720,
                         "settings": {
-                            "slidesToShow": 2,
+                            "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
                             "dots": false
@@ -138,7 +135,6 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
             settings  :{
                 "dots": false,
                 "autoplay": true,
-                "focusOnSelect": true,
                 "infinite": true,
                 "autoplaySpeed": 4000,
                 "slidesToShow": 4,
@@ -158,7 +154,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                     {
                     "breakpoint": 414,
                         "settings": {
-                            "slidesToShow": 2,
+                            "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
                             "dots": true
@@ -167,7 +163,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                     {
                     "breakpoint": 720,
                         "settings": {
-                            "slidesToShow": 2,
+                            "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
                             "dots": false
