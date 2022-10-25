@@ -8,16 +8,16 @@
                     <div class="col-xl-2 col-auto order-0">
                         <div class="header-logo">
                             <n-link to="/">
-                                <img class="dark-logo" src="/images/logo/logo.png" alt="Agency Logo">
-                                <img class="light-logo" src="/images/logo/logo.png" alt="Agency Logo">
+                                <img class="dark-logo" src="../../static/MiTarjetaDigital/Images/Logo-Manager.png" alt="Agency Logo">
+                                <img class="light-logo" src="../../static/MiTarjetaDigital/Images/Logo-Manager.png" alt="Agency Logo">
                             </n-link>
                         </div>
                     </div>
                     <!-- Header Logo End -->
-
+                    <v-spacer>  </v-spacer>
                     <!-- Header Main Menu Start -->
                     <div class="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-2">
-                        <div class="menu-column-area  position-static">
+                        <div class="menu-column-area d-none d-xl-block d-lg-block  position-static">
                             <nav class="site-main-menu">
                                 <ul>
                                     <li>

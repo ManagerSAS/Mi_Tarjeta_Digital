@@ -17,32 +17,39 @@
                 </VueSlickCarousel>
             </v-col>
         </v-row>
-        <v-row >
-            <v-col cols="5" justify="center" align="center" >
-                <v-btn
-                    height="25px"
-                    rounded
-                    class="text-capitalize "
-                    style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway', sans-serif;"
-                    href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/"
-                    target="_blank"
-                    >
-                    <v-icon>mdi-cloud-download-outline</v-icon>  Descargar planes
-                </v-btn>
-            </v-col>
-            <v-col cols="5"  justify="center" align="center">
-                <v-btn
-                    height="25px"
-                    rounded
-                    class="text-capitalize"
-                    style=" background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: Raleway, sans-serif;"
-                    href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/"
-                    target="_blank"
-                    >
-                    <v-icon>mdi-cloud-download-outline</v-icon>  Descargar asistencias
-                </v-btn>
+        <v-row justify="center" align="center">
+            <v-col justify="center" align="center">
+                <v-row justify="center" align="center">
+                    <v-col cols="8" justify="center" align="center">
+                        <v-btn
+                            height="25px"
+                            rounded
+                            class="text-capitalize"
+                            style=" background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: Raleway, sans-serif;"
+                            href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/Asistencias.pdf"
+                            target="_blank"
+                            >
+                            <v-icon>mdi-cloud-download-outline</v-icon>  Descargar asistencias
+                        </v-btn>
+                    </v-col>
+                </v-row>
+                <v-row justify="center" align="center"> 
+                    <v-col cols="6" justify="center" align="center">
+                        <v-btn
+                            height="25px"
+                            rounded
+                            class="text-capitalize "
+                            style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway', sans-serif;"
+                            href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/PlansExequiales.pdf"
+                            target="_blank"
+                            >
+                            <v-icon>mdi-cloud-download-outline</v-icon>  Descargar planes
+                        </v-btn>
+                    </v-col>
+                </v-row>
             </v-col>
         </v-row>
+        
         <v-row justify="center" align="center">
             <v-col justify="center" align="center" cols="10" sm="12" md="8" lg="8" xl="8">
                 <h1 style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-service mb-2 font-weight-black ">
@@ -81,10 +88,9 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
      data(){
         return{
             Servicios:[
-                {src:'Images/service1.jpg'},
-                {src:'Images/service2.jpg'},
-                {src:'Images/service1.jpg'},
-                {src:'Images/service2.jpg'},
+                {src:'Images/servicio1.jpg'},
+                {src:'Images/servicio2.jpg'},
+                {src:'Images/servicio3.jpg'},
             ],
             Salas:[
                 {src:'Images/Sala1.jpeg'},

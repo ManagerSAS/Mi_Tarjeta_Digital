@@ -40,7 +40,7 @@ export default {
                 content: "Esta es la tarjeta digital de Diego Morales"
             }
         ],
-        link: [{ rel: "icon", type: "image/x-icon", href: "/Manager/Abel_Rodriguez_Gerente/Images/foto.ico" }]
+        link: [{ rel: "icon", type: "image/x-icon", href: "/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/foto.ico" }]
     },
 }
 </script>
