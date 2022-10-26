@@ -14,26 +14,28 @@
                         </div>
                     </div>
                     <!-- Header Logo End -->
-                    <v-spacer>  </v-spacer>
                     <!-- Header Main Menu Start -->
                     <div class="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-2">
                         <div class="menu-column-area d-none d-xl-block d-lg-block  position-static">
                             <nav class="site-main-menu">
                                 <ul>
                                     <li>
-                                        <n-link to="/">Acerca de </n-link>
+                                        <n-link style="text-decoration: none" to="#Advantage">Ventajas </n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/about">Ventajas </n-link>
+                                        <n-link style="text-decoration: none" to="#Presentation">Tarjeta de presentación </n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/service">Planes </n-link>
+                                        <n-link style="text-decoration: none" to="#Plans">Planes </n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/project">Contáctanos </n-link>
+                                        <n-link style="text-decoration: none" to="#Tarjeta">Tarejta Fisica </n-link>
                                     </li>
                                     <li>
-                                        <n-link to="/blog">Adquiere la tuya</n-link>
+                                        <n-link style="text-decoration: none" to="#Questions">Preguntas Frecuentes </n-link>
+                                    </li>
+                                    <li>
+                                        <n-link style="text-decoration: none" to="/">Adquiere la tuya</n-link>
                                     </li>
                                 </ul>
                             </nav>

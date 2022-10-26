@@ -9,7 +9,7 @@
                                 <v-row justify="center" align="center">
                                     <v-col  justify="center" align="start">
                                         <div class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8">
-                                            <p class="mb-2 titulo" ><strong style="font-weight: bold;">MITRAJETA</strong><span style="font-weight: 100;">DIGITAL.CO</span></p>
+                                            <p class="mb-2 titulo" ><strong style="font-weight: bold;">MITARJETA</strong><span style="font-weight: 100;">DIGITAL.CO</span></p>
                                             <div class="desc">
                                                 <p>Tarjeta de presentación digital para empresas y profesionales</p>
                                             </div>
@@ -26,40 +26,8 @@
                 </VueSlickCarousel>
             </v-col>
         </v-row>
-
     </div>
 </template>
-<style lang="scss">
-
-.btn-hover{
-    border-radius: 10px;
-    background-color: #fff;
-    color: #00273D;
-    font-size: 20px;
-    font-weight: bold;
-}
-.btn-hover:hover{
-    background-color: #00273D;
-    color: white;
-}
-.slick-dots {
-  background-color: transparent;
-  position: relative;
-  bottom: 4em;
-}
-.slick-dots button:before {
-  color: white; 
-  opacity: .25; 
-  background-color: transparent; 
-  content: "•"; 
-  font-size: 20px; 
-}
-.slick-dots .slick-active button:before {
-     color: white;
-     opacity: 1;
-     font-size: 20px;
-}
-</style>
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'

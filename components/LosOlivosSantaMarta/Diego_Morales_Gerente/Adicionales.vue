@@ -7,7 +7,22 @@
         </v-row>
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
-                <img src="~/static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.png"  alt="qr tarjeta dijital">
+                <img src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="90%" alt="qr tarjeta dijital">
+            </v-col>
+        </v-row>
+        <v-row justify="center" align="center"> 
+            <v-col cols="6" justify="center" align="center">
+                <v-btn
+                    download="TarjetaDiegoMorales_LosOlivos.jpg"
+                    height="25px"
+                    rounded
+                    class="text-capitalize "
+                    style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway', sans-serif;"
+                    href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QRDowload.jpg"
+                    target="_blank"
+                    >
+                    <v-icon class="mr-1">mdi-cloud-download-outline</v-icon>  Descargar QR
+                </v-btn>
             </v-col>
         </v-row>
     </v-container>

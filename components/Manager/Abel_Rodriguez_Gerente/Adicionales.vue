@@ -13,5 +13,20 @@
                 <img class="d-none d-xl-block " src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="400px" height="600px" alt="qr manager">
             </v-col>
         </v-row>
+        <v-row justify="center" align="center"> 
+            <v-col cols="6" justify="center" align="center">
+                <v-btn
+                    download="TajetaDigitalAbel_Manager.png"
+                    height="25px"
+                    rounded
+                    class="text-capitalize "
+                    style="background-color: #0c2c3f; color: white; font-size: 12px;font-weight: bold; font-family: 'Quicksand', sans-serif;"
+                    href="/Manager/Abel_Rodriguez_Gerente/Images/TajetaDigitalAbel_Manager.png"
+                    target="_blank"
+                    >
+                    <v-icon class="mr-1">mdi-cloud-download-outline</v-icon>  Descargar QR
+                </v-btn>
+            </v-col>
+        </v-row>
     </v-container>
 </template> 

@@ -2,13 +2,10 @@
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     // Fondo
   .FondoOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/fondoTarjetalarge.png');
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/fondoTarjeta.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 // Welcome
   .foto{

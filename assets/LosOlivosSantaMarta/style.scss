@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 // Fondo
 .FondoOlivos{
-  background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/fondoTarjetasMALL.png');
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position:center;
-  margin: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/fondoTarjeta.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 // Welcome
 .foto{
@@ -111,10 +107,12 @@
   color:#10303B; 
 }
 .slick-prev:before {
-  content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-prev.svg');
+  // content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-prev.svg');
+  color: #10303B;
 }
 .slick-next:before {
-  content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-next.svg');
+  // content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-next.svg');
+  color: #10303B;
 }
 // redes flotante
 .flotante{

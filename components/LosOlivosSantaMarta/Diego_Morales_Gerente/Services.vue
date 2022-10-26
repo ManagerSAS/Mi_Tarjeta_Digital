@@ -19,7 +19,7 @@
         </v-row>
         <v-row justify="center" align="center">
             <v-col justify="center" align="center">
-                <v-row justify="center" align="center">
+                <!-- <v-row justify="center" align="center">
                     <v-col cols="8" justify="center" align="center">
                         <v-btn
                             height="25px"
@@ -32,7 +32,7 @@
                             <v-icon>mdi-cloud-download-outline</v-icon>  Descargar asistencias
                         </v-btn>
                     </v-col>
-                </v-row>
+                </v-row> -->
                 <v-row justify="center" align="center"> 
                     <v-col cols="6" justify="center" align="center">
                         <v-btn
@@ -100,13 +100,13 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                 {src:'Images/Sala5.jpeg'},
             ],
             settingsSalas  :{
-                "dots": false,
+                "dots": true,
                 "autoplay": true,
                 "infinite": true,
                 "autoplaySpeed": 3000,
                 "slidesToShow": 2,
                 "slidesToScroll": 2,
-                prevArrow: '<button class="slick-prev"></button>',
+                prevArrow: '<button style="color: grey;" class="slick-prev"></button>',
                 nextArrow: '<button class="slick-next"></button>',
                 "responsive": [
                     {
@@ -115,7 +115,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                             "slidesToShow": 2,
                             "slidesToScroll": 1,
                             "infinite": true,
-                            "dots": false
+                            "dots": true
                         }
                     },
                     {
@@ -124,7 +124,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                             "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
-                            "dots": false
+                            "dots": true
                         }
                     },
                     {
@@ -133,7 +133,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                             "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
-                            "dots": false
+                            "dots": true
                         }
                     }
                 ]
@@ -172,7 +172,7 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                             "slidesToShow": 1,
                             "slidesToScroll": 1,
                             "infinite": true,
-                            "dots": false
+                            "dots": true
                         }
                     }
                 ]

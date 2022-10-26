@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid>
+    <v-container fluid id="Plans">
         <v-row justify="center" align="center">
              <v-col  justify="center" align="center">
                   <p class="text-border-white mt-5">CONOCE</p>
@@ -43,6 +43,7 @@
                             class="rounded-xl mx-auto hover"
                             max-width="270"
                             height="655"
+                            style="scale: calc(110%)"
                         >
                             <v-img
                             src="/MiTarjetaDigital/Images/Plan2.png"

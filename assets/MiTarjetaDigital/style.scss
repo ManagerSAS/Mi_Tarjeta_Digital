@@ -1,3 +1,32 @@
+
+.btn-hover{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #00273D;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-hover:hover{
+    background-color: #00273D;
+    color: white;
+}
+.slick-dots {
+  background-color: transparent;
+  position: relative;
+  bottom: 4em;
+}
+.slick-dots button:before {
+  color: white; 
+  opacity: .25; 
+  background-color: transparent; 
+  content: "•"; 
+  font-size: 20px; 
+}
+.slick-dots .slick-active button:before {
+     color: white;
+     opacity: 1;
+     font-size: 20px;
+}
 .list{
     color: #00273D; 
     font-size: 1em;
@@ -15,12 +44,12 @@
     font-weight: 600;
     line-height: 1px;
 }
-.text-dark-f-1em{
+.text-dark-f-2em{
     width: 50%;
     color: #00273D; 
-    font-size: 1.5em;
+    font-size: 2em;
     position: relative;
-    bottom: 1.1em;
+    bottom: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
 }
@@ -105,4 +134,46 @@
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900
+}
+.imgventajas{
+    position: relative;
+    left: 9vw;
+    bottom: 1em;
+    z-index: 9;
+    width: 55vw;
+    float: right;
+}
+.btnVentajas{
+    position: relative;
+    z-index: 10;
+    bottom: 1em;
+    height: 2em;
+    width: 12em;
+    left: 8em;
+    font-size: 30px;
+    float: top;
+}
+.btnContac{
+    position: relative;
+    z-index: 10;
+    bottom: 1em;
+    height: 2em;
+    width: 12em;
+    left: 4em;
+    font-size: 30px;
+    float: bottom;
+}
+.imgPresent{
+    width: 30vw;
+    float: left;
+}
+.fondoFooter{
+    background-color: #00273D;
+    color: #fff;
+}
+.text-footer{
+    font-family: 'Quicksand', sans-serif;
+    color:white; 
+    font-size: 12px; 
+    font-weight: bold;
 }
