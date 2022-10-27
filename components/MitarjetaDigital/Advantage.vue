@@ -21,7 +21,7 @@
                 <p class="text-blue-f-1em mt-xl-15 mt-lg-15">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
             </v-col>
             <v-col justify="center" align="center" cols="12" xl="5" lg="5" md="5" sm="9">
-                <nuxt-img format="webp" class="imgventajas" src="/MiTarjetaDigital/Images/ventajas].webp"></nuxt-img>
+                <nuxt-img format="webp" quality="80" fit="cover" class="imgventajas" src="/MiTarjetaDigital/Images/ventajas].webp"></nuxt-img>
                 <button to="/" class="btnVentajas btn-hover-advantage">¡ADQUIERE LA TUYA!</button>
             </v-col>
         </v-row>

@@ -14,6 +14,7 @@
                             class="rounded-xl tamcard mx-auto hover"      
                         >
                         <v-img
+                        format="webp" fit="cover" quality="80"
                             src="/MiTarjetaDigital/Images/Plan1.webp"
                         >
                             <div class="pa-6">
@@ -41,6 +42,7 @@
                             class="rounded-xl tamcard scale mx-auto hover"
                         >
                             <v-img
+                            format="webp" fit="cover" quality="80"
                             src="/MiTarjetaDigital/Images/Plan2.webp"
                             >
                                 <div class="ma-6">
@@ -69,6 +71,7 @@
 
                         >
                             <v-img
+                            format="webp" fit="cover" quality="80"
                             src="/MiTarjetaDigital/Images/Plan3.webp"
                             >
                                 <div class="ma-6">

@@ -16,7 +16,7 @@
              </v-col>
              <v-col cols="12" xl="6" lg="6" md="6" sm="10" justify="center" align="center">
                 <div justify="center" align="center" class="mt-10">
-                    <nuxt-img format="webp" class="imgPresent" src="/MiTarjetaDigital/Images/Presentation.webp" alt="" srcset=""></nuxt-img>
+                    <nuxt-img format="webp" fit="cover" quality="80" class="imgPresent" src="/MiTarjetaDigital/Images/Presentation.webp" alt="" srcset=""></nuxt-img>
                 </div>
              </v-col>
         </v-row>

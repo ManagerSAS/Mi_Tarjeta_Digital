@@ -11,7 +11,7 @@
         </v-row>
         <v-row justify="center" align="center">
             <v-col cols="12" xl="5" lg="5" md="5" sm="10" justify="center" align="center" >
-                <nuxt-img  class="imgPresent" format="webp" src="/MiTarjetaDigital/Images/tarjetaContacto.webp" alt="" srcset=""></nuxt-img>
+                <nuxt-img  class="imgPresent" format="webp" quality="80" fit="cover" src="/MiTarjetaDigital/Images/tarjetaContacto.webp" alt="" srcset=""></nuxt-img>
             </v-col>
             <v-col cols="12" xl="5" lg="5" md="5" sm="10" justify="center" align="start">
                 <p class="text-blue-f-2em">Ahora la tarjeta de presentacion.</p>
