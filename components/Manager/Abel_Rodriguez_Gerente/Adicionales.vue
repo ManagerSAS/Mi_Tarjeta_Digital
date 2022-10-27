@@ -8,9 +8,9 @@
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
                 <img class="d-block d-sm-block d-md-none" src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp"  width="100%" alt="qr manager">
-                <img class="d-none d-lg-block d-xl-none" src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="400px" height="600px" alt="qr manager">
-                <img class="d-none d-md-block d-lg-none" src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="400px" height="600px" alt="qr manager">
-                <img class="d-none d-xl-block " src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="400px" height="600px" alt="qr manager">
+                <img class="d-none d-lg-block d-xl-none" src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="500px" height="300px" alt="qr manager">
+                <img class="d-none d-md-block d-lg-none" src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="500px" height="300px" alt="qr manager">
+                <img class="d-none d-xl-block " src="../../../static/Manager/Abel_Rodriguez_Gerente/Images/QR.webp" width="500px" height="300px" alt="qr manager">
             </v-col>
         </v-row>
         <v-row justify="center" align="center"> 

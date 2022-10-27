@@ -5,6 +5,9 @@
     color: #00273D;
     font-size: 20px;
     font-weight: bold;
+    @media #{$tablet-device, $large-mobile}{
+        font-size: 20px;
+    }
 }
 .btn-hover:hover{
     background-color: #00273D;
@@ -36,6 +39,10 @@
     position: relative;
     left: 1em;
     top: 1em;
+    @media #{$small-mobile}{
+        left: 0px;
+        top: 1em;
+    }
 }
 .listPlan{
     color: #00273D; 
@@ -52,6 +59,12 @@
     bottom: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+    @media #{$tablet-device, $large-mobile}{
+        width: 70%;
+    }
+    @media #{$small-mobile}{
+        width: 100%;
+    }
 }
 .btn-hover-advantage{
     border-radius: 10px;
@@ -64,22 +77,15 @@
     background-color: #fff;
     color: #00273D;
 }
-.list{
-    color: #00273D; 
-    font-size: 1em;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    line-height: 1px;
-    position: relative;
-    left: 1em;
-    top: 1em;
-}
 .text-blue-f-4em{
     color: #00273D; 
     font-size: 4em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
     line-height: 1px;
+    @media #{$extra-small-mobile}{
+        font-size: 2.5em;
+    }
 }
 .text-blue-f-1em{
     color: #00273D; 
@@ -94,11 +100,17 @@
     font-weight: 500;
 }
 .text-border{
-    -webkit-text-stroke: 2px #00273D;
+    -webkit-text-stroke: 1.5px #00273D;
     color: transparent; 
     font-size: 4em;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
+    @media #{$tablet-device, $large-mobile}{
+        font-size: 3em;
+    }
+    @media #{$small-mobile}{
+        font-size: 37px;
+    }
 }
 .text-sobre-puesto{
     color: #00273D; 
@@ -107,6 +119,14 @@
     bottom: 1.4em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    @media #{$tablet-device, $large-mobile}{
+        bottom: 1.55em;
+        font-size: 2.3em;
+    }
+    @media #{$small-mobile}{
+        bottom: 1.7em;
+        font-size: 29px;
+    }
 }
 .text-border-white{
     -webkit-text-stroke: 2px #fff;
@@ -114,6 +134,12 @@
     font-size: 4em;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
+    @media #{$tablet-device, $large-mobile}{
+        font-size: 3em;
+    }
+    @media #{$small-mobile}{
+        font-size:40px;
+    }
 }
 .text-sobre-puesto-white{
     color: #fff; 
@@ -122,12 +148,46 @@
     bottom: 1.4em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    @media #{$tablet-device, $large-mobile}{
+        bottom: 1.55em;
+        font-size: 2.3em;
+    }
+    @media #{$small-mobile}{
+        bottom: 1.7em;
+        font-size: 29px;
+    }
 }
 .text-white-f-40{
     color: #fff; 
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;
+    @media #{$tablet-device, $large-mobile}{
+        font-size: 20px;
+    }
+
+}
+.tamcard{
+    max-width: 270px;
+    height:655px;
+    @media #{$tablet-device, $large-mobile}{
+        width: 200px;
+        height:630px;
+    }
+    @media #{$small-mobile}{
+        width: 80%;
+        height:650px;
+    }
+}
+.scale{
+    scale: calc(110%);
+    @media #{$tablet-device, $large-mobile}{
+        z-index: 9;
+        scale: calc(110%);
+    }
+    @media #{$small-mobile}{
+        scale: 1;
+    }
 }
 .text-white-fw-50{
     color: #fff; 
@@ -142,6 +202,18 @@
     z-index: 9;
     width: 55vw;
     float: right;
+    @media #{$tablet-device, $large-mobile}{
+        position: relative;
+        z-index: 9;
+        width: 55vw;
+        float: left;
+    }
+    @media #{$small-mobile}{
+        position: relative;
+        z-index: 9;
+        width: 90%;
+        float: left;
+    }
 }
 .btnVentajas{
     position: relative;
@@ -152,6 +224,16 @@
     left: 8em;
     font-size: 30px;
     float: top;
+    @media #{$tablet-device, $large-mobile,$small-mobile,$desktop-device}{
+        font-size: 25px;
+        height: 1.5em;
+        width: 10em;
+        left: -1em;
+        z-index: 100vh;
+        float: bottom; 
+    }
+
+
 }
 .btnContac{
     position: relative;
@@ -162,10 +244,32 @@
     left: 4em;
     font-size: 30px;
     float: bottom;
+    @media #{$small-mobile,$extra-small-mobile}{
+        z-index: 10;
+        top: 0.5em;
+        height: 2em;
+        width: 12em;
+        left: 1em;
+        font-size: 25px;
+        float: bottom;
+    }
+
 }
 .imgPresent{
     width: 30vw;
-    float: left;
+    // float: left;
+    @media #{$tablet-device, $large-mobile,$small-mobile}{
+        width: 35em;
+        // float: center;
+    }
+    @media #{$small-mobile,$extra-small-mobile}{
+        width: 20em;
+        // float: center;
+    }
+    @media #{$extra-small-mobile}{
+        width: 15em;
+        // float: center;
+    }
 }
 .fondoFooter{
     background-color: #00273D;

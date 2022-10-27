@@ -1,7 +1,7 @@
 <template>
-    <v-container fluid id="Presentation">
+    <div id="Presentation">
         <v-row justify="center" align="center">
-             <v-col cols="12" xl="6" lg="6" md="6" sm="10" justify="center" align="center">
+             <v-col cols="12" xl="6" lg="6" md="6" sm="11" justify="center" align="center">
                     <p class="text-border">TARJETA DE</p>
                   <p class="text-sobre-puesto">PRESENTACIÓN</p>
                   <h3 class="text-dark-f-2em">Evoluciona la manera en que te relacionas con tus clientes</h3>
@@ -15,10 +15,10 @@
                 </div>
              </v-col>
              <v-col cols="12" xl="6" lg="6" md="6" sm="10" justify="center" align="center">
-                <div class="mt-10">
-                    <img class="imgPresent " src="~/static/MiTarjetaDigital/Images/Presentation.png" alt="" srcset="">
+                <div justify="center" align="center" class="mt-10">
+                    <nuxt-img format="webp" class="imgPresent" src="/MiTarjetaDigital/Images/Presentation.webp" alt="" srcset=""></nuxt-img>
                 </div>
              </v-col>
         </v-row>
-    </v-container>
+    </div>
 </template>

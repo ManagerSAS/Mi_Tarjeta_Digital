@@ -1,13 +1,11 @@
 <template>
-    <v-container fluid id="Questions">
+    <v-container fluid  id="Questions">
+        <div  justify="center" align="center">
+            <p class="text-border mt-5">PREGUNTAS</p>
+            <p class="text-sobre-puesto">FRECUENTES</p>
+        </div>
         <v-row justify="center" align="center">
-             <v-col  justify="center" align="center">
-                  <p class="text-border mt-5">PREGUNTAS</p>
-                  <p class="text-sobre-puesto">FRECUENTES</p>
-             </v-col>
-        </v-row>
-        <v-row justify="center" align="center">
-            <v-col cols="7">
+            <v-col cols="12" lg="7" xl="7" md="10" sm="10">
                 <v-expansion-panels popout>
                     <v-expansion-panel 
                         :readonly="readonly"

@@ -8,14 +8,14 @@
                     <div class="col-xl-2 col-auto order-0">
                         <div class="header-logo">
                             <n-link to="/">
-                                <img class="dark-logo" src="../../static/MiTarjetaDigital/Images/Logo-Manager.png" alt="Agency Logo">
-                                <img class="light-logo" src="../../static/MiTarjetaDigital/Images/Logo-Manager.png" alt="Agency Logo">
+                                <nuxt-img format="webp" class="dark-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
+                                <nuxt-img format="webp" class="light-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
                             </n-link>
                         </div>
                     </div>
                     <!-- Header Logo End -->
                     <!-- Header Main Menu Start -->
-                    <div class="col-auto col-xl d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-2">
+                    <div class="col-auto col-xl d-flex align-items-center justify-content-xl-left justify-content-end order-2 order-xl-1">
                         <div class="menu-column-area d-none d-xl-block d-lg-block  position-static">
                             <nav class="site-main-menu">
                                 <ul>
@@ -40,19 +40,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <!-- Header Search Start -->
-                        <div class="header-search-area">
-                            <!-- Header Login Start -->
-                            <div class="header-search">
-                                <button class="header-search-toggle" @click="toggleClass('addClass', 'search-popup-open')">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
-                            <!-- Header Login End -->
-                        </div>
-                        <!-- Header Search End -->
-
-                        <!-- Header Mobile Menu Toggle Start -->
+                
                         <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
                             <button class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                 <i class="icon-top"></i>
@@ -61,12 +49,15 @@
                             </button>
                         </div>
                         <!-- Header Mobile Menu Toggle End -->
+                        <!-- <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
+                            <a href="https://api.whatsapp.com/send?phone=573242892413" class="btn btn-primary btn-hover-light" style="padding: 10px 15px" target="_blank">Cotiza Aquí!</a>
+                        </div> -->
                     </div>
                     <!-- Header Main Menu End -->
                 </div>
             </div>
         </div>
-    </div>
+    </div >
 </template>
 
 <script>
@@ -94,16 +85,6 @@
             // offcanvas mobile menu
             mobiletoggleClass(addRemoveClass, className) {
                 const el = document.querySelector('#offcanvas-menu');
-                if (addRemoveClass === 'addClass') {
-                    el.classList.add(className);
-                } else {
-                    el.classList.remove(className);
-                }
-            },
-
-            //offcanvas search 
-            toggleClass(addRemoveClass, className) {
-                const el = document.querySelector('#search-popup');
                 if (addRemoveClass === 'addClass') {
                     el.classList.add(className);
                 } else {

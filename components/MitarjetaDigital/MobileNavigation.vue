@@ -1,11 +1,11 @@
 <template>
     <div class="popup-mobile-menu popup-mobile-visiable order-2" id="offcanvas-menu">
-        <div class="mobile-menu-overlay" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></div>
+        <div @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></div>
         <div class="inner custom-scrollbar">
             <div class="mobile-header">
-                <div class="logo">
-                    <n-link to="/">
-                        <img src="../../static/MiTarjetaDigital/Images/Logo-Manager.png" alt="site logo">
+                <div class="header-logo">
+                    <n-link class="logo" to="/">
+                        <nuxt-img format="webp" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
                     </n-link>
                 </div>
                 <button class="mobile-close-btn" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></button>
@@ -15,19 +15,22 @@
                     <nav class="offcanvas-navigation" id="offcanvas-navigation">
                         <ul>
                             <li>
-                                <n-link to="/">Acerca de </n-link>
+                                <n-link style="text-decoration: none" to="#Advantage">Ventajas </n-link>
                             </li>
                             <li>
-                                <n-link to="/about">Ventajas </n-link>
+                                <n-link style="text-decoration: none" to="#Presentation">Tarjeta de presentación </n-link>
                             </li>
                             <li>
-                                <n-link to="/service">Planes </n-link>
+                                <n-link style="text-decoration: none" to="#Plans">Planes </n-link>
                             </li>
                             <li>
-                                <n-link to="/project">Contáctanos </n-link>
+                                <n-link style="text-decoration: none" to="#Tarjeta">Tarejta Fisica </n-link>
                             </li>
                             <li>
-                                <n-link to="/blog">Adquiere la tuya</n-link>
+                                <n-link style="text-decoration: none" to="#Questions">Preguntas Frecuentes </n-link>
+                            </li>
+                            <li>
+                                <n-link style="text-decoration: none" to="/">Adquiere la tuya</n-link>
                             </li>
                         </ul>
                     </nav>
@@ -105,6 +108,7 @@
                     }
                 }
                 a {
+                    text-decoration: none;
                     color: $white;
                     font-size: 16px;
                     font-weight: 500;
@@ -112,88 +116,6 @@
                     display: block;
                     &:hover {
                         color: $primary;
-                    }
-                }
-            }
-        }
-
-        ul {
-            &.sub-menu {
-                margin-left: 15px;
-                transition: 0.4s;
-                li {
-                    list-style: none;
-                    border: none;
-                    a {
-                        color: $white;
-                        font-weight: 400;
-                        &:hover {
-                            color: $primary;
-                        }
-                    }
-                    .sub-menu {
-                        li {
-                            a {
-                                font-size: 13px;
-                                padding: 5px 0;
-                            }
-                        }
-                    }
-                }
-            }
-            li {
-                &.menu-item-has-children {
-                    position: relative;
-                    display: block;
-                    a {
-                        display: inline-block;
-                    }
-
-                    &.active > {
-                        .menu-expand {
-                            background-color: rgba($white, 0.2);
-                            i {
-                                &:before {
-                                    transform: rotate(0);
-                                }
-                            }
-                        }
-                    }
-
-                    .menu-expand {
-                        top: 5px;
-                        right: 0;
-                        width: 35px;
-                        height: 35px;
-                        cursor: pointer;
-                        line-height: 35px;
-                        position: absolute;
-                        text-align: center;
-                        background-color: rgba($white, 0.1);
-                        &:hover {
-                            background-color: rgba($white, 0.2);
-                        }
-
-                        i {
-                            display: block;
-                            border-bottom: 1px solid $white;
-                            position: relative;
-                            width: 10px;
-                            text-align: center;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(-50%, -50%);
-                            &:before {
-                                width: 100%;
-                                content: "";
-                                border-bottom: 1px solid $white;
-                                display: block;
-                                position: absolute;
-                                top: 0;
-                                transform: rotate(90deg);
-                                transition: 0.4s;
-                            }
-                        }
                     }
                 }
             }

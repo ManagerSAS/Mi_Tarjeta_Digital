@@ -1,6 +1,6 @@
 <template>
     <div >
-        <TheHeader/>
+        <TheHeader/> 
         <MobileNavigation/>
         <Welcome/>
         <Advantage/>
@@ -8,8 +8,8 @@
         <NoContact/>
         <Plans class="bg-cover" :style="{ backgroundImage: `url(${bgImgSrc})` }"/>
         <Questions/>
-        <TheFooter/>
-    </div>
+        <TheFooter style="background-color: #00273D;"/>
+    </div >
 </template>
 <script>
 // css
@@ -41,7 +41,7 @@ import MobileNavigation from '~/components/MitarjetaDigital/MobileNavigation.vue
     },
     data() {
         return {
-          bgImgSrc: 'MiTarjetaDigital/Images/background.png'
+          bgImgSrc: 'MiTarjetaDigital/Images/background.webp'
         }
       }
   }

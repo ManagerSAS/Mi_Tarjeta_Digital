@@ -7,7 +7,10 @@
         </v-row>
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
-                <img src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="90%" alt="qr tarjeta dijital">
+                <img class="d-block d-sm-block d-md-none" src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg"  width="100%" alt="qr manager">
+                <img class="d-none d-lg-block d-xl-none" src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="500px" height="300px" alt="qr manager">
+                <img class="d-none d-md-block d-lg-none" src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="500px" height="300px" alt="qr manager">
+                <img class="d-none d-xl-block " src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="500px" height="300px" alt="qr manager">
             </v-col>
         </v-row>
         <v-row justify="center" align="center"> 

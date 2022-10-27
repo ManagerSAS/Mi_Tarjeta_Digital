@@ -1,54 +1,14 @@
-// @import '~/variables.scss';
+/*----------------------------------------*/
+/*  05. Header CSS
+/*----------------------------------------*/
 
-.header-logo {
-    & a {
-        position: relative;
-
-        max-width:80px;
-
-        & img {
-            // width: 100%;
-            padding: 10px 0;
-
-            &.light-logo {
-                position: absolute;
-                top: 0;
-                left: 0;
-
-                opacity: 0;
-            }
-
-            &.dark-logo {
-            }
-        }
-    }
-
-    @media #{$extra-small-mobile} {
-        & a {
-            max-width: 120px;
-        }
-    }
-}
-.header-light {
-    & .header-logo {
-        & a {
-            & img {
-                &.light-logo {
-                    opacity: 1;
-                }
-
-                &.dark-logo {
-                    opacity: 0;
-                }
-            }
-        }
-    }
-}
+/* Header Section */
 .header-section {
-    max-height: 100px;
+    min-height: 100px;
+    
     // Responsive
     @media #{$tablet-device, $large-mobile}{
-        min-height: 80px;
+        min-height:60px;
     }
 
     & .header-inner {
@@ -66,7 +26,8 @@
             position: fixed;
             top: 0;
             left: 0;
-            background-color: #030e22 !important;
+            right: 0;
+            background-color: #00273d !important;
             width: 100%;
             height: 80px;
             animation: headerSlideDown 0.95s ease forwards;
@@ -80,8 +41,8 @@
             max-width: 100%;
 
             @media #{$extraBig-device} {
-                padding-right: 150px;
-                padding-left: 150px;
+                padding-right: 50px ;
+                padding-left: 50px;
             }
         }
     }
@@ -90,8 +51,8 @@
             max-width: 100%;
 
             @media #{$extraBig-device} {
-                padding-right: 240px;
-                padding-left: 240px;
+                padding-right: 50px;
+                padding-left: 50px;
             }
         }
     }
@@ -117,17 +78,17 @@
     }
 
     // Header Light
-    // &.header-light {
-    //     & .header-login {
-    //         & a {
-    //             color: $white;
+    &.header-light {
+        & .header-login {
+            & a {
+                color: $white;
 
-    //             &:hover {
-    //                 color: $white;
-    //             }
-    //         }
-    //     }
-    // }
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
 }
 
 @keyframes headerSlideDown {
@@ -138,9 +99,6 @@
         transform: translateY(0);
     }
 }
-
-// @import "header/logo";
-
 /* header Search Area */ 
 .header-search-area{
     display: flex;
@@ -244,7 +202,7 @@
         margin-bottom: 0;
         padding: 18px 0;
         list-style: none;
-        // transition: all 0.4s ease 0.2s;
+        transition: all 0.4s ease 0.2s;
         opacity: 0;
         border-radius: 10px;
         background-color: $white;
@@ -441,6 +399,248 @@
         }
     }
 }
+
+/* 05.03 Mobile Menu Toggle CSS */
+
+.header-mobile-menu-toggle {
+    display: flex;
+    padding: 0 10px;
+
+    & .toggle {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: transparent;
+
+        & i {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            width: 24px;
+            height: 2px;
+
+            & + i {
+                margin-top: 6px;
+            }
+
+            &::before,
+            &::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                flex: 1 0 100%;
+                width: 100%;
+                height: 100%;
+                content: "";
+                background-color: $white;
+            }
+
+            &.icon-top,
+            &.icon-bottom {
+                &::before {
+                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+                    transform: scaleX(1) translateZ(0);
+                    transform-origin: right;
+                }
+
+                &::after {
+                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    transform: scaleX(0) translateZ(0);
+                    transform-origin: left;
+                }
+            }
+
+            &.icon-middle {
+                &::before {
+                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+                    transform: scaleX(1) translateZ(0);
+                    transform-origin: left;
+                }
+
+                &::after {
+                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    transform: scaleX(0) translateZ(0);
+                    transform-origin: right;
+                }
+            }
+        }
+
+        &:hover {
+            & i {
+                &::before,
+                &::after {
+                    background-color: $primary;
+                }
+
+                &.icon-top,
+                &.icon-bottom {
+                    &::before {
+                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+                        transform: scaleX(0) translateZ(0);
+                    }
+
+                    &::after {
+                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+                        transform: scaleX(1) translateZ(0);
+                    }
+                }
+
+                &.icon-middle {
+                    &::before {
+                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+                        transform: scaleX(0) translateZ(0);
+                    }
+
+                    &::after {
+                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+                        transform: scaleX(1) translateZ(0);
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$extra-small-mobile} {
+        padding: 0 8px;
+    }
+}
+
+.header-light {
+    & .header-mobile-menu-toggle {
+        & .toggle {
+            & i {
+                &::before,
+                &::after {
+                    background-color: $white;
+                }
+            }
+
+            &:hover {
+                & i {
+                    &::before,
+                    &::after {
+                        background-color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+/* ==========================
+    Sidebar Mobile Menu 
+==============================*/
+
+.show-mobile-menu {
+    &.popup-mobile-menu {
+        opacity: 1;
+        visibility: visible;
+        .inner {
+            transform: none;
+        }
+    }
+}
+
+.popup-mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    z-index: 99999;
+    .mobile-menu-overlay {
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        // background: rgba(0, 0, 0, .5);
+    }
+    .inner{
+        position: relative;
+        width: 400px;
+        max-width: 80%;
+        height: 100%;
+        text-align: left;
+        transition: all .3s;
+        transform: translateX(-100%);
+        cursor: default;
+        background-color: #3399cc;
+        background-image: url("/images/bg/mobile-bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: top center;
+        background-size: cover;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            content: "";
+            background-color: rgba($secondary, 0.9);
+        }
+
+        & .mobile-header{
+            display: flex;
+            justify-content: space-between;
+            height: 85px;
+            align-items: center;
+            background: #00273d;
+            padding: 0 15px 0 30px;
+            .logo{
+                width: 50px;
+            }
+            .mobile-close-btn{
+                cursor: pointer;
+                border: none;
+                height: 40px;
+                width: 40px;
+                flex-shrink: 0;
+                position: relative;
+                background-color: transparent;
+
+                &::before,
+                &::after{
+                    position: absolute;
+                    top: 19px;
+                    left: 8px;
+                    content: "";
+                    width: 24px;
+                    height: 3px;
+                    background: $white;
+                    transform-origin: 50% 50%;
+                    transition: all .3s cubic-bezier(.645,.045,.355,1);
+                }
+                &::before{
+                    transform: rotate(-45deg);
+                }
+                &::after{
+                    transform: rotate(45deg);
+                }
+
+                &:hover{
+                    &::before ,
+                    &::after{
+                        transform: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.menu-content {
+    height: calc(100% - 85px);
+    margin: 30px;
+    overflow-y: auto;
+}
 /* 05.04 Mobile Menu CSS */
 
 .site-main-mobile-menu {
@@ -464,7 +664,7 @@
     height: 100%;
     transition: $transition;
     transform: translateX(100%);
-    background-color: $secondary;
+    background-color: $white-opacity-50;
     // background-image: url("/images/bg/mobile-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -521,7 +721,7 @@
 
 .mobile-menu-logo {
     & a {
-        width: 158px;
+        width: 100px;
     }
 }
 
@@ -687,254 +887,50 @@
         }
     }
 }
-/* ==========================
-    Sidebar Mobile Menu 
-==============================*/
+/* 05.04 Header Logo CSS */
 
-.show-mobile-menu {
-    &.popup-mobile-menu {
-        opacity: 1;
-        visibility: visible;
-        .inner {
-            transform: none;
-        }
-    }
-}
-
-.popup-mobile-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    visibility: hidden;
-    opacity: 0;
-    transition: all .3s cubic-bezier(.645,.045,.355,1);
-    z-index: 99999;
-    .mobile-menu-overlay {
-        top: 0;
-        left: 0;
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        background: rgba(0, 0, 0, .5);
-    }
-    .inner{
+.header-logo {
+    & a {
         position: relative;
-        width: 400px;
-        max-width: 80%;
-        height: 100%;
-        text-align: left;
-        transition: all .3s;
-        transform: translateX(-100%);
-        cursor: default;
-        background-color: $secondary;
-        background-image: url("/images/bg/mobile-bg.jpg");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: top center;
-        background-size: cover;
-        z-index: 1;
 
-        &::before {
-            position: absolute;
-            z-index: -1;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            content: "";
-            background-color: rgba($secondary, 0.9);
-        }
+        max-width: 150px;
 
-        & .mobile-header{
-            display: flex;
-            justify-content: space-between;
-            height: 85px;
-            align-items: center;
-            background: #030f27;
-            padding: 0 15px 0 30px;
-            .logo{
-                width: 155px;
-            }
-            .mobile-close-btn{
-                cursor: pointer;
-                border: none;
-                height: 40px;
-                width: 40px;
-                flex-shrink: 0;
-                position: relative;
-                background-color: transparent;
+        & img {
+            width: 150px;
 
-                &::before,
-                &::after{
-                    position: absolute;
-                    top: 19px;
-                    left: 8px;
-                    content: "";
-                    width: 24px;
-                    height: 3px;
-                    background: $white;
-                    transform-origin: 50% 50%;
-                    transition: all .3s cubic-bezier(.645,.045,.355,1);
-                }
-                &::before{
-                    transform: rotate(-45deg);
-                }
-                &::after{
-                    transform: rotate(45deg);
-                }
-
-                &:hover{
-                    &::before ,
-                    &::after{
-                        transform: none;
-                    }
-                }
-            }
-        }
-    }
-}
-.menu-content {
-    height: calc(100% - 85px);
-    margin: 30px;
-    overflow-y: auto;
-}
-/* 05.03 Mobile Menu Toggle CSS */
-.show-mobile-menu {
-    &.popup-mobile-menu {
-        opacity: 1;
-        visibility: visible;
-        .inner {
-            transform: none;
-        }
-    }
-}
-.header-mobile-menu-toggle {
-    display: flex;
-    padding-left: 10px;
-
-    & .toggle {
-        border: none;
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-        background-color: transparent;
-
-        & i {
-            position: relative;
-            display: block;
-            overflow: hidden;
-            width: 24px;
-            height: 2px;
-
-            & + i {
-                margin-top: 6px;
-            }
-
-            &::before,
-            &::after {
+            padding: 15px 0;
+            &.light-logo {
                 position: absolute;
                 top: 0;
                 left: 0;
-                flex: 1 0 100%;
-                width: 100%;
-                height: 100%;
-                content: "";
-                background-color: $white;
+
+                opacity: 0;
             }
 
-            &.icon-top,
-            &.icon-bottom {
-                &::before {
-                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
-                    transform: scaleX(1) translateZ(0);
-                    transform-origin: right;
-                }
-
-                &::after {
-                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-                    transform: scaleX(0) translateZ(0);
-                    transform-origin: left;
-                }
-            }
-
-            &.icon-middle {
-                &::before {
-                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
-                    transform: scaleX(1) translateZ(0);
-                    transform-origin: left;
-                }
-
-                &::after {
-                    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-                    transform: scaleX(0) translateZ(0);
-                    transform-origin: right;
-                }
-            }
-        }
-
-        &:hover {
-            & i {
-                &::before,
-                &::after {
-                    background-color: $primary;
-                }
-
-                &.icon-top,
-                &.icon-bottom {
-                    &::before {
-                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-                        transform: scaleX(0) translateZ(0);
-                    }
-
-                    &::after {
-                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
-                        transform: scaleX(1) translateZ(0);
-                    }
-                }
-
-                &.icon-middle {
-                    &::before {
-                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-                        transform: scaleX(0) translateZ(0);
-                    }
-
-                    &::after {
-                        transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
-                        transform: scaleX(1) translateZ(0);
-                    }
-                }
+            &.dark-logo {
             }
         }
     }
 
     @media #{$extra-small-mobile} {
-        padding: 0 8px;
+        & a {
+            max-width: 120px;
+        }
     }
 }
 
 .header-light {
-    & .header-mobile-menu-toggle {
-        & .toggle {
-            & i {
-                &::before,
-                &::after {
-                    background-color: $white;
+    & .header-logo {
+        & a {
+            & img {
+                &.light-logo {
+                    opacity: 1;
                 }
-            }
 
-            &:hover {
-                & i {
-                    &::before,
-                    &::after {
-                        background-color: $white;
-                    }
+                &.dark-logo {
+                    opacity: 0;
                 }
             }
         }
     }
 }
-
-

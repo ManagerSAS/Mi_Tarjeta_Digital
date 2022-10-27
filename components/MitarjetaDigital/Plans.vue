@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid id="Plans">
+    <v-container fluid  id="Plans">
         <v-row justify="center" align="center">
              <v-col  justify="center" align="center">
                   <p class="text-border-white mt-5">CONOCE</p>
@@ -7,16 +7,14 @@
              </v-col>
         </v-row>
         <v-row justify="center" align="center" class="mb-10">
-            <v-col justify="center" align="center" cols="12" sm="10" md="10" lg="8">
+            <v-col justify="center" align="center" cols="12" sm="12" md="10" lg="8">
                 <v-row justify="center" align="center">
-                    <v-col cols="12" sm="10" md="4" lg="3">
+                    <v-col cols="12" sm="3" md="4" lg="3" >
                         <v-card
-                            class="rounded-xl mx-auto hover"
-                            max-width="270"
-                            height="655"
+                            class="rounded-xl tamcard mx-auto hover"      
                         >
                         <v-img
-                            src="/MiTarjetaDigital/Images/Plan1.png"
+                            src="/MiTarjetaDigital/Images/Plan1.webp"
                         >
                             <div class="pa-6">
                                 <p class="text-white-f-40">BASIC</p>
@@ -38,15 +36,12 @@
                         <v-btn to="/" rounded class="mb-2">COMPRAR</v-btn>
                         </v-card>
                     </v-col>
-                    <v-col cols="12" sm="10" md="4" lg="3">
+                    <v-col cols="12" sm="3" md="4" lg="3">
                         <v-card
-                            class="rounded-xl mx-auto hover"
-                            max-width="270"
-                            height="655"
-                            style="scale: calc(110%)"
+                            class="rounded-xl tamcard scale mx-auto hover"
                         >
                             <v-img
-                            src="/MiTarjetaDigital/Images/Plan2.png"
+                            src="/MiTarjetaDigital/Images/Plan2.webp"
                             >
                                 <div class="ma-6">
                                     <p class="text-white-f-40">STANDARD</p>
@@ -68,14 +63,13 @@
                         <v-btn to="/" rounded class="mb-2">COMPRAR</v-btn>
                         </v-card>
                     </v-col>
-                    <v-col cols="12" sm="10" md="4" lg="3">
+                    <v-col cols="12" sm="3" md="4" lg="3">
                         <v-card
-                            class="rounded-xl mx-auto hover"
-                            max-width="270"
-                            height="655"
+                            class="rounded-xl tamcard mx-auto hover"
+
                         >
                             <v-img
-                            src="/MiTarjetaDigital/Images/Plan3.png"
+                            src="/MiTarjetaDigital/Images/Plan3.webp"
                             >
                                 <div class="ma-6">
                                     <p class="text-white-f-40">PREMIUM</p>
@@ -105,6 +99,10 @@
 <style lang="scss">
 .hover:hover{
     scale: 110%;
+    @media #{$tablet-device, $large-mobile}{
+        z-index: 10;
+        scale: 110%;
+    }
 }
 </style>>
 
