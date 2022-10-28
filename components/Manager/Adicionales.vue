@@ -16,7 +16,7 @@
         <v-row justify="center" align="center"> 
             <v-col cols="6" justify="center" align="center">
                 <v-btn
-                    download="TajetaDigitalAbel_Manager.png"
+                    download="TajetaDigital.png"
                     height="25px"
                     rounded
                     class="text-capitalize "
