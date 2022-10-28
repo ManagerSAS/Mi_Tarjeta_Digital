@@ -5,6 +5,7 @@
     color: #00273D;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
     @media #{$tablet-device, $large-mobile}{
         font-size: 20px;
     }
@@ -72,6 +73,7 @@
     color: #fff;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
 }
 .btn-hover-advantage:hover{
     background-color: #fff;
@@ -221,9 +223,10 @@
     bottom: 1em;
     height: 2em;
     width: 12em;
-    left: 8em;
+    left: 1.5em;
     font-size: 30px;
     float: top;
+    font-family: 'Quicksand', sans-serif;
     @media #{$tablet-device, $large-mobile,$small-mobile,$desktop-device}{
         font-size: 25px;
         height: 1.5em;
@@ -271,13 +274,14 @@
         // float: center;
     }
 }
-.fondoFooter{
-    background-color: #00273D;
-    color: #fff;
-}
+// .fondoFooter{
+//     background-color: #00273D;
+//     color: #fff;
+// }
 .text-footer{
     font-family: 'Quicksand', sans-serif;
     color:white; 
     font-size: 12px; 
     font-weight: bold;
 }
+

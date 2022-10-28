@@ -5,7 +5,7 @@
             <div class="mobile-header">
                 <div class="header-logo">
                     <n-link class="logo" to="/">
-                        <nuxt-img format="webp" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
+                        <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  quality="70" fit="cover" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
                     </n-link>
                 </div>
                 <button class="mobile-close-btn" @click="mobiletoggleClass('removeClass', 'show-mobile-menu')"></button>

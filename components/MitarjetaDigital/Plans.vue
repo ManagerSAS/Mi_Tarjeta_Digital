@@ -11,11 +11,13 @@
                 <v-row justify="center" align="center">
                     <v-col cols="12" sm="3" md="4" lg="3" >
                         <v-card
-                            class="rounded-xl tamcard mx-auto hover"      
+                            class="rounded-xl tamcard mx-auto hover" 
+                               
                         >
                         <v-img
-                        format="webp" fit="cover" quality="80"
-                            src="/MiTarjetaDigital/Images/Plan1.webp"
+                            format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Plan1.webp"  quality="80" fit="cover"
+                            src="/MiTarjetaDigital/Images/Plan1.webp" alt="Fondo planes mitarjetadigital.com"
+                            sizes="sm:100vw md:50vw lg:400px"
                         >
                             <div class="pa-6">
                                 <p class="text-white-f-40">BASIC</p>
@@ -34,16 +36,17 @@
                                 <p><v-icon color="green">mdi-check-circle-outline</v-icon>Lorem ipsumLorem ipsum dolor sit amet</p>
                             </div>
                         </div>
-                        <v-btn to="/" rounded class="mb-2">COMPRAR</v-btn>
+                        <v-btn aria-label="Adquiere tu tarjeta digital" to="/" rounded class="mb-2">COMPRAR</v-btn>
                         </v-card>
                     </v-col>
                     <v-col cols="12" sm="3" md="4" lg="3">
                         <v-card
                             class="rounded-xl tamcard scale mx-auto hover"
+                            alt="Fondo planes mitarjetadigital.com"
                         >
                             <v-img
-                            format="webp" fit="cover" quality="80"
-                            src="/MiTarjetaDigital/Images/Plan2.webp"
+                            format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Plan2.webp"  quality="80" fit="cover"
+                            src="/MiTarjetaDigital/Images/Plan2.webp" alt="Fondo planes mitarjetadigital.com" sizes="sm:100vw md:50vw lg:400px"
                             >
                                 <div class="ma-6">
                                     <p class="text-white-f-40">STANDARD</p>
@@ -62,17 +65,17 @@
                                     <p><v-icon color="green">mdi-check-circle-outline</v-icon>Lorem ipsumLorem ipsum dolor sit amet</p>
                                 </div>
                             </div>
-                        <v-btn to="/" rounded class="mb-2">COMPRAR</v-btn>
+                        <v-btn aria-label="Adquiere tu tarjeta digital" to="/" rounded class="mb-2">COMPRAR</v-btn>
                         </v-card>
                     </v-col>
                     <v-col cols="12" sm="3" md="4" lg="3">
                         <v-card
                             class="rounded-xl tamcard mx-auto hover"
-
                         >
                             <v-img
-                            format="webp" fit="cover" quality="80"
-                            src="/MiTarjetaDigital/Images/Plan3.webp"
+                                format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Plan3.webp"  quality="80" fit="cover"
+                                src="/MiTarjetaDigital/Images/Plan3.webp"
+                                alt="Fondo planes mitarjetadigital.com"  sizes="sm:100vw md:50vw lg:400px"
                             >
                                 <div class="ma-6">
                                     <p class="text-white-f-40">PREMIUM</p>
@@ -91,7 +94,7 @@
                                     <p><v-icon color="green">mdi-check-circle-outline</v-icon>Lorem ipsumLorem ipsum dolor sit amet</p>
                                 </div>
                             </div>
-                            <v-btn to="/" rounded class="mb-2">COMPRAR</v-btn>
+                            <v-btn aria-label="Adquiere tu tarjeta digital" to="/" rounded class="mb-2">COMPRAR</v-btn>
                         </v-card>
                     </v-col>
                 </v-row>

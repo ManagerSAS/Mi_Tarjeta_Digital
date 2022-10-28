@@ -8,8 +8,8 @@
                     <div class="col-xl-2 col-auto order-0">
                         <div class="header-logo">
                             <n-link to="/">
-                                <nuxt-img format="webp" class="dark-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
-                                <nuxt-img format="webp" class="light-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
+                                <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="dark-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
+                                <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="light-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
                             </n-link>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                         </div>
                 
                         <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
-                            <button class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
+                            <button aria-label="Menu hamburguesa " class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                 <i class="icon-top"></i>
                                 <i class="icon-middle"></i>
                                 <i class="icon-bottom"></i>

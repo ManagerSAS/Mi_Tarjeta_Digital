@@ -5,15 +5,15 @@
                 <v-row justify="center" align="top">
                     <v-col >
                         <a href="https://api.whatsapp.com/send?phone=573008504730" class="Whatsapp"></a>
-                        <p class="textos">Escríbenos</p>
+                        <p class="textos">Escríbeme</p>
                     </v-col>
                     <v-col >
                         <a href="tel:+573008504730"  class="Telefono"></a>
-                        <p class="textos">Llámanos</p>
+                        <p class="textos">Llámame</p>
                     </v-col>
                     <v-col >
                         <a class="Guardar mt-sm-1" href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Contact/DiegoMorales.vcf" target="_blank"></a>
-                        <p class="textos">Guardar Contacto</p>
+                        <p class="textos">Guardar mi ontacto</p>
                     </v-col>
                 </v-row>
                 <v-row justify="center" align="center">
