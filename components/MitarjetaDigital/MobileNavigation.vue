@@ -20,9 +20,9 @@
                             <li>
                                 <n-link style="text-decoration: none" to="#Presentation">Tarjeta de presentación </n-link>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <n-link style="text-decoration: none" to="#Plans">Planes </n-link>
-                            </li>
+                            </li> -->
                             <li>
                                 <n-link style="text-decoration: none" to="#Tarjeta">Tarejta Fisica </n-link>
                             </li>

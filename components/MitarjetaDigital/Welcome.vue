@@ -14,7 +14,7 @@
                                     <div class="desc2">
                                         <p style="font-weight: 500">{{banner.desc}}</p>
                                     </div>
-                                    <a style="text-decoration: none;" href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button :style="{display: `${banner.display}`}" aria-label="Adquiere tu tarjeta digital" aria-hidden="true"  class="ml-lg-15 mt-lg-15 btn-hover pa-1 pl-2 pr-2">¡ADQUIERE LA TUYA!</button></a>
+                                    <a style="text-decoration: none;" href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button  aria-label="Adquiere tu tarjeta digital" aria-hidden="true"  class="ml-lg-15 mt-lg-15 btn-hover pa-1 pl-2 pr-2">¡ADQUIERE LA TUYA!</button></a>
                                 </div>
                             </v-col>
                         </v-row>
@@ -38,20 +38,18 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
                     text2:'DIGITAL.CO',
                     text: "Tarjeta de presentación digital para empresas y profesionales",
                     desc: "Promociona la digitalización inclusiva y ayuda a todos tus empleados facilitando su networking",
-                    bgImgSrc: "/MiTarjetaDigital/Images/BANNER1.png",
-                    display:'block',
+                    bgImgSrc: "/MiTarjetaDigital/Images/BANNER-1.png",
                 },
                 {
-                    display:'none',
-                    bgImgSrc: "/MiTarjetaDigital/Images/BANNER2.png",
+                    text2:'Sin papel, sin impresiones, sin complicaciones',
+                    text: "Aquí lo tienes todo",
+                    desc: "Tarjetas digitales para tu empresa",
+                    bgImgSrc: "/MiTarjetaDigital/Images/BANNER-2.png",
                 },
                 {
-                    text1:'MITARJETA',
-                    text2:'DIGITAL.CO',
-                    text: "Tarjeta de presentación digital para empresas y profesionales",
-                    desc: "Promociona la digitalización inclusiva y ayuda a todos tus empleados facilitando su networking",
-                    bgImgSrc: "/MiTarjetaDigital/Images/BANNER3.png",
-                    display:'block',
+                    text2:'CONECTA CON TUS CLIENTES',
+                    text: "CON LA TARJETA DIGITAL",
+                    bgImgSrc: "/MiTarjetaDigital/Images/BANNER-3.png",
                 }
             ],
             settings  :{

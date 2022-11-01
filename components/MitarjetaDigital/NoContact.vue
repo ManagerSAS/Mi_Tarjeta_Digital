@@ -7,7 +7,7 @@
         </div>
         <v-row justify="center" align="center">
             <v-col cols="12" xl="5" lg="5" md="5" sm="10" justify="center" align="center" >
-                <nuxt-img  class="imgPresent" format="webp"  sizes="sm:100vw md:50vw lg:400px" loading="lazy" placeholder="/MiTarjetaDigital/Images/tarjetaContacto.webp"  quality="70" fit="cover" src="/MiTarjetaDigital/Images/tarjetaContacto.webp" alt="Adquiere tarjeta sin contacto" srcset=""></nuxt-img>
+                <nuxt-img  class="imgPresent" format="webp"  sizes="sm:100vw md:50vw lg:600px" loading="lazy" placeholder="/MiTarjetaDigital/Images/tarjetaContacto.png"  quality="70" fit="cover" src="/MiTarjetaDigital/Images/tarjetaContacto.png" alt="Adquiere tarjeta sin contacto" srcset=""></nuxt-img>
             </v-col>
             <v-col cols="12" xl="5" lg="5" md="5" sm="10" justify="center" align="start">
                 <p class="text-blue-f-2em">Ahora la tarjeta de presentacion.</p>

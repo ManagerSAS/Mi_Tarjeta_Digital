@@ -4,7 +4,7 @@
             <p class="text-border mt-5">PREGUNTAS</p>
             <p class="text-sobre-puesto">FRECUENTES</p>
         </div>
-        <v-row justify="center" align="center">
+        <v-row justify="center" align="center" class="mt-5">
             <v-col cols="12" lg="7" xl="7" md="10" sm="10">
                 <v-expansion-panels popout>
                     <v-expansion-panel 
@@ -30,11 +30,10 @@ export default ({
         return{
             readonly: false,
             preguntas: [
-                {pregunta:'1. ¿Necesito contrato?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
-                {pregunta:'2. ¿Puedo incluir todas las redes sociales?', respuesta:'¡Claro que sí! Podrás integrar todas las redes sociales que tu empresa necesita, tendrás una estructura habilitada para incorporar cada una de ellas e interactuar directamente con tus clientes'},
-                {pregunta:'3. ¿Yo elijo qué información se comparte?', respuesta:'Sí, estructuramos cada parte para proporcionarte un espacio directo de comunicación e información. La información que desees incorporar estará establecida acorde a los lineamientos de tu empresa. ¡Tú eliges!'},
-                {pregunta:'4. ¿Debo actualizar la información?', respuesta:'Si así lo deseas, puedes realizar actualizaciones acordes a la modificación dentro de tus colaboradores, ya sea de cambio o elaboración de una nueva tarjeta. ¡Lo hacemos por ti!'},
-                {pregunta:'5. ¿Necesito tener una App? ', respuesta:'No necesitas ninguna aplicación para el funcionamiento de la Tarjeta Digital. Solo necesitas lector QR en tu celular y tendrás toda la información que necesitas. Solo con un simple paso ¡Escanea y listo!'},
+                {pregunta:'1. ¿Puedo incluir todas las redes sociales?', respuesta:'¡Claro que sí! Podrás integrar todas las redes sociales que tu empresa necesita, tendrás una estructura habilitada para incorporar cada una de ellas e interactuar directamente con tus clientes'},
+                {pregunta:'2. ¿Yo elijo qué información se comparte?', respuesta:'Sí, estructuramos cada parte para proporcionarte un espacio directo de comunicación e información. La información que desees incorporar estará establecida acorde a los lineamientos de tu empresa. ¡Tú eliges!'},
+                {pregunta:'3. ¿Debo actualizar la información?', respuesta:'Si así lo deseas, puedes realizar actualizaciones acordes a la modificación dentro de tus colaboradores, ya sea de cambio o elaboración de una nueva tarjeta. ¡Lo hacemos por ti!'},
+                {pregunta:'4. ¿Necesito tener una App? ', respuesta:'No necesitas ninguna aplicación para el funcionamiento de la Tarjeta Digital. Solo necesitas lector QR en tu celular y tendrás toda la información que necesitas. Solo con un simple paso ¡Escanea y listo!'},
             ],
         }
     }

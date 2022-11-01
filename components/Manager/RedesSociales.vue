@@ -6,7 +6,7 @@
             width="30"
             height="30"
             fab
-            href="https://wa.link/q45mbh"
+            href="https://agenciamanager.com/"
             target="_blank"
             >
           </v-btn><br>

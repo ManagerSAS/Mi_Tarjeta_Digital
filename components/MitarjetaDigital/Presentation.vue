@@ -20,7 +20,7 @@
              </v-col>
              <v-col cols="12" xl="6" lg="6" md="6" sm="10" justify="center" align="center">
                 <div justify="center" align="center" class="mt-10">
-                    <nuxt-img format="webp" loading="lazy" sizes="sm:100vw md:50vw lg:400px" placeholder="/MiTarjetaDigital/Images/Presentation.png"  quality="80" fit="cover" class="imgPresent" aria-label="Adquiere tu tarjeta digital" src="/MiTarjetaDigital/Images/Presentation.png" alt="Tarjeta de presentacion digital" srcset=""></nuxt-img>
+                    <nuxt-img format="webp" loading="lazy" sizes="sm:100vw md:50vw lg:600px" placeholder="/MiTarjetaDigital/Images/Presentation.png"  quality="80" fit="cover" class="imgPresent" aria-label="Adquiere tu tarjeta digital" src="/MiTarjetaDigital/Images/Presentation.png" alt="Tarjeta de presentacion digital" srcset=""></nuxt-img>
                 </div>
              </v-col>
         </v-row>
