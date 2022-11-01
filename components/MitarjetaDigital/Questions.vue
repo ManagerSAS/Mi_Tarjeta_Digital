@@ -30,11 +30,11 @@ export default ({
         return{
             readonly: false,
             preguntas: [
-                {pregunta:'1. ¿Lorem ipsum dolor sit amet, consectetuer adipiscing elit,?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
-                {pregunta:'2. ¿Lorem ipsum dolor sit amet, consectetuer adipiscing elit,?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
-                {pregunta:'3. ¿Lorem ipsum dolor sit amet, consectetuer adipiscing elit,?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
-                {pregunta:'4. ¿Lorem ipsum dolor sit amet, consectetuer adipiscing elit,?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
-                {pregunta:'5. ¿Lorem ipsum dolor sit amet, consectetuer adipiscing elit,?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
+                {pregunta:'1. ¿Necesito contrato?', respuesta:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit'},
+                {pregunta:'2. ¿Puedo incluir todas las redes sociales?', respuesta:'¡Claro que sí! Podrás integrar todas las redes sociales que tu empresa necesita, tendrás una estructura habilitada para incorporar cada una de ellas e interactuar directamente con tus clientes'},
+                {pregunta:'3. ¿Yo elijo qué información se comparte?', respuesta:'Sí, estructuramos cada parte para proporcionarte un espacio directo de comunicación e información. La información que desees incorporar estará establecida acorde a los lineamientos de tu empresa. ¡Tú eliges!'},
+                {pregunta:'4. ¿Debo actualizar la información?', respuesta:'Si así lo deseas, puedes realizar actualizaciones acordes a la modificación dentro de tus colaboradores, ya sea de cambio o elaboración de una nueva tarjeta. ¡Lo hacemos por ti!'},
+                {pregunta:'5. ¿Necesito tener una App? ', respuesta:'No necesitas ninguna aplicación para el funcionamiento de la Tarjeta Digital. Solo necesitas lector QR en tu celular y tendrás toda la información que necesitas. Solo con un simple paso ¡Escanea y listo!'},
             ],
         }
     }

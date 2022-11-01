@@ -38,8 +38,7 @@
     font-weight: 600;
     line-height: 1px;
     position: relative;
-    left: 1em;
-    top: 1em;
+    left: 5em;
     @media #{$small-mobile}{
         left: 0px;
         top: 1em;
@@ -53,7 +52,7 @@
     line-height: 1px;
 }
 .text-dark-f-2em{
-    width: 50%;
+    
     color: #00273D; 
     font-size: 2em;
     position: relative;
@@ -118,20 +117,19 @@
     color: #00273D; 
     font-size: 2.95em;
     position: relative;
-    bottom: 1.4em;
+    line-height: 1.5px;
+
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     @media #{$tablet-device, $large-mobile}{
-        bottom: 1.55em;
         font-size: 2.3em;
     }
     @media #{$small-mobile}{
-        bottom: 1.7em;
         font-size: 29px;
     }
 }
 .text-border-white{
-    -webkit-text-stroke: 2px #fff;
+    -webkit-text-stroke: 1px #fff;
     color: transparent; 
     font-size: 4em;
     font-family: 'Poppins', sans-serif;
@@ -147,16 +145,14 @@
     color: #fff; 
     font-size: 2.95em;
     position: relative;
-    bottom: 1.4em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     @media #{$tablet-device, $large-mobile}{
-        bottom: 1.55em;
         font-size: 2.3em;
     }
     @media #{$small-mobile}{
-        bottom: 1.7em;
-        font-size: 29px;
+        font-size: 2.2em;
+
     }
 }
 .text-white-f-40{

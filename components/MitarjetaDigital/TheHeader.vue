@@ -2,11 +2,10 @@
     <div class="header-section header-transparent" :class="{'is-sticky': isSticky}">
         <div class="header-inner">
             <div class="container position-relative">
-                <div class="row justify-content-between align-items-center">
-
+                <div class="row justify-content-between align-items-center" >
                     <!-- Header Logo Start -->
-                    <div class="col-xl-2 col-auto order-0">
-                        <div class="header-logo">
+                    <div class="col-auto d-flex">
+                        <div class="header-logo ma-lg-10">
                             <n-link to="/">
                                 <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="dark-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
                                 <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="light-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
@@ -14,8 +13,9 @@
                         </div>
                     </div>
                     <!-- Header Logo End -->
+                    <v-spacer ></v-spacer>
                     <!-- Header Main Menu Start -->
-                    <div class="col-auto col-xl d-flex align-items-center justify-content-xl-left justify-content-end order-2 order-xl-1">
+                    <div class="col-auto d-flex" >
                         <div class="menu-column-area d-none d-xl-block d-lg-block  position-static">
                             <nav class="site-main-menu">
                                 <ul>
@@ -48,12 +48,8 @@
                                 <i class="icon-bottom"></i>
                             </button>
                         </div>
-                        <!-- Header Mobile Menu Toggle End -->
-                        <!-- <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                            <a href="https://api.whatsapp.com/send?phone=573242892413" class="btn btn-primary btn-hover-light" style="padding: 10px 15px" target="_blank">Cotiza Aquí!</a>
-                        </div> -->
+                        
                     </div>
-                    <!-- Header Main Menu End -->
                 </div>
             </div>
         </div>

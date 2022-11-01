@@ -29,8 +29,12 @@ export default {
     '~/assets/Manager/responsive-desktop-device.scss',
     '~/assets/Manager/responsive-extrabig-device.scss',
     '~/assets/Manager/responsive-laptop-device.scss',
-    '~/assets/Manager/responsive-tablet-device.scss'
-
+    '~/assets/Manager/responsive-tablet-device.scss',
+    '~/assets/MiTarjetaDigital/Header.scss',
+    '~/assets/MiTarjetaDigital/Footer.scss',
+    '~/assets/MiTarjetaDigital/Intro.scss',
+    '~/assets/MiTarjetaDigital/style.scss',
+    
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

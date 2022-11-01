@@ -23,11 +23,8 @@ import Plans from '~/components/MitarjetaDigital/Plans.vue';
 import Questions from '~/components/MitarjetaDigital/Questions.vue';
 import MobileNavigation from '~/components/MitarjetaDigital/MobileNavigation.vue';
 // css
-import '~/assets/MiTarjetaDigital/Header.scss';
-import '~/assets/MiTarjetaDigital/Footer.scss';
 
-import '~/assets/MiTarjetaDigital/Intro.scss';
-import '~/assets/MiTarjetaDigital/style.scss';
+
   export default {
       components: {
         TheHeader,
