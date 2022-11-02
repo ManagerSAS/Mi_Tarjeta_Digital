@@ -14,23 +14,7 @@
     background-color: #00273D;
     color: white;
 }
-.slick-dots {
-  background-color: transparent;
-  position: relative;
-  bottom: 4em;
-}
-.slick-dots button:before {
-  color: white; 
-  opacity: .25; 
-  background-color: transparent; 
-  content: "•"; 
-  font-size: 20px; 
-}
-.slick-dots .slick-active button:before {
-     color: white;
-     opacity: 1;
-     font-size: 20px;
-}
+
 .list{
     color: #00273D; 
     font-size: 1em;
@@ -87,6 +71,10 @@
     @media #{$extra-small-mobile}{
         font-size: 2.5em;
     }
+    @media #{$small-mobile}{
+        font-size: 25px;
+        line-height: 0.5px;
+    }
 }
 .text-blue-f-1em{
     color: #00273D; 
@@ -99,6 +87,22 @@
     font-size: 2em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+    @media #{$small-mobile}{
+        font-size: 25px;
+        .text-blue-f-2em-evolution{
+            font-size: 20px;
+        }
+    }
+}
+.text-blue-f-2em-evolution{
+    color: #00273D; 
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    @media #{$small-mobile}{
+        font-size: 25px;
+        line-height: 1;
+    }
 }
 .text-border{
     -webkit-text-stroke: 1.5px #00273D;
@@ -111,6 +115,36 @@
     }
     @media #{$small-mobile}{
         font-size: 37px;
+        line-height: 1.5;
+
+    }
+}
+.text-border-ventajas{
+    -webkit-text-stroke: 1.5px #00273D;
+    color: transparent; 
+    font-size: 4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    @media #{$tablet-device, $large-mobile}{
+        font-size: 3em;
+    }
+    @media #{$small-mobile}{
+        -webkit-text-stroke: 1.5px #00273D;
+        font-size: 30px;
+    }
+}
+.text-mitarjeta{
+    color: #00273D; 
+    font-size: 2.95em;
+    position: relative;
+    line-height: 1.5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    @media #{$tablet-device, $large-mobile}{
+        font-size: 2.3em;
+    }
+    @media #{$small-mobile}{
+        font-size: 25px;
     }
 }
 .text-sobre-puesto{
@@ -227,12 +261,28 @@
         font-size: 25px;
         height: 1.5em;
         width: 10em;
-        left: -1em;
+        left: 0em;
         z-index: 100vh;
         float: bottom; 
     }
-
-
+}
+.btncalltoaction{
+    position: relative;
+    z-index: 10;
+    bottom: 1em;
+    height: 2em;
+    width: 12em;
+    font-size: 30px;
+    float: top;
+    font-family: 'Quicksand', sans-serif;
+    @media #{$tablet-device, $large-mobile,$small-mobile,$desktop-device}{
+        font-size: 25px;
+        height: 1.5em;
+        width: 10em;
+      
+        z-index: 100vh;
+        float: bottom; 
+    }
 }
 .btnContac{
     position: relative;
@@ -248,7 +298,7 @@
         top: 0.5em;
         height: 2em;
         width: 12em;
-        left: 1em;
+        left: 0;
         font-size: 25px;
         float: bottom;
     }

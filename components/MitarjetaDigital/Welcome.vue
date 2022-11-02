@@ -24,6 +24,26 @@
         </VueSlickCarousel> 
     </div>
 </template>
+<style>
+.slick-dots {
+  background-color: transparent;
+  position: relative;
+  bottom: 4em;
+}
+.slick-dots button:before {
+  color: white; 
+  opacity: .25; 
+  background-color: transparent; 
+  content: "•"; 
+  font-size: 20px; 
+}
+.slick-dots .slick-active button:before {
+     color: white;
+     opacity: 1;
+     font-size: 20px;
+}
+</style>
+
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'

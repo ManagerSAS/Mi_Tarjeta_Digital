@@ -1,12 +1,14 @@
 <template>
     <v-container fluid  id="Plans">
         <v-row justify="center" align="center">
-             <v-col cols="12" sm="12" md="4" lg="3" justify="center" align="center">
+             <v-col cols="12" sm="12" md="4" lg="6" justify="center" align="center">
                   <p class="text-sobre-puesto-white ">CONSIGUE LA TUYA</p>
                   <!-- <p class="text-sobre-puesto-white">NUESTROS PLANES</p> -->
              </v-col>
-             <v-col cols="12" sm="12" md="4" lg="3" justify="center" align="center">
-                <a href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" to="/" class="mt-lg-10 btnVentajas btn-hover">AQUÍ</button></a>
+             <v-col cols="12" sm="12" md="4" lg="6" justify="center" align="center">
+                <div justify="center" align="center">
+                    <a href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" to="/" class="mt-lg-10 btncalltoaction btn-hover">AQUÍ</button></a>
+                </div>
              </v-col>
         </v-row>
         <!--<v-row justify="center" align="center" class="mb-10">

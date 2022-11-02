@@ -18,7 +18,9 @@
                     <p><v-icon color="green">mdi-check-circle</v-icon>Compatible con Andriod y iPhone 7 en adelante</p>
                     <p><v-icon color="green">mdi-check-circle</v-icon>Este producto puede ser opcional</p>
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" class="mt-lg-10 mr-md-10 mt-md-10 mr-lg-10 mb-2 btnContac btn-hover-advantage ">CONTÁCTANOS</button></a>
+                <div justify="center" align="center">
+                    <a href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" class="mt-lg-10 mr-md-10 mt-md-10 mr-lg-10 mb-2 btnContac btn-hover-advantage ">CONTÁCTANOS</button></a>
+                </div>
             </v-col>
         </v-row>
     </v-container>

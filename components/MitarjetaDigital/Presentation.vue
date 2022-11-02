@@ -4,8 +4,8 @@
              <v-col cols="12" xl="6" lg="6" md="5" sm="11" justify="center" align="center">
                 <div class="text-border">TARJETA DE</div>
                 <div class="text-sobre-puesto">PRESENTACIÓN</div><br>
-                <div class="text-dark-f-2em mt-15">Evoluciona la manera en que te relacionas con tus clientes</div>
-                <v-row  class="list ml-lg-15 " justify="center" align="center">
+                <div class=" text-blue-f-2em-evolution mt-lg-15">Evoluciona la manera en que te relacionas con tus clientes</div>
+                <v-row  class="list ml-lg-10 " justify="center" align="center">
                     <v-col cols="12" xl="10" lg="10" md="11" sm="11" justify="center" align="start">
                         <p><v-icon color="green">mdi-check-circle</v-icon>Datos de contacto.</p>
                         <p><v-icon color="green">mdi-check-circle</v-icon>Contenido promocional de tu marca actualizable</p>

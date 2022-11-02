@@ -7,8 +7,8 @@
                     <div class="col-auto d-flex">
                         <div class="header-logo ma-lg-10">
                             <n-link to="/">
-                                <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="dark-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
-                                <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.webp"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="light-logo" src="/MiTarjetaDigital/Images/Logo-Manager.webp" alt="Agency Logo"></nuxt-img>
+                                <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.png"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="dark-logo" src="/MiTarjetaDigital/Images/Logo-Manager.png" alt="Agency Logo"></nuxt-img>
+                                <nuxt-img format="png" loading="lazy" placeholder="/MiTarjetaDigital/Images/Logo-Manager.png"  sizes="sm:100vw md:50vw lg:400px" quality="70" fit="cover" class="light-logo" src="/MiTarjetaDigital/Images/Logo-Manager.png" alt="Agency Logo"></nuxt-img>
                             </n-link>
                         </div>
                     </div>
