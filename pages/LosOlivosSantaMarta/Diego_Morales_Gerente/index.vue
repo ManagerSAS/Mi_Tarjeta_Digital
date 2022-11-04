@@ -1,14 +1,8 @@
 <template>
     <div class="FondoOlivos " >
-        <div class="contenedor-float">
-            <div class="flotante pa-1 pb-1"  >
-                <a class="Facebook ma-1" href="https://www.facebook.com/LosOlivosSantaMarta" target="_blank"> </a>
-                <a class="Instagram ma-1" href="https://www.instagram.com/losolivossantamarta/" target="_blank" > </a>
-                <a class="PaginaWeb ma-1" href="https://www.losolivossantamarta.com/" target="_blank"> </a>
-            </div>
-        </div>
-        <Welcome/>
-        <CallActions/>
+        <RedesSociales/>
+        <Welcome foto="LosOlivosSantaMarta/Diego_Morales_Gerente/Images/foto.png" name="DIEGO MORALES" cargo="Gerente"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008504730" tel="tel:+573008504730" contacto="/LosOlivosSantaMarta/Diego_Morales_Gerente/Contact/DiegoMorales.vcf" email="mailto:gerenciasantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Diego_Morales_Gerente/"/>
         <Services/>
         <Adicionales/>
         <Footer/>
@@ -24,13 +18,14 @@ import '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss';
 import '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss';
 import '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss';
 // js
-import Welcome from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Welcome.vue';
-import CallActions from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/CallActions.vue';
-import Services from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Services.vue';
-import Adicionales from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Adicionales.vue';
-import Footer from '~/components/LosOlivosSantaMarta/Diego_Morales_Gerente/Footer.vue';
+import Welcome from '~/components/LosOlivosSantaMarta/Welcome.vue';
+import CallActions from '~/components/LosOlivosSantaMarta/CallActions.vue';
+import Services from '~/components/LosOlivosSantaMarta/Services.vue';
+import Adicionales from '~/components/LosOlivosSantaMarta/Adicionales.vue';
+import Footer from '~/components/LosOlivosSantaMarta/Footer.vue';
+import RedesSociales from '~/components/LosOlivosSantaMarta/RedesSociales.vue';
 export default {
-    components: { Welcome, CallActions, Services, Adicionales, Footer },
+    components: { Welcome, CallActions, Services, Adicionales, Footer, RedesSociales },
     head: {
         title: "Diego Morales",
         meta: [
