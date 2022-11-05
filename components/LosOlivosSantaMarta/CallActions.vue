@@ -4,30 +4,30 @@
             <v-col cols="9" justify="center" align="center" >
                 <v-row justify="center" align="top">
                     <v-col >
-                        <a :href="Whatsapp" class="Whatsapp"></a>
-                        <p class="textos">Escríbeme</p>
+                        <a :href="Whatsapp" class="WhatsappOlivos"></a>
+                        <p class="textosOlivos">Escríbeme</p>
                     </v-col>
                     <v-col >
-                        <a :href="tel"  class="Telefono"></a>
-                        <p class="textos">Llámame</p>
+                        <a :href="tel"  class="TelefonoOlivos"></a>
+                        <p class="textosOlivos">Llámame</p>
                     </v-col>
                     <v-col >
-                        <a class="Guardar mt-sm-1" :href="contacto" target="_blank"></a>
-                        <p class="textos">Guardar mi ontacto</p>
+                        <a class="GuardarOlivos mt-sm-1" :href="contacto" target="_blank"></a>
+                        <p class="textosOlivos">Guardar mi ontacto</p>
                     </v-col>
                 </v-row>
                 <v-row justify="center" align="center">
                     <v-col >
-                        <a class="Email" :href="email" target="_blank"> </a>
-                        <p class="textos">E-mail</p>
+                        <a class="EmailOlivos" :href="email" target="_blank"> </a>
+                        <p class="textosOlivos">E-mail</p>
                     </v-col>
                     <v-col >
-                        <a class="PagWeb" :href="web" target="_blank"></a>
-                        <p class="textos">Sitio Web</p>
+                        <a class="PagWebOlivos" :href="web" target="_blank"></a>
+                        <p class="textosOlivos">Sitio Web</p>
                     </v-col>
                     <v-col >
-                        <a class="Compartir" @click="compartir()" > </a >
-                        <p class="textos">Compartir</p>
+                        <a class="CompartirOlivos" @click="compartir()" > </a >
+                        <p class="textosOlivos">Compartir</p>
                     </v-col>
                 </v-row>
             </v-col>

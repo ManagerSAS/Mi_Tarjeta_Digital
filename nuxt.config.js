@@ -34,6 +34,14 @@ export default {
     '~/assets/MiTarjetaDigital/Footer.scss',
     '~/assets/MiTarjetaDigital/Intro.scss',
     '~/assets/MiTarjetaDigital/style.scss',
+    // olivos
+    '~/assets/LosOlivosSantaMarta/style.scss',
+    '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss',
+    '~/assets/LosOlivosSantaMarta/responsive-Cel-small.scss',
+    '~/assets/LosOlivosSantaMarta/responsive-desktop-device.scss',
+    '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss',
+    '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss',
+    '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss',
     
   ],
 

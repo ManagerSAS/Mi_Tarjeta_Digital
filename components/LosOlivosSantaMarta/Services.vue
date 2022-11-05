@@ -2,8 +2,8 @@
     <v-container fluid >
         <v-row justify="center" align="center">
             <v-col cols="12"  justify="center" align="center">
-                <div style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-service font-weight-black">Planes Exequiales </div>
-                <div style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-service mb-2 font-weight-black">y Asistencias</div>
+                <div style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-serviceOlivos font-weight-black">Planes Exequiales </div>
+                <div style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-serviceOlivos mb-2 font-weight-black">y Asistencias</div>
                 <p style="font-size: 0.8em">Queremos protegerte y acompañarte en cada momento, por eso y pensando en tu bienestar y en el de los que amas hemos diseñados gran variedad de productos que se ajustan a tus necesidades.</p>
             </v-col>
         </v-row>
@@ -52,7 +52,7 @@
         
         <v-row justify="center" align="center">
             <v-col justify="center" align="center" cols="10" sm="12" md="8" lg="8" xl="8">
-                <h1 style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-service mb-2 font-weight-black ">
+                <h1 style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-serviceOlivos mb-2 font-weight-black ">
                     Salas de Homenajes
                 </h1>
                 <VueSlickCarousel v-bind="settingsSalas"  justify="center" align="center">

@@ -10,13 +10,13 @@
 </template>
 <script>
 // css
-import '~/assets/LosOlivosSantaMarta/style.scss';
-import '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss';
-import '~/assets/LosOlivosSantaMarta/responsive-Cel-small.scss';
-import '~/assets/LosOlivosSantaMarta/responsive-desktop-device.scss';
-import '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss';
-import '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss';
-import '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss';
+// import '~/assets/LosOlivosSantaMarta/style.scss';
+// import '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss';
+// import '~/assets/LosOlivosSantaMarta/responsive-Cel-small.scss';
+// import '~/assets/LosOlivosSantaMarta/responsive-desktop-device.scss';
+// import '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss';
+// import '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss';
+// import '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss';
 // js
 import Welcome from '~/components/LosOlivosSantaMarta/Welcome.vue';
 import CallActions from '~/components/LosOlivosSantaMarta/CallActions.vue';

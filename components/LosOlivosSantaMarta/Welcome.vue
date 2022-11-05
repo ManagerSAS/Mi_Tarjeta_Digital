@@ -2,11 +2,11 @@
     <v-container fluid>
         <v-row>
             <v-col cols="7">
-                <nuxt-img format="webp" quality="70" fit="cover" loading="lazy"  class="fotoOlivos" :src="foto" width="200em"  alt="" srcset=""/>
+                <nuxt-img class="fotoOlivos" :src="foto" sizes="sm:100vw md:50vw lg:600px"/>
             </v-col>
             <v-col cols="4" style="position: relative; left: -4.5em; top: 5em">
-                <h2 class="text-name">{{name}}</h2>
-                <h2 class="text-cargo">{{cargo}}</h2>
+                <h2 class="text-nameOlivos">{{name}}</h2>
+                <h2 class="text-cargoOlivos">{{cargo}}</h2>
             </v-col>
         </v-row>
     </v-container>
