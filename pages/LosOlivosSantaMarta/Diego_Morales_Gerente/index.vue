@@ -3,21 +3,13 @@
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Diego_Morales_Gerente/Images/foto.png" name="DIEGO MORALES" cargo="Gerente"/>
         <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008504730" tel="tel:+573008504730" contacto="/LosOlivosSantaMarta/Diego_Morales_Gerente/Contact/DiegoMorales.vcf" email="mailto:gerenciasantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Diego_Morales_Gerente/"/>
-        <Services/>
-        <Adicionales/>
+        <Services />
+        <Adicionales Qr="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QRDowload.jpg"/>
         <Footer/>
     </div>
 </template>
 <script>
-// css
-// import '~/assets/LosOlivosSantaMarta/style.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-Cel-small.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-desktop-device.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss';
-// js
+
 import Welcome from '~/components/LosOlivosSantaMarta/Welcome.vue';
 import CallActions from '~/components/LosOlivosSantaMarta/CallActions.vue';
 import Services from '~/components/LosOlivosSantaMarta/Services.vue';

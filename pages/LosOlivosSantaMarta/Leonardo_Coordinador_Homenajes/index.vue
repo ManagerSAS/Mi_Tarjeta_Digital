@@ -2,21 +2,14 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Leonardo_Coordinador_Homenajes/Images/foto.png" name="LEONARDO GUARNIZO" cargo="Coordinador de Homenajes"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008519064" tel="tel:+573008519064" contacto="/LosOlivosSantaMarta/Leonardo_Coordinador_Homenajes/Contact/DiegoMorales.vcf" email="mailto:coordinacionsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008519064" tel="tel:+573008519064" contacto="/LosOlivosSantaMarta/Leonardo_Coordinador_Homenajes/Contact/ContactoLeonardoOlivos.vcf" email="mailto:coordinacionsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
         <Services/>
-        <Adicionales/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Leonardo_Coordinador_Homenajes/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Leonardo_Coordinador_Homenajes/Images/QRDowload.jpg"/>
         <Footer/>
     </div>
 </template>
 <script>
-// css
-// import '~/assets/LosOlivosSantaMarta/style.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-Cel-small.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-desktop-device.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss';
-// import '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss';
+
 // js
 import Welcome from '~/components/LosOlivosSantaMarta/Welcome.vue';
 import CallActions from '~/components/LosOlivosSantaMarta/CallActions.vue';

@@ -7,21 +7,21 @@
         </v-row>
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
-                <img class="d-block d-sm-block d-md-none" src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg"  width="100%" alt="qr Diego morales Gerente Los Olivos Santa Marta">
-                <img class="d-none d-lg-block d-xl-none" src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
-                <img class="d-none d-md-block d-lg-none" src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
-                <img class="d-none d-xl-block " src="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
+                <img class="d-block d-sm-block d-md-none" :src="Qr"  width="100%" alt="qr Diego morales Gerente Los Olivos Santa Marta">
+                <img class="d-none d-lg-block d-xl-none" :src="Qr" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
+                <img class="d-none d-md-block d-lg-none" :src="Qr" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
+                <img class="d-none d-xl-block " :src="Qr" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
             </v-col>
         </v-row>
         <v-row justify="center" align="center"> 
             <v-col cols="6" justify="center" align="center">
                 <v-btn
-                    download="TarjetaDiegoMorales_LosOlivos.jpg"
+                    download="TarjetaDigital.jpg"
                     height="25px"
                     rounded
                     class="text-capitalize "
-                    style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway', sans-serif;"
-                    href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QRDowload.jpg"
+                    style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family:'Raleway', sans-serif;"
+                    :href="QrD"
                     target="_blank"
                     >
                     <v-icon class="mr-1">mdi-cloud-download-outline</v-icon>  Descargar QR
@@ -30,3 +30,17 @@
         </v-row>
     </v-container>
 </template>
+<script>
+export default {
+    props:{
+        Qr:{
+            type: String,
+            required: true
+        },
+        QrD:{
+            type: String,
+            required: true
+        },
+    }
+}
+</script>
