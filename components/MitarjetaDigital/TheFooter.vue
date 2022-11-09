@@ -13,7 +13,7 @@
                         <v-col  cols="12" lg="6" xl="6" md="6" sm="12" >
                             <p>Contáctanos</p>
                             <p>Dirección: Cra 39 #34-38 2do Piso Villavicencio-Meta</p>
-                            <p>Teléfono Ventas: +57 324 2892413</p>
+                            <p>Teléfono Ventas: +573242892413</p>
                             <p>ventas@agenciamanager.com</p>
                         </v-col>
                     </v-row>

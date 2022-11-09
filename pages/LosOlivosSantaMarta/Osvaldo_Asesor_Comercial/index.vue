@@ -19,12 +19,12 @@ import RedesSociales from '~/components/LosOlivosSantaMarta/RedesSociales.vue';
 export default {
     components: { Welcome, CallActions, Services, Adicionales, Footer, RedesSociales },
     head: {
-        title: "Diego Morales",
+        title: "Osvaldo Asesor Comercial",
         meta: [
             {
                 hid: "description",
                 name: "description",
-                content: "Esta es la tarjeta digital de Diego Morales"
+                content: "Esta es la tarjeta digital de Osvaldo Asesor Comercial"
             }
         ],
         link: [{ rel: "icon", type: "image/x-icon", href: "/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Images/foto.ico" }]

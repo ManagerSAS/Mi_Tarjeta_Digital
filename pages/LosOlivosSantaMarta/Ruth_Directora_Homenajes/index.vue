@@ -19,12 +19,12 @@ import RedesSociales from '~/components/LosOlivosSantaMarta/RedesSociales.vue';
 export default {
     components: { Welcome, CallActions, Services, Adicionales, Footer, RedesSociales },
     head: {
-        title: "Diego Morales",
+        title: "Ruth Directora Homenajes",
         meta: [
             {
                 hid: "description",
                 name: "description",
-                content: "Esta es la tarjeta digital de Diego Morales"
+                content: "Esta es la tarjeta digital de Ruth Directora Homenajes"
             }
         ],
         link: [{ rel: "icon", type: "image/x-icon", href: "/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Images/foto.ico" }]

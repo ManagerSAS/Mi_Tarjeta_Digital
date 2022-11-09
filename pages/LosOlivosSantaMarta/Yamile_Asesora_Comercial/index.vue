@@ -19,12 +19,12 @@ import RedesSociales from '~/components/LosOlivosSantaMarta/RedesSociales.vue';
 export default {
     components: { Welcome, CallActions, Services, Adicionales, Footer, RedesSociales },
     head: {
-        title: "Diego Morales",
+        title: "Yamile_Asesora_Comercial",
         meta: [
             {
                 hid: "description",
                 name: "description",
-                content: "Esta es la tarjeta digital de Diego Morales"
+                content: "Esta es la tarjeta digital de Yamile Asesora Comercial"
             }
         ],
         link: [{ rel: "icon", type: "image/x-icon", href: "/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Images/foto.ico" }]
