@@ -1,12 +1,14 @@
 .footer-widget-content {
     font-size: 18px;
     font-weight: 500;
-    color: $white;
-
+    color: $gray-100;
+    font-family: 'Quicksand', sans-serif;
     a {
         display: block;
         margin-bottom: 5px;
         font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        color: $gray-100;
 
         &:last-child {
             margin-bottom: 0;
@@ -35,6 +37,31 @@
             }
         }
     }
+}
+.footer-social-inline {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    & a {
+        margin-right: 10px;
+        color: $gray-100;
+
+        & i {
+            font-size: 24px;
+            line-height: 1;
+            display: block;
+        }
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+.footer-widget-title {
+    font-size: 18px;
+    color: $white;
+    margin-bottom: 17px;
 }
 .footer-logo{
     margin-bottom: 30px;

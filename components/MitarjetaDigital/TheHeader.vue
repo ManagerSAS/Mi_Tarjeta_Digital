@@ -41,7 +41,7 @@
                             </nav>
                         </div>
                 
-                        <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
+                        <div class="header-mobile-menu-toggle d-xl-none d-md-none ml-sm-2">
                             <button aria-label="Menu hamburguesa " class="toggle" @click="mobiletoggleClass('addClass', 'show-mobile-menu')">
                                 <i class="icon-top"></i>
                                 <i class="icon-middle"></i>

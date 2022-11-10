@@ -6,7 +6,7 @@
         <Advantage/>
         <Presentation style="background-color: #e6e6e6" class="pa-8"/>
         <NoContact/>
-        <Plans class="bg-cover" :style="{ backgroundImage: `url(${bgImgSrc})` }"/>
+        <Plans />
         <Questions/>
         <TheFooter style="background-color: #00273D;"/>
     </div >
@@ -22,9 +22,6 @@ import NoContact from '~/components/MitarjetaDigital/NoContact.vue';
 import Plans from '~/components/MitarjetaDigital/Plans.vue';
 import Questions from '~/components/MitarjetaDigital/Questions.vue';
 import MobileNavigation from '~/components/MitarjetaDigital/MobileNavigation.vue';
-// css
-
-
   export default {
       components: {
         TheHeader,
@@ -37,11 +34,6 @@ import MobileNavigation from '~/components/MitarjetaDigital/MobileNavigation.vue
         Questions,
         MobileNavigation
     },
-    data() {
-        return {
-          bgImgSrc: 'MiTarjetaDigital/Images/background.png'
-        }
-      }
   }
 </script>
   

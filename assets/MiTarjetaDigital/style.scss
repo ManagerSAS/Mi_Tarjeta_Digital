@@ -4,10 +4,18 @@
     background-color: #fff;
     color: #00273D;
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
     @media #{$tablet-device, $large-mobile}{
         font-size: 20px;
+    }
+    @media #{$laptop-device}{
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        left: 0em;
+        z-index: 100vh;
+        float: bottom; 
     }
 }
 .btn-hover:hover{
@@ -20,13 +28,7 @@
     font-size: 1em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    line-height: 1px;
-    position: relative;
-    left: 5em;
-    @media #{$small-mobile}{
-        left: 0px;
-        top: 1em;
-    }
+    line-height: .5rem
 }
 .listPlan{
     color: #00273D; 
@@ -75,12 +77,18 @@
         font-size: 25px;
         line-height: 0.5px;
     }
+    @media #{$laptop-device}{
+        font-size: 2.5em;
+    }
 }
 .text-blue-f-1em{
     color: #00273D; 
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+    @media #{$laptop-device}{
+        font-size: 1.2em;
+    }
 }
 .text-blue-f-2em{
     color: #00273D; 
@@ -89,19 +97,21 @@
     font-weight: 500;
     @media #{$small-mobile}{
         font-size: 25px;
-        .text-blue-f-2em-evolution{
-            font-size: 20px;
-        }
+    }
+    @media #{$laptop-device}{
+        font-size: 1.5em;
     }
 }
 .text-blue-f-2em-evolution{
     color: #00273D; 
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+    line-height: 1rem;
+    margin-bottom: 1.5rem;
     @media #{$small-mobile}{
         font-size: 25px;
-        line-height: 1;
+        line-height: 1rem;
     }
 }
 .text-border{
@@ -118,6 +128,9 @@
         line-height: 1.5;
 
     }
+    @media #{$laptop-device}{
+        font-size: 2.5em;
+    }
 }
 .text-border-ventajas{
     -webkit-text-stroke: 1.5px #00273D;
@@ -125,6 +138,9 @@
     font-size: 4em;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
+    @media #{$laptop-device}{
+        font-size: 2.5em;
+    }
     @media #{$tablet-device, $large-mobile}{
         font-size: 3em;
     }
@@ -140,6 +156,9 @@
     line-height: 1.5px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
+    @media #{$laptop-device}{
+        font-size: 2.2em;
+    }
     @media #{$tablet-device, $large-mobile}{
         font-size: 2.3em;
     }
@@ -161,6 +180,10 @@
     @media #{$small-mobile}{
         font-size: 29px;
     }
+    @media #{$laptop-device}{
+        font-size: 2em;
+    }
+
 }
 .text-border-white{
     -webkit-text-stroke: 1px #fff;
@@ -240,6 +263,10 @@
         width: 55vw;
         float: left;
     }
+    @media #{$laptop-device}{
+        height: 450px;
+        width: 600px;
+    }
     @media #{$small-mobile}{
         position: relative;
         z-index: 9;
@@ -261,6 +288,14 @@
         font-size: 25px;
         height: 1.5em;
         width: 10em;
+        left: 0em;
+        z-index: 100vh;
+        float: bottom; 
+    }
+    @media #{$laptop-device}{
+        font-size: 15px;
+        height: auto;
+        width: auto;
         left: 0em;
         z-index: 100vh;
         float: bottom; 
@@ -301,6 +336,14 @@
         left: 0;
         font-size: 25px;
         float: bottom;
+    }
+    @media #{$laptop-device}{
+        font-size: 15px;
+        height: auto;
+        width: auto;
+        left: 0em;
+        z-index: 100vh;
+        float: bottom; 
     }
 
 }

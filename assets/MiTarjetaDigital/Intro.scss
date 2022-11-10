@@ -19,7 +19,16 @@
         width: 100%;
     }
 }
-
+.content-btn{
+    z-index: 10;
+    position: relative;
+    bottom: 22em;
+    left:10%;
+    @media #{$laptop-device}{
+        bottom: 12em;
+        left:10%;
+    }
+}
 .intro-content {
     font-family: 'Quicksand', sans-serif;
     max-width: 500px;
@@ -29,6 +38,9 @@
         @media #{$small-mobile}{
             font-size: 3em;
         }   
+        @media #{$laptop-device}{
+            font-size: 2.5em;
+        }
     }
     .desc{
         max-width: 400px;
@@ -39,6 +51,9 @@
         @media #{$small-mobile}{
             font-size: 20px;
             line-height: 1;
+        }
+        @media #{$laptop-device}{
+            font-size: 1.5em;
         }
     }
     .desc2{
@@ -51,6 +66,10 @@
             font-size: 15px;
             line-height: 1em;
         }
+        @media #{$laptop-device}{
+            font-size: 1em;
+        }
+        
     }
     @media #{$small-mobile, $extra-small-mobile}{
         .titulo{
