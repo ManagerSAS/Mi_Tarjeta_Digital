@@ -7,10 +7,10 @@
         </v-row>
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
-                <img class="d-block d-sm-block d-md-none" :src="Qr"  width="100%" alt="qr Diego morales Gerente Los Olivos Santa Marta">
-                <img class="d-none d-lg-block d-xl-none" :src="Qr" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
-                <img class="d-none d-md-block d-lg-none" :src="Qr" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
-                <img class="d-none d-xl-block " :src="Qr" width="500px" height="300px" alt="qr Diego morales Gerente Los Olivos Santa Marta">
+                <img class="d-block d-sm-block d-md-none" :src="Qr"  width="82.5%" alt="qr  Los Olivos Santa Marta">
+                <img class="d-none d-lg-block d-xl-none" :src="Qr" width="500px"  alt="qr Los Olivos Santa Marta">
+                <img class="d-none d-md-block d-lg-none" :src="Qr" width="500px"  alt="qr Los Olivos Santa Marta">
+                <img class="d-none d-xl-block " :src="Qr" width="500px"  alt="qr Los Olivos Santa Marta">
             </v-col>
         </v-row>
         <v-row justify="center" align="center"> 

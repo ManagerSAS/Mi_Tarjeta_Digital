@@ -1,7 +1,7 @@
 @media only screen and (min-width: 953px) and (max-width: 1199px) {
   // Fondo
   .FondoOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/fondoTarjeta.png');
+    background-image: url('../../static/LosOlivosSantaMarta/Contenido/FondoOlivosSantamarta/fondoTarjeta.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,130 +30,22 @@
     font-size: 20px;
     color: #003B4C;
   }
-  .WhatsappOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/WHATS.png');
-    background-repeat:no-repeat;
-    background-color: #EFBD56;
-    border-radius: 50%;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 55px;
-    width: 55px;
-  }
-  .TelefonoOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/TELEFONO.png');
-    background-repeat:no-repeat;
-    background-color: #EEAA49;
-    border-radius: 50%;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 55px;
-    width: 55px;
-  }
-  .GuardarOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/GUARDAR.png');
-    background-repeat:no-repeat;
-    background-color: #EE943A;
-    border-radius: 50%;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 55px;
-    width: 55px;
-  }
-  .EmailOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/EMAIL.png');
-    background-repeat:no-repeat;
-    background-color: #EFBD56;
-    border-radius: 50%;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 55px;
-    width: 55px;
-  }
-  .PagWebOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/WB.png');
-    background-repeat:no-repeat;
-    background-color: #EEAA49;
-    border-radius: 50%;
-    background-position: center;
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 55px;
-    width: 55px;
-  }
-  .CompartirOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/COMPARTIR.png');
-    background-repeat:no-repeat;
-    background-color: #EE943A;
-    border-radius: 50%;
-    background-position: 0.654em 0.7em;
-    position: relative;
-    display: block;
-    margin: auto;
-    height: 55px;
-    width: 55px;
-  }
 // Services
   .font-serviceOlivos{
     font-family: 'Raleway', sans-serif;
     color:#10303B; 
   }
   .slick-prev:before {
-    content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-prev.svg');
+    content: url('../../static/LosOlivosSantaMarta/Contenido/IconosSantamarta/arrow-prev.svg');
   }
   .slick-next:before {
-    content: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/arrow-next.svg');
+    content: url('../../static/LosOlivosSantaMarta/Contenido/IconosSantamarta/arrow-next.svg');
   }
   // redes flotante
-  .flotanteOlivos{
-    background: linear-gradient(to right, #efc45b 0%, #ee943a 100%);   
-    width: 70px;
-    border-radius: 15px 0 0 15px;
-    position: fixed;
-    z-index: 100; 
-    top: 4em;
-    left: 95%;
-  }
   .fondoFooterOlivos{
     background: linear-gradient(to right, #8FDDAA 0%, #59AB9B 100%);   
     width: 100%;
     height: 100%;
-  }
-  .FacebookOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/FAC.png');
-    border-radius: 50%;
-    background-color: #fff;
-    background-position:center;
-    display: block;
-    height: 35px;
-    width: 35px;
-  }
-  .InstagramOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/INST.png');
-    background-position: center;
-    background-color: #fff;
-    border-radius: 50%;
-    display: block;
-    height: 35px;
-    width: 35px;
-  }
-  .PaginaWebOlivos{
-    background-image: url('../../static/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/WEB.png');
-    background-position: center;
-    background-color: #fff;
-    border-radius: 50%;
-    display: block;
-    height: 35px;
-    width: 35px;
   }
   // Footer
   .text-footerOlivos{

@@ -1,14 +1,5 @@
 // responsive Cel  small
 @media only screen and (min-width: 411px) and (max-width: 575px) {
-    .flotante{
-      background-color: white;
-      width: 70px;
-      border-radius: 15px 0 0 15px;
-      position: fixed;
-      z-index: 100; 
-      top: 4em;
-      left: 89%;
-    }
     .bannerPrincipal{
       background-image: url('../../static/Manager/ImgStatics/bannerPrincipalCel.png');
       background-size: contain;
@@ -55,67 +46,11 @@
         width:90%;
         background: #003B4C;
     }
-    .Whatsapp{
-      background-image: url('../../static/Manager/ImgStatics/WHATS.webp');
-      background-repeat:no-repeat;
-      display: block;
-      margin: auto;
-      height:60%;
-      width:60%;
-    }
-    .Telefono{
-      background-image: url('../../static/Manager/ImgStatics/TELEFONO.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
-    .Guardar{
-      background-image: url('../../static/Manager/ImgStatics/GUARDAR.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
-    .Email{
-      background-image: url('../../static/Manager/ImgStatics/EMAIL.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
-    .PagWeb{
-      background-image: url('../../static/Manager/ImgStatics/WEB.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
-    .Compartir{
-      background-image: url('../../static/Manager/ImgStatics/COMPARTIR.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
     .font-service{
       font-family: 'Quicksand', sans-serif;
       color:#10303B; 
       font-size: 40px; 
       font-weight: bold;
-    }
-    .Facebook{
-      background-image: url('../../static/Manager/ImgStatics/FAC.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
-    .Instagram{
-      background-image: url('../../static/Manager/ImgStatics/INST.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
-    }
-    .PaginaWeb{
-      background-image: url('../../static/Manager/ImgStatics/WB.webp');
-      background-repeat:no-repeat;
-      height:60%;
-      width:60%;
     }
     .font-normal{
       color: white; 

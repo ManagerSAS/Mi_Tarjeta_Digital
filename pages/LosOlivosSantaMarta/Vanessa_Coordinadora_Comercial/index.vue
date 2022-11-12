@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Images/foto.png" name="VANESSA LONDOÑO" cargo="Coordinadora Comercial"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573015087182" tel="tel:+573015087182" contacto="/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Contact/ContactoVanessaOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573015087182" tel="tel:+573015087182" contacto="/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Contact/ContactoVanessaOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573015087182"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Images/QR.png" QrD="/LosOlivosSantaMarta/Vanessa_Coordinadora_Comercial/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

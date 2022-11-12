@@ -3,8 +3,8 @@
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Diego_Morales_Gerente/Images/foto.png" name="DIEGO MORALES" cargo="Gerente"/>
         <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008504730" tel="tel:+573008504730" contacto="/LosOlivosSantaMarta/Diego_Morales_Gerente/Contact/DiegoMorales.vcf" email="mailto:gerenciasantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Diego_Morales_Gerente/"/>
-        <Services />
-        <Adicionales Qr="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QRDowload.jpg"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573008504730"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.png" QrD="/LosOlivosSantaMarta/Diego_Morales_Gerente/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

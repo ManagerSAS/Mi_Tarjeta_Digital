@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Images/foto.png" name="OSVALDO LIZARAZO" cargo="Asesor Comercial"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573006686341" tel="tel:+573006686341" contacto="/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Contact/ContactoOsvaldoOlivos.vcf" email="mailto:gerenciasantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573006686341" tel="tel:+573006686341" contacto="/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Contact/ContactoOsvaldoOlivos.vcf" email="mailto:gerenciasantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573006686341"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Images/QR.png" QrD="/LosOlivosSantaMarta/Osvaldo_Asesor_Comercial/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

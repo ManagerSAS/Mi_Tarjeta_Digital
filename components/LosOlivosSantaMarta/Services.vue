@@ -39,8 +39,8 @@
                             height="25px"
                             rounded
                             class="text-capitalize "
-                            style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway', sans-serif;"
-                            href="/LosOlivosSantaMarta/Diego_Morales_Gerente/Pdf/PlansExequiales.pdf"
+                            style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway',sans-serif;"
+                            href="/LosOlivosSantaMarta/PdfServicios/PlansExequiales.pdf"
                             target="_blank"
                             >
                             <v-icon>mdi-cloud-download-outline</v-icon>  Descargar planes
@@ -70,7 +70,7 @@
                     height="30px"
                     rounded
                     style=" background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: Raleway, sans-serif;"
-                    href="https://api.whatsapp.com/send?phone=573008504730"
+                    :href="Whatsapp"
                     target="_blank"
                     >
                     Contáctanos
@@ -84,20 +84,26 @@ import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
   export default {
+    props:{
+        Whatsapp:{
+            type: String,
+            required: true
+        },
+    },
      components: { VueSlickCarousel },
      data(){
         return{
             Servicios:[
-                {src:'Images/servicio1.jpg'},
-                {src:'Images/servicio2.jpg'},
-                {src:'Images/servicio3.jpg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosComercial/servicio1.jpg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosComercial/servicio2.jpg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosComercial/servicio3.jpg'},
             ],
             Salas:[
-                {src:'Images/Sala1.jpeg'},
-                {src:'Images/Sala2.jpeg'},
-                {src:'Images/Sala3.jpeg'},
-                {src:'Images/Sala4.jpeg'},
-                {src:'Images/Sala5.jpeg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosSalas/Sala1.jpeg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosSalas/Sala2.jpeg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosSalas/Sala3.jpeg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosSalas/Sala4.jpeg'},
+                {src:'/LosOlivosSantaMarta/Contenido/FotosSalas/Sala5.jpeg'},
             ],
             settingsSalas  :{
                 "dots": true,

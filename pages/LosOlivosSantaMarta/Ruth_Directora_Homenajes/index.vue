@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Ruth_Directora_Homenajes/Images/foto.png" name="RUTH RAMOS" cargo="Directora Homenajes"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573007444922" tel="tel:+573007444922" contacto="/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Contact/ContactoRuthOlivos.vcf" email="mailto:coordinacionsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573007444922" tel="tel:+573007444922" contacto="/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Contact/ContactoRuthOlivos.vcf" email="mailto:coordinacionsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Ruth_Directora_Homenajes"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573007444922"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Images/QR.png" QrD="/LosOlivosSantaMarta/Ruth_Directora_Homenajes/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Yamile_Asesora_Comercial/Images/foto.png" name="YAMILE ANTELIZ" cargo="Asesora Comercial"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573142209327" tel="tel:+573142209327" contacto="/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Contact/ContactoYamileOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573142209327" tel="tel:+573142209327" contacto="/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Contact/ContactoYamileOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Yamile_Asesora_Comercial"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573142209327"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Images/QR.png" QrD="/LosOlivosSantaMarta/Yamile_Asesora_Comercial/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

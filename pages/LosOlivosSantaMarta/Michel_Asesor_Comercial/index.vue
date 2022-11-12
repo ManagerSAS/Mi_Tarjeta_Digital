@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Manuel_Asesor_Comercial/Images/foto.png" name="MANUEL BONILLA" cargo="Asesor Comercial"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573015088600" tel="tel:+573015088600" contacto="/LosOlivosSantaMarta/Manuel_Asesora_Comercial/Contact/ContactoManuelOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co " web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Manuel_Asesor_Comercial/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Manuel_Asesor_Comercial/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573015088600" tel="tel:+573015088600" contacto="/LosOlivosSantaMarta/Manuel_Asesora_Comercial/Contact/ContactoManuelOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co " web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Michel_Asesor_Comercial"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573015088600"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Manuel_Asesor_Comercial/Images/QR.png" QrD="/LosOlivosSantaMarta/Manuel_Asesor_Comercial/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

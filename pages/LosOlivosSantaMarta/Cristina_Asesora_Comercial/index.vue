@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Cristina_Asesora_Comercial/Images/foto.png" name="ANA CRISTINA PACHECO " cargo="Asesora Comercial"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573114021782" tel="tel:+573114021782" contacto="/LosOlivosSantaMarta/Cristina_Asesora_Comercial/Contact/ContactoCristinaOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co " web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Cristina_Asesora_Comercial/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Cristina_Asesora_Comercial/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573114021782" tel="tel:+573114021782" contacto="/LosOlivosSantaMarta/Cristina_Asesora_Comercial/Contact/ContactoCristinaOlivos.vcf" email="mailto:comercialsantamarta@losolivos.co " web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Cristina_Asesora_Comercial"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573114021782"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Cristina_Asesora_Comercial/Images/QR.png" QrD="/LosOlivosSantaMarta/Cristina_Asesora_Comercial/Images/QR.png"/>
         <Footer/>
     </div>
 </template>

@@ -2,9 +2,9 @@
     <div class="FondoOlivos " >
         <RedesSociales/>
         <Welcome foto="LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Images/foto.png" name="ALVIS MERCADO" cargo="Asesor de Homenajes"/>
-        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008519064" tel="tel:+573008519064" contacto="/LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Contact/ContactoAlvisOlivos.vcf" email="mailto:coordinacionsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
-        <Services/>
-        <Adicionales Qr="/LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Images/Images/QR.jpg" QrD="/LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Images/Images/QRDowload.jpg"/>
+        <CallActions  Whatsapp="https://api.whatsapp.com/send?phone=573008519064" tel="tel:+573008519064" contacto="/LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Contact/ContactoAlvisOlivos.vcf" email="mailto:coordinacionsantamarta@losolivos.co" web="https://www.losolivossantamarta.com/" url="https://mitarjetadigital.co/LosOlivosSantaMarta/Alvis_Asesor_Homenajes"/>
+        <Services Whatsapp="https://api.whatsapp.com/send?phone=573008519064"/>
+        <Adicionales Qr="/LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Images/QR.png" QrD="/LosOlivosSantaMarta/Alvis_Asesor_Homenajes/Images/QR.png"/>
         <Footer/>
     </div>
 </template>
