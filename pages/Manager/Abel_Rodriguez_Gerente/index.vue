@@ -29,7 +29,6 @@ export default {
         content: 'Esta es la tarjeta digital de Abel Rodríguez'
       }
     ],
-    
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/Manager/Abel_Rodriguez_Gerente/Images/foto.ico' }]
   }
 }

@@ -34,6 +34,17 @@ import MobileNavigation from '~/components/MitarjetaDigital/MobileNavigation.vue
         Questions,
         MobileNavigation
     },
+    head: {
+      title: 'Mi tarjeta digital',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Mi tarjeta digital'
+        }
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    }
   }
 </script>
   
