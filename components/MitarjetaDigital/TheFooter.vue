@@ -8,7 +8,7 @@
                     <div class="footer-widget">
                         <div class="footer-logo">
                             <n-link to="/">
-                                <nuxt-img src="/MiTarjetaDigital/Images/Logo-Manager.png" sizes="sm:100vw md:50vw lg:200px" alt="Logo"/>
+                                <v-img src="/MiTarjetaDigital/Images/Logo-Manager.png" width="200px" alt="Logo"/>
                             </n-link>
                         </div>
                         <div style="font-family: 'Quicksand', sans-serif;" class="footer-widget-content">
@@ -16,9 +16,9 @@
                                 <span style="font-family: 'Quicksand', sans-serif;">CONTÁCTANOS</span><br>
                                 <p style="font-family: 'Quicksand', sans-serif;">Dirección: Cra 39 #34-38 2do Piso Villavicencio-Meta</p>
                                 <span style="font-family: 'Quicksand', sans-serif;" >Teléfono Ventas: +57-3242892413</span><br>
-                                <a style="font-family: 'Quicksand', sans-serif;" href="mailto:ventas@agenciamanager.com">ventas@agenciamanager.com</a>
+                                <a style="font-family: 'Quicksand', sans-serif; color: #748494;" href="mailto:ventas@agenciamanager.com">ventas@agenciamanager.com</a>
                             </div>
-                            <div class="footer-social-inline">
+                            <div class="footer-social-inline ">
                                 <a href="https://www.behance.net/creativmanager1" target="_blank">
                                     <i class="fab fa-behance fa-lg"></i>
                                 </a> 
@@ -41,7 +41,7 @@
                         <div class="footer-widget-content">
                             <ul>
                                 <li style="font-family: 'Quicksand', sans-serif;" v-for="(nav, index) in footerDataServices" :key="index">
-                                    <a target="_blanck" style="font-family: 'Quicksand', sans-serif;" :href="nav.navUrl">{{ nav.navTitle }}</a>
+                                    <a target="_blanck" style="font-family: 'Quicksand', sans-serif; color: #748494;" :href="nav.navUrl">{{ nav.navTitle }}</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,7 +56,7 @@
                         <div class="footer-widget-content">
                             <ul>
                                 <li v-for="(nav, index) in footerDataLineas" :key="index">
-                                    <a target="_blanck" style="font-family: 'Quicksand', sans-serif;" :href="nav.navUrl">{{ nav.navTitle }}</a>
+                                    <a target="_blanck" style="font-family: 'Quicksand', sans-serif;color: #748494;" :href="nav.navUrl">{{ nav.navTitle }}</a>
                                 </li>
                             </ul>
                         </div>
@@ -85,7 +85,7 @@
             <!-- Footer Copyright Start -->
             <div class="row">
                 <div class="col">
-                    <p class="copyright">&copy; 2022 Manager <i class="fa fa-heart text-danger"></i> by <a href="www.agenciamanager.com" target="_blank">Agencia Manager</a></p>
+                    <p class="copyright white--text">&copy; 2022 Manager <i class="fa fa-heart text-danger"></i> by <a href="www.agenciamanager.com" target="_blank">Agencia Manager</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->

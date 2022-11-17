@@ -4,7 +4,7 @@
             <v-col cols="12"  justify="center" align="center">
                 <div style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-serviceOlivos font-weight-black">Planes Exequiales </div>
                 <div style="font-size: 1.5em;  line-height : 20px;  font-weight: 700;" class="font-serviceOlivos mb-2 font-weight-black">y Asistencias</div>
-                <p style="font-size: 0.8em">Queremos protegerte y acompañarte en cada momento, por eso y pensando en tu bienestar y en el de los que amas hemos diseñados gran variedad de productos que se ajustan a tus necesidades.</p>
+                <p style="font-size: 0.8em">Queremos protegerte y acompañarte en cada momento, pensando en tu bienestar y en el de los que amas hemos diseñado gran variedad de productos que se ajustan a tus necesidades.</p>
             </v-col>
         </v-row>
         <v-row justify="center" align="center">
@@ -37,10 +37,11 @@
                     <v-col cols="6" justify="center" align="center">
                         <v-btn
                             height="25px"
+                            width="180px"
                             rounded
                             class="text-capitalize "
                             style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway',sans-serif;"
-                            href="/LosOlivosSantaMarta/PdfServicios/PlansExequiales.pdf"
+                            href="/LosOlivosSantaMarta/contenido/PdfServicios/PlansExequiales.pdf"
                             target="_blank"
                             >
                             <v-icon>mdi-cloud-download-outline</v-icon>  Descargar planes
@@ -64,10 +65,10 @@
             </v-col>
         </v-row>
         <v-row justify="center" align="center">
-            <v-col cols="5" justify="center" align="center" >
+            <v-col cols="6" justify="center" align="center" >
                 <v-btn
-                    width="130px"
-                    height="30px"
+                    width="180px"
+                    height="25px"
                     rounded
                     style=" background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: Raleway, sans-serif;"
                     :href="Whatsapp"

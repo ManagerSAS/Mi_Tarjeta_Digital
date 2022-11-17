@@ -1,7 +1,7 @@
 <template>
     <v-container fluid class="posicion-contenedores">
         <v-row justify="center" align="center">
-            <v-col cols="12" sm="12" md="8" lg="8" xl="8" justify="center" align="center">.
+            <v-col cols="12" sm="12" md="8" lg="8" xl="8" justify="center" align="center">
                 <h3 class="font-service">Servicios</h3>
                 <p style="font-family: 'Montserrat', sans-serif; font-size:14px">Somos un equipo de visionarios y queremos que tu marca tenga voz propia.</p>
             </v-col>

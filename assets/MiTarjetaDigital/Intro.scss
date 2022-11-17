@@ -22,12 +22,21 @@
 .content-btn{
     z-index: 10;
     position: relative;
-    bottom: 22em;
+    top: 41em;
     left:10%;
     @media #{$laptop-device}{
-        bottom: 12em;
         left:10%;
+        top: 30em;
     }
+    @media #{$desktop-device}{
+        left:5%;
+        top: 30em;
+    }
+    @media #{$large-mobile, $small-mobile} {
+        left:0;
+        top: 21em;
+    }
+
 }
 .intro-content {
     font-family: 'Quicksand', sans-serif;

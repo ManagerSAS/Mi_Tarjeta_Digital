@@ -55,7 +55,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">E-mail</p>
+                        <p class="textos">Envía un E-mail</p>
                     </v-col>
                     <v-col >
                         <v-btn
@@ -68,7 +68,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">Sitio Web</p>
+                        <p class="textos">Visita mi sitio Web</p>
                     </v-col>
                     <v-col >
                         <v-btn
@@ -81,7 +81,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">Compartir</p>
+                        <p class="textos">Comparte mi tarjeta</p>
                     </v-col>
                 </v-row>
             </v-col>

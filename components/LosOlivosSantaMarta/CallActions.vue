@@ -13,21 +13,21 @@
                     </v-col>
                     <v-col >
                         <a class="GuardarOlivos mt-sm-1" :href="contacto" target="_blank"></a>
-                        <p class="textosOlivos">Guardar mi ontacto</p>
+                        <p class="textosOlivos">Guardar mi contacto</p>
                     </v-col>
                 </v-row>
                 <v-row justify="center" align="center">
                     <v-col >
                         <a class="EmailOlivos" :href="email" target="_blank"> </a>
-                        <p class="textosOlivos">E-mail</p>
+                        <p class="textosOlivos">Envia un Email</p>
                     </v-col>
                     <v-col >
                         <a class="PagWebOlivos" :href="web" target="_blank"></a>
-                        <p class="textosOlivos">Sitio Web</p>
+                        <p class="textosOlivos">Visita mi sitio Web</p>
                     </v-col>
                     <v-col >
                         <a class="CompartirOlivos" @click="compartir()" > </a >
-                        <p class="textosOlivos">Compartir</p>
+                        <p class="textosOlivos">Comparte mi tarjeta</p>
                     </v-col>
                 </v-row>
             </v-col>

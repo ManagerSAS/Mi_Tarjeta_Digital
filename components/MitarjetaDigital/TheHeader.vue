@@ -35,7 +35,7 @@
                                         <n-link style="text-decoration: none" to="#Questions">Preguntas Frecuentes </n-link>
                                     </li>
                                     <li>
-                                        <n-link style="text-decoration: none" to="/">Adquiere la tuya</n-link>
+                                        <a style="text-decoration: none" target="_blanck" href="https://api.whatsapp.com/send?phone=573242892413&text=¡Hola!%20Quiero%20adquirir%20mi%20tarjeta%20digital">Adquiere la tuya</a>
                                     </li>
                                 </ul>
                             </nav>
