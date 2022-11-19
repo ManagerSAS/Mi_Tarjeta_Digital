@@ -40,7 +40,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">Guardar mi contacto</p>
+                        <p class="textos">Guardar mi Contacto</p>
                     </v-col>
                 </v-row>
                 <v-row justify="center" align="center">
@@ -55,7 +55,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">Envía un E-mail</p>
+                        <p class="textos">Envía un Email</p>
                     </v-col>
                     <v-col >
                         <v-btn
@@ -68,7 +68,7 @@
                             target="_blank"
                             >
                         </v-btn>
-                        <p class="textos">Visita mi sitio Web</p>
+                        <p class="textos">Visita mi Sitio web</p>
                     </v-col>
                     <v-col >
                         <v-btn

@@ -40,8 +40,8 @@
                         <h4 style="font-family: 'Quicksand', sans-serif;" class="footer-widget-title">Servicios</h4>
                         <div class="footer-widget-content">
                             <ul>
-                                <li style="font-family: 'Quicksand', sans-serif;" v-for="(nav, index) in footerDataServices" :key="index">
-                                    <a target="_blanck" style="font-family: 'Quicksand', sans-serif; color: #748494;" :href="nav.navUrl">{{ nav.navTitle }}</a>
+                                <li style="font-family: 'Quicksand', sans-serif; " v-for="(nav, index) in footerDataServices" :key="index">
+                                    <a target="_blanck" style="font-family: 'Quicksand', sans-serif; color: #748494; line-height: normal;" :href="nav.navUrl">{{ nav.navTitle }}</a>
                                 </li>
                             </ul>
                         </div>
@@ -124,7 +124,7 @@
                         navUrl: "https://agenciamanager.com/" 
                     },
                     {
-                        navTitle: "Multmedia",
+                        navTitle: "Multimedia ",
                         navUrl: "https://agenciamanager.com/" 
                     },
                     {
@@ -132,7 +132,7 @@
                         navUrl: "https://agenciamanager.com/" 
                     },
                     {
-                        navTitle: "Proteccion de datos",
+                        navTitle: "Protección de datos",
                         navUrl: "https://agenciamanager.com/poticadeDatos" 
                     }
                 ]

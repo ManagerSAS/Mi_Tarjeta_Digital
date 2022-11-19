@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/Felipe_Jefe_Creativo/Images/foto.png"/>
+    <Welcome Foto="/Manager/Felipe_Jefe_Creativo/Images/foto.jpg"/>
     <Name nombre="Felipe Barahona" cargo="Jefe Creativo"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573147337724" tel="tel:+573147337724" contacto="/Manager/Felipe_Jefe_Creativo/Contact/FelipeBarahona.vcf" email="mailto:creativo@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Felipe_Jefe_Creativo"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573147337724"/>

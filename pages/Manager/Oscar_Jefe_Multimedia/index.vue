@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/Oscar_Jefe_Multimedia/Images/foto.png"/>
+    <Welcome Foto="/Manager/Oscar_Jefe_Multimedia/Images/foto.jpg"/>
     <Name nombre="Oscar Pedraza" cargo="Jefe Multimedia"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573147337724" tel="tel:+573147337724" contacto="/Manager/Oscar_Jefe_Multimedia/Contact/OscarPedraza.vcf" email="mailto:multimedia@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Oscar_Jefe_Multimedia"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573147337724"/>

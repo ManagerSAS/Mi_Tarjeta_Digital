@@ -25,7 +25,7 @@
             <v-col  justify="center" align="center" cols="12" xl="6" lg="5" md="5" sm="9">
                 <nuxt-img format="webp" loading="lazy" placeholder="/MiTarjetaDigital/Images/ventajas].png" quality="70" fit="cover" class="imgventajas" src="/MiTarjetaDigital/Images/ventajas].png" alt="Ventajas de usar mitarjetadigital.co"></nuxt-img>
                 <div justify="center" align="center">
-                    <a href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" class="rounded-pill btnVentajas btn-hover-advantage  pa-2">¡ADQUIERE LA TUYA!</button></a>
+                    <a href="https://api.whatsapp.com/send?phone=573242892413&text=!Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" class="rounded-pill btnVentajas btn-hover-advantage  pl-10 pr-10 pa-1 ">¡Adquiere la tuya!</button></a>
                 </div>
             </v-col>
         </v-row>

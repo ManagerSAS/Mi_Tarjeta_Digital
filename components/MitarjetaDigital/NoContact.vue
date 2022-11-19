@@ -20,7 +20,7 @@
                     <p><v-icon color="green">mdi-check-circle</v-icon>Este producto puede ser opcional</p>
                     <br><br>
                     <div justify="center" align="center">
-                        <a href="https://api.whatsapp.com/send?phone=573242892413&text=¡Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" class="rounded-pill mb-2 pa-2 btnContac  btn-hover-advantage">CONTÁCTANOS</button></a>
+                        <a href="https://api.whatsapp.com/send?phone=573242892413&text=¡Hola!%2C%20Quiero%20adquirir%20mi%20tarjeta%20digital" target="_blanck"><button aria-label="Adquiere tu tarjeta digital" aria-hidden="true" class="rounded-pill mb-2 pa-2 btnContac pl-10 pr-10 pa-1  btn-hover-advantage">Contáctanos</button></a>
                     </div>
                 </div>
             </v-col>

@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/Fernanda_Asistente_Gerencia/Images/foto.png"/>
+    <Welcome Foto="/Manager/Fernanda_Asistente_Gerencia/Images/foto.jpg"/>
     <Name nombre="Fernanda Manchola" cargo="Asistente Gerencia"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573012122944" tel="tel:+573012122944" contacto="/Manager/Fernanda_Asistente_Gerencia/Contact/FernandaManchola.vcf" email="mailto:gerencia@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Fernanda_Asistente_Gerencia"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573012122944"/>

@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/Ruben_Director_Comercial/Images/foto.png"/>
+    <Welcome Foto="/Manager/Ruben_Director_Comercial/Images/foto.jpg"/>
     <Name nombre="Ruben Yepes" cargo="Director Comercial"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573242892413" tel="tel:+573242892413" contacto="/Manager/Ruben_Director_Comercial/Contact/RubenYepes.vcf" email="mailto:ventas@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Ruben_Director_Comercial"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573242892413"/>

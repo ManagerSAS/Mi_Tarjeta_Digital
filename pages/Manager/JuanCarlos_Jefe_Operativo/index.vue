@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/JuanCarlos_Jefe_Operativo/Images/foto.png"/>
+    <Welcome Foto="/Manager/JuanCarlos_Jefe_Operativo/Images/foto.jpg"/>
     <Name nombre="Juan Carlos Sánchez" cargo="Jefe Operativo"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573213240243" tel="tel:+573213240243" contacto="/Manager/JuanCarlos_Jefe_Operativo/Contact/JuanCarlosSanchez.vcf" email="mailto:operaciones@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/JuanCarlos_Jefe_Operativo"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573213240243"/>

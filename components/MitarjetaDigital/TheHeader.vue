@@ -29,7 +29,7 @@
                                         <n-link style="text-decoration: none" to="#Plans">Planes </n-link>
                                     </li> -->
                                     <li>
-                                        <n-link style="text-decoration: none" to="#Tarjeta">Tarejta Fisica </n-link>
+                                        <n-link style="text-decoration: none" to="#Tarjeta">Tarjeta Física </n-link>
                                     </li>
                                     <li>
                                         <n-link style="text-decoration: none" to="#Questions">Preguntas Frecuentes </n-link>

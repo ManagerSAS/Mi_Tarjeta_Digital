@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/Abel_Rodriguez_Gerente/Images/foto.png"/>
+    <Welcome Foto="/Manager/Abel_Rodriguez_Gerente/Images/foto.jpg"/>
     <Name nombre="Abel Rodriguez" cargo="Gerente"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573103033752" tel="tel:+573103033752" contacto="/Manager/Abel_Rodriguez_Gerente/Contact/AbelRodriguez.vcf" email="mailto:abelinho26@gmail.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Abel_Rodriguez_Gerente"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573103033752"/>

@@ -1,7 +1,7 @@
 <template>
   <div >
     <RedesSociales/>
-    <Welcome Foto="/Manager/Karina_Jefe_Marketing/Images/foto.png"/>
+    <Welcome Foto="/Manager/Karina_Jefe_Marketing/Images/foto.jpg"/>
     <Name nombre="Karina Villamil" cargo="Jefe Marketing"/>
     <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573003106787" tel="tel:+573003106787" contacto="/Manager/Karina_Jefe_Marketing/Contact/KarinaVillamil.vcf" email="mailto:marketing@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Karina_Jefe_Marketing"/>
     <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573003106787"/>
