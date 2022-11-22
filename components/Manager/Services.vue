@@ -54,7 +54,6 @@
               ],
             settings  :{
                 "autoplay": true,
-                
                 "infinite": true,
                 "autoplaySpeed": 4000,
                 "slidesToShow": 4,
