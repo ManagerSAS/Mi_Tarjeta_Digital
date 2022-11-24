@@ -14,7 +14,7 @@
                             </div>
                             <div class="listPresentation">
                                 <p><v-icon color="green">mdi-check-circle</v-icon>Datos de contacto.</p>
-                                <p><v-icon color="green">mdi-check-circle</v-icon>Contenido promocional de tu marca actualizable</p>
+                                <p><v-icon color="green">mdi-check-circle</v-icon>Contenido promocional de tu marca <br><span class="ml-6">actualizable</span></p>
                                 <p><v-icon color="green">mdi-check-circle</v-icon>Compatibilidad con Android y iOS.</p>
                                 <p><v-icon color="green">mdi-check-circle</v-icon>Hipervínculos a redes sociales.</p>
                                 <p><v-icon color="green">mdi-check-circle</v-icon>Portadas personalizadas.</p>

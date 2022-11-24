@@ -85,7 +85,7 @@
             <!-- Footer Copyright Start -->
             <div class="row">
                 <div class="col">
-                    <p class="copyright white--text">&copy; 2022 Manager <i class="fa fa-heart text-danger"></i> by <a href="www.agenciamanager.com" target="_blank">Agencia Manager</a></p>
+                    <p class="copyright white--text">&copy; 2022 Manager <i class="fa fa-heart text-danger"></i> by <a href="https://www.agenciamanager.com" target="_blank">Agencia Manager</a></p>
                 </div>
             </div>
             <!-- Footer Copyright End -->
