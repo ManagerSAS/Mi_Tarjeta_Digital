@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "engravers-mt-regular"; 
+  src: url("https://www.dafontfree.net/embed/ZW5ncmF2ZXJzLW10LXJlZ3VsYXImZGF0YS8xMy9lLzY0NzY2L0VOR1IuVFRG"); 
+ }
+
+.bannerPrincipalAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Banners/bannerPrincipalCel.png');
+  background-size: contain;
+  position: fixed;
+  height:100%;
+  width:100%;
+}
+.flotanteAnaPiña{
+  background-color: white;
+  max-width: 70px;
+  border-radius: 0 15px 15px 0;
+  position: fixed;
+  z-index: 10; 
+  left: 0; 
+  top: 5%;
+}
+.fondoAnaPiña{ 
+  width:100%;
+  height: 600px;
+}
+.fotoAnaPiña{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  top: 11.5em;
+  position: relative;
+  z-index: 100; 
+  border: 5px solid white;   
+}
+.fondoFooterAnaPiña{
+  background-color: #977124;  
+  width: 100%;
+  height: 100%;
+}
+.posicion-contenedoresAnaPiña{
+  position: relative; 
+  top: 11em;
+}
+.text-name-AnaPiña{
+    font-family: 'engravers-mt-regular', sans-serif;;
+    position: relative;
+    color: #977124;
+    font-size: 35px;
+}
+.text-cargo-AnaPiña{
+    font-family: 'engravers-mt-regular', sans-serif;;
+    font-weight: 300;
+    font-size: 18px;
+    color: #977124;
+    position: relative;
+    top: -6px;
+}
+.linea-div-AnaPiña{
+    position:relative;
+    top: 1em;
+    height:.1vh;
+    width:90%;
+    background: #977124;
+}
+.WhatsappAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/WHATS.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-position: 0.84em 0.75em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.TelefonoAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/TELEFONO.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-position: 0.654em 0.7em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.GuardarAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/GUARDAR.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-position: 0.654em 0.7em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.EmailAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/EMAIL.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-position: 0.654em 0.7em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.PagWebAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/WB.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-position: 0.654em 0.7em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.CompartirAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/COMPARTIR.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-position: 0.654em 0.7em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.font-service-AnaPiña{
+  font-family: 'engravers-mt-regular', sans-serif;;
+  color:#977124; 
+  font-size: 40px; 
+  font-weight: bold;
+}
+
+.InstagramAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/INST.png');
+  border-radius: 50%;
+  background-repeat:no-repeat;
+  background-color:  #6A3432;
+  background-position:center;
+  display: block;
+  height: 35px;
+  width: 35px;
+}
+.PaginaWebAnaPiña{
+  background-image: url('../../static/AnaPiñaShop/Redes/WEB.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-color:  #6A3432;
+  background-position:center;
+  display: block;
+  height: 35px;
+  width: 35px;
+}
+
+.font-normalAnaPiña{
+  color: white; 
+  font-size: 40px; 
+  font-weight: bold;
+}
+.text-footer-AnaPiña{
+  font-family: 'engravers-mt-regular', sans-serif;;
+  color:white; 
+  font-size: 12px; 
+  font-weight: bold;
+}
+.textos{
+  position: relative;
+  font-family: 'engravers-mt-regular', sans-serif;;
+  top: 5px;
+  color:#977124; 
+  font-size: 12px; 
+  font-weight: bold;
+}

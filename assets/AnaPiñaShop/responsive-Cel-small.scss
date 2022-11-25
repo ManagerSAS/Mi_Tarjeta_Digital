@@ -1,0 +1,75 @@
+// responsive Cel  small
+@media only screen and (min-width: 411px) and (max-width: 575px) {
+    .bannerPrincipalAnaPiña{
+      background-image: url('../../static/AnaPiñaShop/Banners/bannerPrincipalCel.png');
+      background-size: contain;
+      position: fixed;
+      height:100%;
+      width:100%;
+    }
+    .fondoFooterAnaPiña{
+      background-color: #977124;   
+      width: 100%;
+      height: 100%;
+    }
+    .fotoAnaPiña{
+      border-radius: 50%;
+      display: block;
+      margin: auto;
+      top: 13.8rem;
+      position: relative;
+      z-index: 100; 
+      border: 8px solid white;  
+    }
+    .posicion-contenedoresAnaPiña{
+      position:relative; 
+      top: 13em;
+    }
+    .text-name-AnaPiña{
+        font-family: 'engravers-mt-regular', sans-serif;
+        position: relative;
+        color: #977124;
+        font-size: 35px;
+    }
+    .text-cargo-AnaPiña{
+      font-family: 'engravers-mt-regular', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      color: #977124;
+      position: relative;
+      top: -6px;
+    }
+    .linea-div-AnaPiña{
+        position:relative;
+        top: 5px;
+        height:.1vh;
+        width:90%;
+        background: #977124;
+    }
+    .font-service-AnaPiña{
+      font-family: 'engravers-mt-regular', sans-serif;
+      color:#977124; 
+      font-size: 40px; 
+      font-weight: bold;
+    }
+    .font-normalAnaPiña{
+      color: white; 
+      font-size: 40px; 
+      font-weight: bold;
+    }
+    .text-footerAnaPiña{
+      font-family: 'engravers-mt-regular', sans-serif;
+      color:white; 
+      font-size: 12px; 
+      font-weight: bold;
+    }
+    .textosAnaPiña{
+      position: relative;
+      font-family: 'engravers-mt-regular', sans-serif;
+      top: 5px;
+      color:#977124; 
+      font-size: 12px; 
+      font-weight: bold;
+    }
+    
+  }
