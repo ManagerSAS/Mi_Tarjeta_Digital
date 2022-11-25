@@ -8,6 +8,81 @@
   position: fixed;
   height:100%;
   width:100%;
+  @media #{$tablet-device}{
+    background-image: url('../../static/Manager/ImgStatics/bannerPrincipaltablet.png');
+  }
+  @media #{$laptop-device,$desktop-device,$extraBig-device,$desktop-device}{
+    background-image: url('../../static/Manager/ImgStatics/bannerPrincipalDesktop.jpg');
+  }
+  @media #{$Cel-Large}{
+    background-image: url('../../static/Manager/ImgStatics/bannerPrincipalLaptop.jpg');
+  }
+}
+.fotoManager{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  top: 11.5em;
+  position: relative;
+  z-index: 100; 
+  border: 5px solid white;  
+  @media #{$tablet-device,$desktop-device}{
+    top: 18em;
+  } 
+  @media #{$laptop-device}{
+    top: 25em;
+    width: 30%;
+  }
+  @media #{$extraBig-device}{
+    top: 27em;
+    width: 30%;
+  }
+  @media #{$Cel-Small}{
+    top: 13.8rem;
+  }
+  @media #{$Cel-Large}{
+    top: 15em;
+  }
+  
+}
+.posicion-contenedores{
+  position: relative; 
+  top: 11em;
+  @media #{$tablet-device,$desktop-device}{
+    top: 18em;
+  } 
+  @media #{$laptop-device,$extraBig-device}{
+    top: 27em;
+  }
+  @media #{$Cel-Small}{
+    top: 13rem;
+  }
+  @media #{$Cel-Large}{
+    top: 15em;
+  }
+}
+.text-name{
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  color: #003B4C;
+  font-size: 35px;
+}
+.text-cargo{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #003B4C;
+  position: relative;
+  top: -6px;
+  @media #{$tablet-device,$laptop-device}{
+    top: 0;
+  } 
+  @media #{$extraBig-device}{
+    font-size: 28px;
+  }
+  @media #{$desktop-device}{
+    font-size: 25px;
+  }
 }
 .flotante{
   background-color: white;
@@ -18,90 +93,17 @@
   right: 0; 
   top: 5%;
 }
-.fondo{ 
-  width:100%;
-  height: 600px;
-}
-.fotoManager{
-  border-radius: 50%;
-  display: block;
-  margin: auto;
-  top: 11.5em;
-  position: relative;
-  z-index: 100; 
-  border: 5px solid white;   
-}
 .fondoFooter{
   background-color: #0c2c3f;  
   width: 100%;
   height: 100%;
 }
-.posicion-contenedores{
-  position: relative; 
-  top: 11em;
-}
-.text-name{
-    font-family: 'Quicksand', sans-serif;
-    position: relative;
-    color: #003B4C;
-    font-size: 35px;
-}
-.text-cargo{
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #003B4C;
-    position: relative;
-    top: -6px;
-}
-.linea-div{
-    position:relative;
-    top: 1em;
-    height:.1vh;
-    width:90%;
-    background: #003B4C;
-}
-.Whatsapp{
-  background-image: url('../../static/Manager/ImgStatics/WHATS.png');
-  background-repeat:no-repeat;
-}
-.Telefono{
-  background-image: url('../../static/Manager/ImgStatics/TELEFONO.png');
-  background-repeat:no-repeat;
-}
-.Guardar{
-  background-image: url('../../static/Manager/ImgStatics/GUARDAR.png');
-  background-repeat:no-repeat;
-}
-.Email{
-  background-image: url('../../static/Manager/ImgStatics/EMAIL.png');
-  background-repeat:no-repeat;
-}
-.PagWeb{
-  background-image: url('../../static/Manager/ImgStatics/WEB.png');
-  background-repeat:no-repeat;
-}
-.Compartir{
-  background-image: url('../../static/Manager/ImgStatics/COMPARTIR.png');
-  background-repeat:no-repeat;
-}
+
 .font-service{
   font-family: 'Quicksand', sans-serif;
   color:#10303B; 
   font-size: 40px; 
   font-weight: bold;
-}
-.Facebook{
-  background-image: url('../../static/Manager/ImgStatics/FAC.png');
-  background-repeat:no-repeat;
-}
-.Instagram{
-  background-image: url('../../static/Manager/ImgStatics/INST.png');
-  background-repeat:no-repeat;
-}
-.PaginaWeb{
-  background-image: url('../../static/Manager/ImgStatics/WB.png');
-  background-repeat:no-repeat;
 }
 .font-normal{
   color: white; 
@@ -121,4 +123,125 @@
   color:#10303B; 
   font-size: 12px; 
   font-weight: bold;
+  @media #{$tablet-device,$laptop-device,$extraBig-device}{
+    font-size: 15px;
+  } 
+}
+.Whatsapp{
+  background-image: url('../../static/LogosRedesSociales/WHATS.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Telefono{
+  background-image: url('../../static/LogosRedesSociales/TELEFONO.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Guardar{
+  background-image: url('../../static/LogosRedesSociales/GUARDAR.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Email{
+  background-image: url('../../static/LogosRedesSociales/EMAIL.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.PagWeb{
+  background-image: url('../../static/LogosRedesSociales/WEB.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Compartir{
+  background-image: url('../../static/LogosRedesSociales/COMPARTIR.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+
+.Facebook{
+  background-image: url('../../static/LogosRedesSociales/FAC.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 35px;
+}
+.Instagram{
+  background-image: url('../../static/LogosRedesSociales/INST.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 35px;
+}
+.PaginaWeb{
+  background-image: url('../../static/LogosRedesSociales/WB.png');
+  background-repeat:no-repeat;
+  background-color: #10303B;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 35px;
 }

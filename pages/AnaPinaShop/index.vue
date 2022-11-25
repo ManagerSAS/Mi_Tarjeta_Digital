@@ -3,9 +3,9 @@
       <RedesSociales/>
       <Welcome Foto="/AnaPinaShop/foto.png"/>
       <Name nombre="Ana Piña" cargo="Dueña"/>
-      <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573102386404" tel="tel:+573102386404" contacto="/AnaPinaShop/Contact/AnaPiña.vcf" email="mailto:abelinho26@gmail.com" web="https://anapinashop.com/" url="https://mitarjetadigital.co/AnaPinaShop"/>
+      <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573102386404" tel="tel:+573102386404" contacto="/AnaPinaShop/Contacto/AnaPina.vcf" email="mailto:anapinaclothing@gmail.com" web="https://anapinashop.com/" url="https://mitarjetadigital.co/AnaPinaShop"/>
       <Services style="background-color: rgba(137 ,143 ,100,.3)" Brochure="/AnaPinaShop/Brochure/Brochure.pdf" Whatsapp="https://api.whatsapp.com/send?phone=573102386404"/>
-      <Adicionales qr="/AnaPinaShop/QR.jpg" QrD="/AnaPinaShop/TajetaDigital.png"/>
+      <Adicionales qr="/AnaPinaShop/QR.png" QrD="/AnaPinaShop/QR.png"/>
       <Footer/>
     </div>
   </template>

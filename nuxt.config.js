@@ -27,33 +27,14 @@ export default {
   css: [
     // manager
     '~/assets/Manager/style.scss',
-    '~/assets/Manager/responsive-Cel-large.scss',
-    '~/assets/Manager/responsive-Cel-small.scss',
-    '~/assets/Manager/responsive-desktop-device.scss',
-    '~/assets/Manager/responsive-extrabig-device.scss',
-    '~/assets/Manager/responsive-laptop-device.scss',
-    '~/assets/Manager/responsive-tablet-device.scss',
     '~/assets/MiTarjetaDigital/Header.scss',
     '~/assets/MiTarjetaDigital/Footer.scss',
     '~/assets/MiTarjetaDigital/Intro.scss',
     '~/assets/MiTarjetaDigital/style.scss',
     // AnaPiñaShop
     '~/assets/AnaPinaShop/style.scss',
-    '~/assets/AnaPinaShop/responsive-Cel-large.scss',
-    '~/assets/AnaPinaShop/responsive-Cel-small.scss',
-    '~/assets/AnaPinaShop/responsive-desktop-device.scss',
-    '~/assets/AnaPinaShop/responsive-extrabig-device.scss',
-    '~/assets/AnaPinaShop/responsive-laptop-device.scss',
-    '~/assets/AnaPinaShop/responsive-tablet-device.scss',
     // olivos
     '~/assets/LosOlivosSantaMarta/style.scss',
-    '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss',
-    '~/assets/LosOlivosSantaMarta/responsive-Cel-small.scss',
-    '~/assets/LosOlivosSantaMarta/responsive-desktop-device.scss',
-    '~/assets/LosOlivosSantaMarta/responsive-extrabig-device.scss',
-    '~/assets/LosOlivosSantaMarta/responsive-laptop-device.scss',
-    '~/assets/LosOlivosSantaMarta/responsive-tablet-device.scss',
-    
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

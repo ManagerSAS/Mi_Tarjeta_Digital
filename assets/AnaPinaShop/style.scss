@@ -9,20 +9,30 @@
   position: fixed;
   height:100%;
   width:100%;
+  @media #{$tablet-device}{
+    background-image: url('../../static/AnaPinaShop/Banners/bannerPrincipaltablet.png');
+  }
+  @media #{$laptop-device,$desktop-device}{
+    background-image: url('../../static/AnaPinaShop/Banners/bannerPrincipalDesktop.png');
+  }
+  @media #{$extraBig-device,$Cel-Large}{
+    background-image: url('../../static/AnaPinaShop/Banners/bannerPrincipalLaptop.png');
+  }
+  // @media #{$Cel-Large}{
+  //   background-image: url('../../static/AnaPinaShop/Banners/bannerPrincipalLaptop.png');
+  // }
+
 }
 .flotanteAnaPina{
   background-color: white;
   max-width: 70px;
-  border-radius: 0 15px 15px 0;
+  border-radius: 15px 0 0 15px;
   position: fixed;
   z-index: 10; 
-  left: 0; 
+  right: 0; 
   top: 5%;
 }
-.fondoAnaPina{ 
-  width:100%;
-  height: 600px;
-}
+
 .fotoAnaPina{
   border-radius: 50%;
   display: block;
@@ -30,140 +40,52 @@
   top: 11.5em;
   position: relative;
   z-index: 100; 
-  border: 5px solid white;   
+  border: 5px solid white;  
+  @media #{$tablet-device}{
+    top: 8em;
+    margin-top: 25.8%;
+  } 
+  @media #{$laptop-device}{
+    top: 15em;
+    width: 30%;
+  }
+  @media #{$extraBig-device}{
+    top: 30em;
+    width: 30%;
+    border: 15px solid white; 
+  }
+  @media #{$desktop-device,$Cel-Large}{
+    top: 11em;
+    width: 40%;
+  }
+  @media #{$Cel-Small}{
+    top: 13.8rem;
+  }
+}
+.posicion-contenedoresAnaPina{
+  position: relative; 
+  top: 11em;
+  @media #{$tablet-device}{
+    top: 8em;
+  }
+  @media #{$laptop-device, $desktop-device}{
+    top: 15em;
+  } 
+  @media #{$extraBig-device}{
+    top: 30em; 
+  }
+  @media #{$Cel-Small,$Cel-Large}{
+    top: 13rem;
+  }
 }
 .fondoFooterAnaPina{
   background-color: #977124;  
   width: 100%;
   height: 100%;
 }
-.posicion-contenedoresAnaPina{
-  position: relative; 
-  top: 11em;
-}
-.text-name-AnaPina{
-    font-family: 'engravers-mt-regular', sans-serif;;
-    position: relative;
-    color: #977124;
-    font-size: 35px;
-}
-.text-cargo-AnaPina{
-    font-family: 'engravers-mt-regular', sans-serif;;
-    font-weight: 300;
-    font-size: 18px;
-    color: #977124;
-    position: relative;
-    top: -6px;
-}
-.linea-div-AnaPina{
-    position:relative;
-    top: 1em;
-    height:.1vh;
-    width:90%;
-    background: #977124;
-}
-.WhatsappAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/WHATS.png');
-  background-repeat:no-repeat;
-  background-color: #977124;
-  border-radius: 50%;
-  background-position: 0.84em 0.75em;
-  position: relative;
-  display: block;
-  margin: auto;
-  height: 55px;
-  width: 55px;
-}
-.TelefonoAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/TELEFONO.png');
-  background-repeat:no-repeat;
-  background-color: #977124;
-  border-radius: 50%;
-  background-position: 0.654em 0.7em;
-  position: relative;
-  display: block;
-  margin: auto;
-  height: 55px;
-  width: 55px;
-}
-.GuardarAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/GUARDAR.png');
-  background-repeat:no-repeat;
-  background-color: #977124;
-  border-radius: 50%;
-  background-position: 0.654em 0.7em;
-  position: relative;
-  display: block;
-  margin: auto;
-  height: 55px;
-  width: 55px;
-}
-.EmailAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/EMAIL.png');
-  background-repeat:no-repeat;
-  background-color: #977124;
-  border-radius: 50%;
-  background-position: 0.654em 0.7em;
-  position: relative;
-  display: block;
-  margin: auto;
-  height: 55px;
-  width: 55px;
-}
-.PagWebAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/WB.png');
-  background-repeat:no-repeat;
-  background-color: #977124;
-  border-radius: 50%;
-  background-position: 0.654em 0.7em;
-  position: relative;
-  display: block;
-  margin: auto;
-  height: 55px;
-  width: 55px;
-}
-.CompartirAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/COMPARTIR.png');
-  background-repeat:no-repeat;
-  background-color: #977124;
-  border-radius: 50%;
-  background-position: 0.654em 0.7em;
-  position: relative;
-  display: block;
-  margin: auto;
-  height: 55px;
-  width: 55px;
-}
 .font-service-AnaPina{
   font-family: 'engravers-mt-regular', sans-serif;;
   color:#977124; 
-  font-size: 40px; 
-  font-weight: bold;
-}
-
-.InstagramAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/INST.png');
-  border-radius: 50%;
-  background-repeat:no-repeat;
-  background-color:  #6A3432;
-  background-position:center;
-  display: block;
-  height: 35px;
-  width: 35px;
-}
-.PaginaWebAnaPina{
-  background-image: url('../../static/AnaPinaShop/Redes/WEB.png');
-  background-repeat:no-repeat;
-  border-radius: 50%;
-  background-color:  #6A3432;
-  background-position:center;
-  display: block;
-  height: 35px;
-  width: 35px;
-}
-
-.font-normalAnaPina{
-  color: white; 
   font-size: 40px; 
   font-weight: bold;
 }
@@ -173,11 +95,116 @@
   font-size: 12px; 
   font-weight: bold;
 }
-.textos{
+.textosAnaPina{
   position: relative;
   font-family: 'engravers-mt-regular', sans-serif;;
   top: 5px;
   color:#977124; 
   font-size: 12px; 
   font-weight: bold;
+  @media #{$tablet-device,$laptop-device,$extraBig-device}{
+    font-size: 20px; 
+  } 
+
+}
+.InstagramAnaPina{
+  background-image: url('../../static/LogosRedesSociales/INST.png');
+  border-radius: 50%;
+  background-repeat:no-repeat;
+  background-size: 50% 50%;
+  background-color:  #6A3432;
+  background-position:center;
+  display: block;
+  height: 35px;
+  width: 35px;
+}
+.PaginaWebAnaPina{
+  background-image: url('../../static/LogosRedesSociales/WEB.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-color:  #6A3432;
+  background-position:center;
+  display: block;
+  height: 35px;
+  width: 35px;
+}
+
+.WhatsappAnaPina{
+  background-image: url('../../static/LogosRedesSociales/WHATS.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  background-size: 50% 50%;
+  border-radius: 50%;
+  background-position: 0.84em 0.75em;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.TelefonoAnaPina{
+  background-image: url('../../static/LogosRedesSociales/TELEFONO.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.GuardarAnaPina{
+  background-image: url('../../static/LogosRedesSociales/GUARDAR.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: 50% 40%;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.EmailAnaPina{
+  background-image: url('../../static/LogosRedesSociales/EMAIL.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.PagWebAnaPina{
+  background-image: url('../../static/LogosRedesSociales/WB.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.CompartirAnaPina{
+  background-image: url('../../static/LogosRedesSociales/COMPARTIR.png');
+  background-repeat:no-repeat;
+  background-color: #977124;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: 50% 50%;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
 }

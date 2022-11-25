@@ -7,10 +7,10 @@
         </v-row>
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
-                <img class="d-block d-sm-block d-md-none" :src="qr"  width="100%" alt="qr manager">
-                <img class="d-none d-lg-block d-xl-none" :src="qr" width="500px" height="300px" alt="qr manager">
-                <img class="d-none d-md-block d-lg-none" :src="qr" width="500px" height="300px" alt="qr manager">
-                <img class="d-none d-xl-block " :src="qr" width="500px" height="300px" alt="qr manager">
+                <img class="d-block d-sm-block d-md-none" :src="qr"  width="82.5%" alt="qr manager">
+                <img class="d-none d-lg-block d-xl-none" :src="qr" width="500px"  alt="qr manager">
+                <img class="d-none d-md-block d-lg-none" :src="qr" width="500px"  alt="qr manager">
+                <img class="d-none d-xl-block " :src="qr" width="500px"  alt="qr manager">
             </v-col>
         </v-row>
         <v-row justify="center" align="center"> 

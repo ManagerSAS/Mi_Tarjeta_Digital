@@ -4,86 +4,32 @@
             <v-col cols="9" justify="center" align="center" >
                 <v-row justify="center" align="top">
                     <v-col >
-                        <v-btn
-                            class="Whatsapp"
-                            width="50"
-                            height="50"
-                            depressed
-                            fab
-                            :href="Whatsapp"
-                            target="_blank"
-                            >
-                        </v-btn>
+                        <a :href="Whatsapp" class="Whatsapp"></a>
                         <p class="textos">Escríbeme</p>
                     </v-col>
                     <v-col >
-                        <v-btn
-                            class="Telefono"
-                            width="50"
-                            height="50"
-                            depressed
-                            fab
-                            :href="tel"
-                            target="_blank"
-                            >
-                        </v-btn>
+                        <a :href="tel"  class="Telefono"></a>
                         <p class="textos">Llámame</p>
                     </v-col>
                     <v-col >
-                        <v-btn
-                            class="Guardar mt-sm-1"
-                            width="50"
-                            height="50"
-                            depressed
-                            fab
-                            :href="contacto"
-                            target="_blank"
-                            >
-                        </v-btn>
-                        <p class="textos">Guardar mi Contacto</p>
+                        <a class="Guardar mt-sm-1" :href="contacto" target="_blank"></a>
+                        <p class="textos">Guardar mi contacto</p>
                     </v-col>
                 </v-row>
                 <v-row justify="center" align="center">
                     <v-col >
-                        <v-btn
-                            class="Email"
-                            width="50"
-                            height="50"
-                            depressed
-                            fab
-                            :href="email"
-                            target="_blank"
-                            >
-                        </v-btn>
-                        <p class="textos">Envía un Email</p>
+                        <a class="Email" :href="email" target="_blank"> </a>
+                        <p class="textos">Envia un Email</p>
                     </v-col>
                     <v-col >
-                        <v-btn
-                            class="PagWeb"
-                            width="50"
-                            height="50"
-                            depressed
-                            fab
-                            :href="web"
-                            target="_blank"
-                            >
-                        </v-btn>
-                        <p class="textos">Visita mi Sitio web</p>
+                        <a class="PagWeb" :href="web" target="_blank"></a>
+                        <p class="textos">Visita mi sitio Web</p>
                     </v-col>
                     <v-col >
-                        <v-btn
-                            class="Compartir"
-                            width="50"
-                            height="50"
-                            depressed
-                            fab
-                            @click="compartir()"
-                            target="_blank"
-                            >
-                        </v-btn>
+                        <a class="Compartir" @click="compartir()" > </a >
                         <p class="textos">Comparte mi tarjeta</p>
                     </v-col>
-                </v-row>
+                </v-row> 
             </v-col>
         </v-row> 
     </v-container>
