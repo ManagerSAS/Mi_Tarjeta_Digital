@@ -25,6 +25,9 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    //General
+    '~/assets/StylesGenerals/styles.scss',
+
     // manager
     '~/assets/Manager/style.scss',
     '~/assets/MiTarjetaDigital/Header.scss',

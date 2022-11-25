@@ -1,24 +1,34 @@
 <template>
-  <div >
-    <RedesSociales/>
+  <div style="font-family: 'Quicksand', sans-serif;">
+    <RedesSociales Color="#10303B" ColorFloat="#fff"/>
     <Welcome Foto="/Manager/Ruben_Director_Comercial/Images/foto.jpg"/>
-    <Name nombre="Ruben Yepes" cargo="Director Comercial"/>
-    <CallToAction Whatsapp="https://api.whatsapp.com/send?phone=573242892413" tel="tel:+573242892413" contacto="/Manager/Ruben_Director_Comercial/Contact/RubenYepes.vcf" email="mailto:ventas@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Ruben_Director_Comercial"/>
-    <Services style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573242892413"/>
-    <Adicionales qr="/Manager/Ruben_Director_Comercial/Images/QR.webp" QrD="/Manager/Oscar_Jefe_Multimedia/Images/Oscar_Jefe_Multimedia.png"/>
-    <Footer/>
+    <Name Color="#10303B" nombre="Ruben Yepes" cargo="Director Comercial"/>
+    <CallToAction Color="#10303B" Whatsapp="https://api.whatsapp.com/send?phone=573242892413" tel="tel:+573242892413" contacto="/Manager/Ruben_Director_Comercial/Contact/RubenYepes.vcf" email="mailto:ventas@agenciamanager.com" web="https://agenciamanager.com/" url="https://mitarjetadigital.co/Manager/Ruben_Director_Comercial"/>
+    <Services Color="#10303B" style="background-color: rgba(111, 111, 110, 0.2)" Whatsapp="https://api.whatsapp.com/send?phone=573242892413" TextBtn1="Contáctanos" :Sercvicios="SercviciosFotos"/>
+    <Adicionales Color="#10303B" qr="/Manager/Ruben_Director_Comercial/Images/QR.png" QrD="/Manager/Ruben_Director_Comercial/Images/QR.png"/>
+    <Footer Color="#10303B"/>
   </div>
 </template>
 
 <script>
 import Welcome from '~/components/Manager/Welcome.vue';
-import Name from '~/components/Manager/Name.vue';
-import CallToAction from '~/components/Manager/CallToAction.vue';
-import Services from '~/components/Manager/Services.vue';
-import Adicionales from '~/components/Manager/Adicionales.vue';
-import Footer from '~/components/Manager/Footer.vue';
-import RedesSociales from '~/components/Manager/RedesSociales.vue';
+import Name from '~/components/Content/NameOne.vue';
+import CallToAction from '~/components/Content/CallToAction.vue';
+import Services from '~/components/Content/ServicesOne.vue';
+import Adicionales from '~/components/Content/Adicionales.vue';
+import Footer from '~/components/Content/Footer.vue';
+import RedesSociales from '~/components/Content/RedesSociales3Btn.vue';
 export default {
+  data(){
+      return{
+        SercviciosFotos:[
+            {src:'../../Manager/ImgStatics/Agencia.png'},
+            {src:'../../Manager/ImgStatics/Desarrollo-Web.png'},
+            {src:'../../Manager/ImgStatics/Diseno-Grafico.png'},
+            {src:'../../Manager/ImgStatics/Estratega-Digital.png'},
+        ],
+      }
+    },
     components: { Welcome, Name, CallToAction, Services, Adicionales, Footer, RedesSociales },
     head: {
     title: 'Ruben Yepes',

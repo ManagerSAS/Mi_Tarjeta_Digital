@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class="fondoFooter posicion-contenedores">
+    <v-container fluid class="fondoFooter posicion-contenedores" :style="{backgroundColor:Color}">
         <v-row justify="center" align="center">
             <v-col justify="center" align="center">
                 <a href="https://agenciamanager.com/" style="text-decoration: none; "> <span class="text-footer">© Copyright 2022 | Desarrollado por Manager SAS</span><br>
@@ -8,3 +8,13 @@
         </v-row>
     </v-container>
 </template>
+<script>
+export default {
+    props:{
+      Color:{
+            type: String,
+            required: true
+        },
+      }
+    }
+</script>

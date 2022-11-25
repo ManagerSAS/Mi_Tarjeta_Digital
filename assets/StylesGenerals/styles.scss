@@ -1,0 +1,182 @@
+.flotante{
+  max-width: 70px;
+  border-radius: 15px 0 0 15px;
+  position: fixed;
+  z-index: 10; 
+  right: 0; 
+  top: 5%;
+}
+.Whatsapp{
+    background-image: url('../../static/LogosRedesSociales/WHATS.png');
+    background-repeat:no-repeat;
+    border-radius: 50%;
+    background-size: 50% 50%;
+    background-position: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+  }
+.Telefono{
+  background-image: url('../../static/LogosRedesSociales/TELEFONO.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Guardar{
+  background-image: url('../../static/LogosRedesSociales/GUARDAR.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Email{
+  background-image: url('../../static/LogosRedesSociales/EMAIL.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.PagWeb{
+  background-image: url('../../static/LogosRedesSociales/WEB.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+.Compartir{
+  background-image: url('../../static/LogosRedesSociales/COMPARTIR.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 55px;
+  width: 55px;
+}
+
+.Facebook{
+  background-image: url('../../static/LogosRedesSociales/FAC.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 35px;
+}
+.Instagram{
+  background-image: url('../../static/LogosRedesSociales/INST.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 35px;
+}
+.PaginaWeb{
+  background-image: url('../../static/LogosRedesSociales/WB.png');
+  background-repeat:no-repeat;
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 35px;
+}
+.foto{
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  top: 11.5em;
+  position: relative;
+  z-index: 100; 
+  border: 5px solid white;  
+  @media #{$tablet-device,$desktop-device}{
+    top: 18em;
+  } 
+  @media #{$laptop-device}{
+    top: 25em;
+    width: 30%;
+  }
+  @media #{$extraBig-device}{
+    top: 27em;
+    width: 30%;
+  }
+  @media #{$Cel-Small}{
+    top: 13.8rem;
+  }
+  @media #{$Cel-Large}{
+    top: 15em;
+  }
+}
+.font-service{
+  font-size: 40px; 
+  font-weight: bold;
+}
+.font-normal{
+  color: white; 
+  font-size: 40px; 
+  font-weight: bold;
+}
+.text-footer{
+  color:white; 
+  font-size: 12px; 
+  font-weight: bold;
+}
+.textos{
+  position: relative;
+  top: 5px; 
+  font-size: 12px; 
+  font-weight: bold;
+  @media #{$tablet-device,$laptop-device,$extraBig-device}{
+    font-size: 15px;
+  } 
+}
+.posicion-contenedores{
+  position: relative; 
+  top: 11em;
+  @media #{$tablet-device,$desktop-device}{
+    top: 18em;
+  } 
+  @media #{$laptop-device,$extraBig-device}{
+    top: 27em;
+  }
+  @media #{$Cel-Small}{
+    top: 13rem;
+  }
+  @media #{$Cel-Large}{
+    top: 15em;
+  }
+}

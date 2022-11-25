@@ -2,8 +2,7 @@
     <v-container fluid class="posicion-contenedores">
         <v-row justify="center" align="center">
             <v-col cols="12" sm="12" md="8" lg="8" xl="8" justify="center" align="center">
-                <h3 class="font-service">Servicios</h3>
-                <p style="font-family: 'Montserrat', sans-serif; font-size:14px">Somos un equipo de visionarios y queremos que tu marca tenga voz propia.</p>
+                <h3 class="font-service" :style="{color:Color}">Servicios</h3>
             </v-col>
         </v-row>
         <v-row justify="center" align="center">
@@ -16,16 +15,27 @@
                 </VueSlickCarousel>
             </v-col>
         </v-row>
-        <v-row>
-            <v-col justify="center" align="center" >
+        <v-row justify="center" align="center">
+            <v-col cols="12" lg="2" md="2" sm="12" justify="center" align="center" >
                 <v-btn
-                    width="150px"
+                    width="200px"
                     class="mb-2 mt-2"
-                    style="background: #0c2c3f;color:white; font-size: 12px;font-weight: bold; font-family: 'Quicksand', sans-serif;"
+                    :style="{backgroundColor:Color, Color: 'white', fontSize: '12px',fontWeight: 'bold'}"
                     :href="Whatsapp"
                     target="_blank"
                     >
-                    Contáctanos
+                    {{TextBtn1}}
+                </v-btn>
+            </v-col>
+            <v-col cols="12" lg="2" md="2" sm="12" justify="center" align="center" >
+                <v-btn
+                    width="200px"
+                    class="mb-2 mt-lg-2 mt-md-2"
+                    :style="{backgroundColor:Color, Color:'white', fontSize: '12px',fontWeight: 'bold'}"
+                    :href="Brochure"
+                    target="_blank"
+                    >
+                    {{TextBtn2}}
                 </v-btn>
             </v-col>
         </v-row>
@@ -42,16 +52,31 @@
             type: String,
             required: true
         },
+        Brochure:{
+            type: String,
+            required: true
+        },
+        Color:{
+            type: String,
+            required: true
+        },
+        TextBtn1:{
+            type: String,
+            required: true
+        },
+        TextBtn2:{
+            type: String,
+            required: true
+        },
+        Sercvicios:{
+            type: Array,
+            required: true,
+        }
     },
-     components: { VueSlickCarousel },
-     data(){
+    components: { VueSlickCarousel },
+    
+    data(){
         return{
-            Sercvicios:[
-                  {src:'../../Manager/ImgStatics/Agencia.png'},
-                  {src:'../../Manager/ImgStatics/Desarrollo-Web.png'},
-                  {src:'../../Manager/ImgStatics/Diseno-Grafico.png'},
-                  {src:'../../Manager/ImgStatics/Estratega-Digital.png'},
-              ],
             settings  :{
                 "autoplay": true,
                 "infinite": true,
