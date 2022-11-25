@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class="posicion-contenedoresAnaPiña">
+    <v-container fluid class="posicion-contenedoresAnaPina">
         <v-row justify="center" align="center" >
             <v-col justify="center" align="center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.4234384421325!2d-73.64482458529237!3d4.136806296992219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e0605bad0d9%3A0xab65bccf6f4cd642!2sCra.%2043%20%2315-101%2C%20Villavicencio%2C%20Meta!5e0!3m2!1ses!2sco!4v1669339033540!5m2!1ses!2sco" width="95%" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

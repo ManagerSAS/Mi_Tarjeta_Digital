@@ -1,9 +1,9 @@
 <template>
-    <v-container fluid  class="posicion-contenedores">
+    <v-container fluid  class="posicion-contenedoresAnaPina">
         <v-row justify="center" align="center">
             <v-col cols="12" sm="12" md="8" lg="8" xl="8" justify="center" align="center">
-                <h2 class="text-name-AnaPiña">{{nombre}}</h2>
-                <h2 class="text-cargo-AnaPiña">{{cargo}}</h2>
+                <h2 class="text-name-AnaPina">{{nombre}}</h2>
+                <h2 class="text-cargo-AnaPina">{{cargo}}</h2>
             </v-col>
         </v-row>
     </v-container>

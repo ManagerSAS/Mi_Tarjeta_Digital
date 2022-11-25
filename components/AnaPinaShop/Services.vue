@@ -1,8 +1,8 @@
 <template>
-    <v-container fluid class="posicion-contenedoresAnaPiña">
+    <v-container fluid class="posicion-contenedoresAnaPina">
         <v-row justify="center" align="center">
             <v-col cols="12" sm="12" md="8" lg="8" xl="8" justify="center" align="center">
-                <h3 class="font-service-AnaPiña">Servicios</h3>
+                <h3 class="font-service-AnaPina">Servicios</h3>
             </v-col>
         </v-row>
         <v-row justify="center" align="center">
@@ -61,11 +61,11 @@
      data(){
         return{
             Sercvicios:[
-                  {src:'../../AnaPiñaShop/Gallery/digital_nueva_coleccion.jpg'},
-                  {src:'../../AnaPiñaShop/Gallery/digital_blusas.jpg'},
-                  {src:'../../AnaPiñaShop/Gallery/digital_faldas.jpg'},
-                  {src:'../../AnaPiñaShop/Gallery/digital_vestidos.jpg'},
-                  {src:'../../AnaPiñaShop/Gallery/digital_sets.jpg'},
+                  {src:'../../AnaPinaShop/Gallery/digital_nueva_coleccion.jpg'},
+                  {src:'../../AnaPinaShop/Gallery/digital_blusas.jpg'},
+                  {src:'../../AnaPinaShop/Gallery/digital_faldas.jpg'},
+                  {src:'../../AnaPinaShop/Gallery/digital_vestidos.jpg'},
+                  {src:'../../AnaPinaShop/Gallery/digital_sets.jpg'},
 
               ],
             settings  :{

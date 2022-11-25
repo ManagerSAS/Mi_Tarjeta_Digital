@@ -1,18 +1,18 @@
 // responsive laptop-device
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .fondoFooterAnaPiña{
+  .fondoFooterAnaPina{
     background-color: #977124;   
     width: 100%;
     height: 100%;
   }
-  .bannerPrincipalAnaPiña{
-    background-image: url('../../static/AnaPiñaShop/Banners/bannerPrincipalLaptop.png');
+  .bannerPrincipalAnaPina{
+    background-image: url('../../static/AnaPinaShop/Banners/bannerPrincipalLaptop.png');
     background-size: contain;
     position: fixed;
     height:100%;
     width:100%;
   }
-  .fotoAnaPiña{
+  .fotoAnaPina{
     position: relative;
     top: 25em;
     width: 30%;
@@ -22,46 +22,46 @@
     position: relative;
     border: 15px solid white; 
   }
-  .posicion-contenedoresAnaPiña{
+  .posicion-contenedoresAnaPina{
     position:relative; 
     top: 25em;
   }
-  .text-name-AnaPiña{
+  .text-name-AnaPina{
       font-family: 'engravers-mt-regular', sans-serif;
       position: relative;
       color: #000;
       font-size: 35px;
   }
-  .text-cargo-AnaPiña{
+  .text-cargo-AnaPina{
       font-family: 'engravers-mt-regular', sans-serif;
       position: relative;
       color: #000;
       font-size: 25px;
   }
-  .linea-div-AnaPiña{
+  .linea-div-AnaPina{
       position:relative;
       height:.1vh;
       width:90%;
       background: #977124;
   } 
-  .font-service-AnaPiña{
+  .font-service-AnaPina{
     font-family: 'engravers-mt-regular', sans-serif;
     color:#977124; 
     font-size: 40px; 
     font-weight: bold;
   }
-  .font-normalAnaPiña{
+  .font-normalAnaPina{
     color: white; 
     font-size: 40px; 
     font-weight: bold;
   }
-  .text-footerAnaPiña{
+  .text-footerAnaPina{
     font-family: 'engravers-mt-regular', sans-serif;
     color:white; 
     font-size: 12px; 
     font-weight: bold;
   }
-  .textosAnaPiña{
+  .textosAnaPina{
     position: relative;
     font-family: 'engravers-mt-regular', sans-serif;
     top: 5px;

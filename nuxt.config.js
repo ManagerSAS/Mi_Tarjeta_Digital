@@ -16,13 +16,6 @@ export default {
       
       { name: 'format-detection', content: 'telephone=no' }
     ],
-    // link: [
-    //   {
-    //     rel: 'stylesheet',
-    //     href: 'https://www.dafontfree.net/embed/ZW5ncmF2ZXJzLW10LXJlZ3VsYXImZGF0YS8xMy9lLzY0NzY2L0VOR1IuVFRG'
-    //     type:''
-    //   }
-    // ],
     script: [
       {
         src: "https://kit.fontawesome.com/357b447e7e.js",
@@ -45,14 +38,13 @@ export default {
     '~/assets/MiTarjetaDigital/Intro.scss',
     '~/assets/MiTarjetaDigital/style.scss',
     // AnaPiñaShop
-    '~/assets/AnaPiñaShop/style.scss',
-    '~/assets/AnaPiñaShop/responsive-Cel-large.scss',
-    '~/assets/AnaPiñaShop/responsive-Cel-small.scss',
-    '~/assets/AnaPiñaShop/responsive-desktop-device.scss',
-    '~/assets/AnaPiñaShop/responsive-extrabig-device.scss',
-    '~/assets/AnaPiñaShop/responsive-laptop-device.scss',
-    '~/assets/AnaPiñaShop/responsive-tablet-device.scss',
-
+    '~/assets/AnaPinaShop/style.scss',
+    '~/assets/AnaPinaShop/responsive-Cel-large.scss',
+    '~/assets/AnaPinaShop/responsive-Cel-small.scss',
+    '~/assets/AnaPinaShop/responsive-desktop-device.scss',
+    '~/assets/AnaPinaShop/responsive-extrabig-device.scss',
+    '~/assets/AnaPinaShop/responsive-laptop-device.scss',
+    '~/assets/AnaPinaShop/responsive-tablet-device.scss',
     // olivos
     '~/assets/LosOlivosSantaMarta/style.scss',
     '~/assets/LosOlivosSantaMarta/responsive-Cel-large.scss',
