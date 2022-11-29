@@ -104,11 +104,13 @@
         font-size: 2.5em;
     }
 }
+
 .text-blue-f-1em{
     color: #00273D; 
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+    line-height: normal;
     @media #{$laptop-device}{
         font-size: 1.2em;
     }
@@ -139,7 +141,7 @@
     }
     @media #{$small-mobile}{
         font-size: 25px;
-        line-height: 1rem;
+        line-height: normal;
     }
 }
 .text-border{

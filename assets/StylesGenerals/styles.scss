@@ -30,6 +30,15 @@
   height: 55px;
   width: 55px;
 }
+.text-name{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: normal;
+}
+.text-cargo{
+  font-weight: 500;
+  font-size: 17px;
+}
 .Guardar{
   background-image: url('../../static/LogosRedesSociales/GUARDAR.png');
   background-repeat:no-repeat;
@@ -160,6 +169,7 @@
   top: 5px; 
   font-size: 12px; 
   font-weight: bold;
+  line-height: normal;   
   @media #{$tablet-device,$laptop-device,$extraBig-device}{
     font-size: 15px;
   } 

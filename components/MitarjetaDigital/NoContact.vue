@@ -1,9 +1,9 @@
 <template>
     <v-container fluid id="Tarjeta">
-        <div justify="center" align="center">
+        <div justify="center" align="center" >
             <div class="text-border mt-5">TARJETA</div>
             <div class="text-sobre-puesto">SIN CONTACTO</div>
-            <div class="text-blue-f-1em mt-10 containerContact" >
+            <div class="text-blue-f-1em mt-10 containerContact mr-3" >
                 ¡El futuro es ahora! Con la tecnología NFC cada usuario podrá tener una tarjeta 
                 física para realizar cualquier acercamiento
             </div>

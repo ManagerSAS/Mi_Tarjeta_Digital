@@ -41,7 +41,7 @@
                             rounded
                             class="text-capitalize "
                             style="background: linear-gradient(to right, #EFC45B 0%, #EE943A 100%); color: white; font-size: 12px;font-weight: bold; font-family: 'Raleway',sans-serif;"
-                            href="/LosOlivosSantaMarta/contenido/PdfServicios/PlansExequiales.pdf"
+                            href="/LosOlivosSantaMarta/Contenido/PdfServicios/PlansExequiales.pdf"
                             target="_blank"
                             >
                             <v-icon>mdi-cloud-download-outline</v-icon>  Descargar planes
