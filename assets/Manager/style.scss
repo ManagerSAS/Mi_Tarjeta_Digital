@@ -11,7 +11,7 @@
   @media #{$tablet-device}{
     background-image: url('../../static/Manager/ImgStatics/bannerPrincipaltablet.png');
   }
-  @media #{$laptop-device,$desktop-device,$extraBig-device,$desktop-device}{
+  @media #{$laptop-device,$desktop-device,$extraBig-device}{
     background-image: url('../../static/Manager/ImgStatics/bannerPrincipalDesktop.jpg');
   }
   @media #{$Cel-Large}{

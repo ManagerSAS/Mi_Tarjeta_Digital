@@ -69,13 +69,13 @@ export default {
 
     methods:{
         async compartir(){
-            console.log(this.Color)
-            // const url = {url: window.location.href}
-            // try {
-            //     await navigator.share(url);
-            // } catch (err) {
-            //     console.log({err})
-            // }
+            // console.log(this.Color)
+            const url = {url: window.location.href}
+            try {
+                await navigator.share(url);
+            } catch (err) {
+                console.log({err})
+            }
         }
     }
 }
